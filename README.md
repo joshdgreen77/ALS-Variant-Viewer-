@@ -11,4 +11,7 @@ install.packages(c("shiny","shinydashboard","tidyverse","stringr","data.table","
 ```
 ## 2) Clone repository to your local drive 
 
+## 3) Open App.R and click "Run App" in top right corner of Rstudio
+
+
 
