@@ -7,7 +7,6 @@
 # ----------
 library(DT)
 library(tidyverse)
-#source("~/Documents/GitHub/LNG_Scripts/als_app/als_variants_app/data_import.R")
 
 tableman <- function(data2){
 

@@ -6,13 +6,13 @@ library(shinydashboard)
 # Sourcing and Importing-----------
 
 #import the processed clinvar datasets
-source("~/Documents/GitHub/LNG_Scripts/als_app/als_variants_app/data_import.R")
+source("data_import.R")
 
 #import the function that makes variant plot makes the "variant_graph" function
-source("~/Documents/GitHub/LNG_Scripts/als_app/als_variants_app/variant_graph.R")
+source("variant_graph.R")
 
 #import the function that makes the data table "tableman" function
-source("~/Documents/GitHub/LNG_Scripts/als_app/als_variants_app/variant_DT.R")
+source("variant_DT.R")
 
 
 
