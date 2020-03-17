@@ -22,8 +22,8 @@ ui <- dashboardPage(
   dashboardSidebar(
     sidebarMenu(
       #make sidebar menu item for the variant plot
-      menuItem("About",tabName = "About"),
       menuItem("Variant Plot", tabName = "plot"),
+      menuItem("About",tabName = "About"),
       #make selector widget in the sidebar
       selectInput(inputId = "select",
                   label = "Choose Gene to display:",
