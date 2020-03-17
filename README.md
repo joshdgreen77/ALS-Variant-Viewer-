@@ -9,4 +9,6 @@ Copy and paste this into your R console.
 install.packages(c("shiny","shinydashboard","tidyverse","stringr","data.table","DT","RColorBrewer","plotly"))
 
 ```
+## 2) Clone repository to your local drive 
+
 
