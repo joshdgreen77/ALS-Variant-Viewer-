@@ -1,6 +1,3 @@
-#To Do
-  # make each gene name a link to another webpage describing the gene
-
 #importing the required packages----------
 library(shiny)
 library(shinydashboard)
