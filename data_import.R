@@ -11,14 +11,14 @@ library(data.table)
 library(DT)
 
 #generate the gene names by listing files and extracted from listed files
-gene_csv<- system("ls -1 ~/Documents/GitHub/LNG_Scripts/als_app/als_variants_app/clinvar_cache/",intern=TRUE)
+gene_csv<- system("ls -1 clinvar_cache/",intern=TRUE)
 gene_csv <- as.vector(gene_csv)
 
 gene_names<- str_replace(string = gene_csv, pattern = '_clinvar.csv',replacement = '')
 gene_names <- as.vector(gene_names)
 
 # read in the csv file containing the information relevant to the gene itself
-gene_info <- as.data.frame(fread("~/Documents/GitHub/LNG_Scripts/als_app/als_variants_app/gene_info.csv"))
+gene_info <- as.data.frame(fread("gene_info.csv"))
 
 
 
@@ -39,7 +39,7 @@ counter = 0
 for (i in gene_csv){
  counter = counter + 1 #counter for refernce which gene in the gene names list is being used
  genename<- gene_names[counter] #assign the current gene to the variable genename
- df <- as.data.frame(fread(file = paste("~/Documents/GitHub/LNG_Scripts/als_app/als_variants_app/clinvar_cache/",i,sep="")))
+ df <- as.data.frame(fread(file = paste("clinvar_cache/",i,sep="")))
  assign(x=genename,value=df)
 }
 
