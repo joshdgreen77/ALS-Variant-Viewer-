@@ -54,3 +54,25 @@ p<- ggplot(x, aes(x=Position,text3= rsID, y= Clinical.Significance, text1 = Nucl
 #convert ggplot to plotly object----------
 ggplotly(p,tooltip = c("x","fill","text1","text2","text3","text4")) %>% layout(legend = list(orientation = "h",x=1,y=-1))
 }
+
+
+
+
+
+
+# SOD1<- as.data.frame(fread("~/Documents/GitHub/LNG_Scripts/als_app/clinvar_cache/SOD1_clinvar.csv"))
+# 
+# #data cleanup----------
+# SOD1$Clinical.Significance <- gsub(pattern = "Conflicting interpretations of pathogenicity",replacement="Uncertain significance",x=SOD1$Clinical.Significance)
+# SOD1$Clinical.Significance <- gsub(pattern = "Benign/Likely benign",replacement = "Likely benign",x=SOD1$Clinical.Significance)
+# SOD1$Clinical.Significance <- gsub(pattern = "Pathogenic/Likely pathogenic", replacement = "Likely pathogenic", x=SOD1$Clinical.Significance)
+# SOD1$Position<- as.numeric(SOD1$Position)
+# SOD1$Review.Criteria <- as.factor(SOD1$Review.Criteria)
+# SOD1$Clinical.Significance <- as.factor(SOD1$Clinical.Significance)
+# SOD1$Review.Criteria<-as.factor(SOD1$Review.Criteria)
+# 
+# # #Sort SOD1 vector in the custom order
+#  SOD1 <- SOD1 %>%
+#    arrange(factor(Clinical.Significance, levels = c("Pathogenic","Benign","Likely benign","Likely pathogenic","Uncertain significance")))
+
+#########EVERYTHING BELOW SHOULD BE included in the function statement when we Decide we are done revising the plot########################################## 
