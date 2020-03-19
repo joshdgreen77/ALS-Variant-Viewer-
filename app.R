@@ -33,6 +33,26 @@ ui <- dashboardPage(
   ),
   dashboardBody(
       tabItems(
+        #the interface for the plot tab
+        tabItem(tabName =  "plot",
+                fluidRow(
+                  column(width=6, box(width=12,
+                                      h1(textOutput(outputId = "gene")),
+                                      hr(),
+                                      h2("Exons:"),h3(textOutput(outputId="exons")),
+                                      h2("Locus:"),h3(textOutput(outputId="locus")),
+                                      h2("Protein:"), h3(textOutput(outputId="protein")),
+                                      h2("Function:"),h3(textOutput(outputId="pfunction"))
+                  )),
+                  column(width=6,
+                         box(width=12,
+                             plotlyOutput("plot")))
+                ),
+                fluidRow(
+                  box(width=12,
+                      DT::dataTableOutput("dt"))
+                )
+        ),
         tabItem(tabName="About",
                 box(width=12,
                     h1("About"),
@@ -44,28 +64,9 @@ ui <- dashboardPage(
                     hr(),
                   p("The ALS-linked variants displayed in this browser are from NCBI ClinVar (Last retrieved March 15 2020). The SNP identifiers (rsID) and Allele Frequencies are from gnomadAD v2.1.1. The information on each gene is from the NBCI gene search tool")
                     )
-                ),
+                )
                  
-        #the interface for the plot tab
-        tabItem(tabName =  "plot",
-                fluidRow(
-                 column(width=6, box(width=12,
-                      h1(textOutput(outputId = "gene")),
-                      hr(),
-                      h2("Exons:"),h3(textOutput(outputId="exons")),
-                      h2("Locus:"),h3(textOutput(outputId="locus")),
-                      h2("Protein:"), h3(textOutput(outputId="protein")),
-                      h2("Function:"),h3(textOutput(outputId="pfunction"))
-                      )),
-                 column(width=6,
-                        box(width=12,
-                           plotlyOutput("plot")))
-                  ),
-                fluidRow(
-                  box(width=12,
-                             DT::dataTableOutput("dt"))
-                  )
-        )
+       
       )
     
   )
