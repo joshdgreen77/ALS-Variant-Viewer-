@@ -14,7 +14,7 @@ library("data.table")
 
 
 # read raw clinvar data----------
-clinvar_raw <- as.data.frame(fread(file ="~/Documents/GitHub/LNG_Scripts/als_app/1)RawClinvar_Processing/clinvar_ALS_raw.txt"))
+clinvar_raw <- as.data.frame(fread(file ="1)RawClinvar_Processing/clinvar_ALS_raw.txt"))
 
 # clean raw clinvar data----------
 # select columns of interest
@@ -63,7 +63,7 @@ clinvar_clean_gene$Gene<- gsub(pattern = "MASP2\\|TARDBP",replacement = "TARDBP"
 clinvar_clean_gene$Gene<- gsub(pattern = "PRPH\\|LOC101927267",replacement = "PRPH",x=clinvar_clean_gene$Gene)
 
 # write the cleaned up clinvar data to a file to be read by clinvar cleaner
-write_csv(x = clinvar_clean_gene,path = "/Users/greenjod/Documents/GitHub/LNG_Scripts/als_app/2)Gene_Formatting/clinvar_ALS.csv")
+write_csv(x = clinvar_clean_gene,path = "2)Gene_Formatting/clinvar_ALS.csv")
 
 
 
