@@ -12,9 +12,8 @@ library("tidyverse")
 library("stringr")
 library("data.table")
 
-setwd(dir = "~/Documents/GitHub/LNG_Scripts/als_app/als_variants_app/")
 
-processed_clinvar <- fread(file ="/Users/greenjod/Documents/GitHub/LNG_Scripts/als_app/2)Gene_Formatting/clinvar_ALS.csv")
+processed_clinvar <- fread(file ="../2)Gene_Formatting/clinvar_ALS.csv")
 
 # Helper functions---------
 # function for parsing and extracting information from the processed clinvar data----------
@@ -55,7 +54,7 @@ review.criteria<- c()
 gnomad_join <- function(dataframe,gene){ #read in the gnomad gene of interest
 
 #create a file path for each gene gnomad csv.file
-file <- paste("~/Documents/GitHub/LNG_Scripts/als_app/als_variants_app/gnomad_raw/",gene,"_gnomad.csv",sep="")
+file <- paste("../gnomad_raw/",gene,"_gnomad.csv",sep="")
 
 #import the gnomad csv file for the appropriate gene
 gnomad <- as.data.frame(fread(file))
@@ -110,7 +109,7 @@ gene_name <- gene_parsed %>%
   select(VariationID,Name,Gene,GRCh38Location,"rsID","Allele Frequency",Clinical.Significance,Protein.Consequence,Nucleotide.Consequence,Review.Criteria,"Pubmed_ID") %>%
   rename("Position"="GRCh38Location","Allele.Frequency"="Allele Frequency")
 
-write_csv(x=gene_name,path = paste("~/Documents/GitHub/LNG_Scripts/als_app/als_variants_app/clinvar_cache/",gene,"_clinvar.csv",sep=""))
+write_csv(x=gene_name,path = paste("../clinvar_cache/",gene,"_clinvar.csv",sep=""))
 }
 
 format_by_gene("KIF5A")
