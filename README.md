@@ -1,16 +1,16 @@
 # ALS-Variant-Viewer-
 Shiny application that is used to view variants and genes reported to be associated with ALS on ClinVar
 ## Quick Start
-### 1) Install relevant packages 
+### Step 1: Install relevant packages 
 Copy and paste this into your R console.
 ```
 
 install.packages(c("shiny","shinydashboard","tidyverse","stringr","data.table","DT","RColorBrewer","plotly"))
 
 ```
-### 2) Clone repository to your local drive 
+### Step 2: Clone repository to your local drive 
 
-### 3) Open App.R and click "Run App" in top right corner of Rstudio
+### Step 3: Open App.R and click "Run App" in top right corner of Rstudio
 
 
 
@@ -24,7 +24,7 @@ For the sake of transparency, below I will go through the workflow of processing
 ```R
 clinvar_raw <- as.data.frame(fread(file ="clinvar_ALS_raw.txt"))
 ```
-##### Clean raw ClinVar data
+##### Polish raw ClinVar data
 ```R
 # select columns of interest
 clinvar_selected <- clinvar_raw %>% 
@@ -51,25 +51,30 @@ clinvar_no_blanks$Gene <- as.factor(clinvar_no_blanks$Gene)
 clinvar_no_blanks$GRCh38Location <- as.numeric(clinvar_no_blanks$GRCh38Location)
 ```
 ##### Clean up the "Gene" column
-Some variants are labeled with multiple gene designations so to make data easier to read I assigned each variant to a single gene
+Some variants are labeled with multiple gene designations so I assigned each variant to a single gene
 ```R
 # renamed data frame to make easier to see purpose
 clinvar_clean_gene <- clinvar_no_blanks # name new data frame
 
 # OPTN
 clinvar_clean_gene$Gene<- gsub(pattern = "LOC108903148\\|OPTN|OPTN\\|LOC108903148",replacement = "OPTN",x=clinvar_clean_gene$Gene)
+
 # ANG
 clinvar_clean_gene$Gene<- gsub(pattern = "ANG\\|RNASE4|RNASE4\\|ANG",replacement = "ANG",x=clinvar_clean_gene$Gene)
+
 # CNTF
 clinvar_clean_gene$Gene<- gsub(pattern = "CNTF\\|ZFP91-CNTF",replacement = "CNTF",x=clinvar_clean_gene$Gene)
+
 #VCP
 clinvar_clean_gene$Gene<- gsub(pattern = "FANCG\\|VCP",replacement = "VCP",x=clinvar_clean_gene$Gene)
+
 #TARDBP
 clinvar_clean_gene$Gene<- gsub(pattern = "MASP2\\|TARDBP",replacement = "TARDBP",x=clinvar_clean_gene$Gene)
+
 #PRPH
 clinvar_clean_gene$Gene<- gsub(pattern = "PRPH\\|LOC101927267",replacement = "PRPH",x=clinvar_clean_gene$Gene)
 ```
-#### Export cleaned data as csv file
+#### Export data as  file
 ```R
 # write the cleaned up clinvar data to a file to be read by clinvar cleaner
 write_csv(x = clinvar_clean_gene,path = "../2_Gene_Formatting/clinvar_ALS.csv")
@@ -78,10 +83,74 @@ write_csv(x = clinvar_clean_gene,path = "../2_Gene_Formatting/clinvar_ALS.csv")
 `rscript clinvar_cleaner.R`
 
 **Objective:** Separate ClinVar variants by gene and merge them with gnomAD data to get rsID and allele frequency.
-##### Load cleaned ClinVar data 
+
+##### Load polished ClinVar data 
 ```R
 processed_clinvar <- fread(file ="../2_Gene_Formatting/clinvar_ALS.csv")
 ```
-##### Helper functions
+#### Helper functions
+##### `clinvar.parse` function
+
+**Purpose:** Polish, extract, and web scrape additional information about the processed clinvar data.
+
+```
+# function for parsing and extracting information from the processed clinvar data----------
+clinvar.parse <- function(x){
+#remove the date for clinical significance column
+x$Clinical.Significance <- str_replace(string = x$Clinical.Significance,pattern = "\\(.*\\)",replacement = "")
+  
+#extracting information from the Name column in dataframe
+  x$Protein.Consequence <-str_extract(string= x$Name, pattern = "p\\....\\d*...")
+  x$Nucleotide.Consequence <-str_extract(string= x$Name, pattern = "c.*>[A,T,G,C]")
+
+# data extracted from the clinvar website
+review.criteria<- c()
+
+#for loop that: 
+  #1) webscrapes review criteria from cv website, 
+  #2) performs text manipulation on the scrapped data
+  #3) adds each scrapped element to an empty vector
+  for(i in 1:length(x$VariationID)) {
+    cv.url <- paste("https://www.ncbi.nlm.nih.gov/clinvar/variation/",x$VariationID[i],"/",sep="")
+    
+    #loading bar
+    print(paste(i,"of",length(x$VariationID),x$Variation[i],cv.url,sep=" "))
+    
+    #1) webscrapes review criteria from cv website,
+    review<- cv.url %>% read_html() %>% html_node(css = '.no-margin-top dd:nth-child(4)') %>% html_text()
+    #2) performs text manipulation on the scrapped data 
+    review_f <- gsub(pattern = "\\\n || \\s",replacement = "",x = review)
+    #3) adds each scrapped element to an empty vector
+    review.criteria[i] <- review_f
+  }
+  # appends scrapped review criteria vector to the clinvar data frame
+  x$Review.Criteria <- review.criteria
+  x <- as.data.frame(x)
+}
+```
+##### `gnomad_join` function
+**Purpose:** join the polished clinvar dataset with the data on gnomAD. This allows us to obtain rsID and allele frequency data on each variant.
+```
+# function for joining clinvar dataset with gnomad dataset
+gnomad_join <- function(dataframe,gene){ #read in the gnomad gene of interest
+
+#create a file path for each gene gnomad csv.file
+file <- paste("../gnomad_raw/",gene,"_gnomad.csv",sep="")
+
+#import the gnomad csv file for the appropriate gene
+gnomad <- as.data.frame(fread(file))
+
+#make a unique identifier for the gnomad dataset
+gnomad$ID <- paste(gnomad$Chromosome,gnomad$Position,sep = ":")
+
+#select only needed columns and reorder so ID is column 1 for gnomad data
+gnomad <- gnomad %>% select("ID","Position","rsID","Allele Frequency")
+
+#join data frames by the ID column in the filtered clinvar data set and the gnomad dataset
+left_join(dataframe, gnomad,by = "ID")
+}
+```
+
+
 
 
