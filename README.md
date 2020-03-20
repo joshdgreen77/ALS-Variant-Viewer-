@@ -20,7 +20,7 @@ For the sake of transparency, below I will go through the workflow of processing
 
 ### Step 1: Run Processing_Raw_ClinVar_Data.R script
 `rscript Processing_Raw_ClinVar_Data.R`
-##### Load data
+##### Load raw ClinVar data
 ```R
 clinvar_raw <- as.data.frame(fread(file ="clinvar_ALS_raw.txt"))
 ```
@@ -74,4 +74,14 @@ clinvar_clean_gene$Gene<- gsub(pattern = "PRPH\\|LOC101927267",replacement = "PR
 # write the cleaned up clinvar data to a file to be read by clinvar cleaner
 write_csv(x = clinvar_clean_gene,path = "../2_Gene_Formatting/clinvar_ALS.csv")
 ```
+### Step 2: Run clinvar_cleaner.R script
+`rscript clinvar_cleaner.R`
+
+**Objective:** Separate ClinVar variants by gene and merge them with gnomAD data to get rsID and allele frequency.
+##### Load cleaned ClinVar data 
+```R
+processed_clinvar <- fread(file ="../2_Gene_Formatting/clinvar_ALS.csv")
+```
+##### Helper functions
+
 
