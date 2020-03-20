@@ -13,7 +13,7 @@ library("stringr")
 library("data.table")
 
 
-processed_clinvar <- fread(file ="../2)Gene_Formatting/clinvar_ALS.csv")
+processed_clinvar <- fread(file ="../2_Gene_Formatting/clinvar_ALS.csv")
 
 # Helper functions---------
 # function for parsing and extracting information from the processed clinvar data----------
