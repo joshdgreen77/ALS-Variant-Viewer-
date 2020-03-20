@@ -51,7 +51,7 @@ clinvar_no_blanks$Gene <- as.factor(clinvar_no_blanks$Gene)
 clinvar_no_blanks$GRCh38Location <- as.numeric(clinvar_no_blanks$GRCh38Location)
 ```
 ##### Clean up the "Gene" column
-Some variants are labeled with multiple gene designations so to make data easier to read I assigned each gene to a single category
+Some variants are labeled with multiple gene designations so to make data easier to read I assigned each variant to a single gene
 ```R
 # renamed data frame to make easier to see purpose
 clinvar_clean_gene <- clinvar_no_blanks # name new data frame
