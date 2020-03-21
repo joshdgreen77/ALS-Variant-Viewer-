@@ -93,7 +93,7 @@ processed_clinvar <- fread(file ="../2_Gene_Formatting/clinvar_ALS.csv")
 
 **Purpose:** Polish, extract, and web scrape Clinical Significance, Protein Consequence, Nucleotide Consequence, and Review Criteria from the processed ClinVar data.
 
-```
+```R
 # function for parsing and extracting information from the processed clinvar data----------
 clinvar.parse <- function(x){
 #remove the date for clinical significance column
@@ -126,7 +126,7 @@ review.criteria<- c()
 ##### `gnomad_join` function
 
 **Purpose:** join the polished ClinVar dataset, that has been filtered by gene, with the gene-specific data on gnomAD to obtain the rsID and the allele frequency columns
-```
+```R
 # function for joining clinvar dataset with gnomad dataset
 gnomad_join <- function(dataframe,gene){ #read in the gnomad gene of interest
 
@@ -154,7 +154,8 @@ left_join(dataframe, gnomad,by = "ID")
 ```
 #### Applying helper functions to each gene
 **Purpose:** this function filters the processed ClinVar data by gene, applies the 3 helper functions,  selects and renames columns, and exports the generated data frame as a csv file into the "clinvar_cache" folder
-```
+
+```R
 # applying functions to each gene---------
 format_by_gene<-function(gene){
 gene_filtered_clinvar <- processed_clinvar %>% filter(Gene == as.character(gene))
@@ -168,7 +169,28 @@ gene_name <- gene_parsed %>%
 write_csv(x=gene_name,path = paste("../clinvar_cache/",gene,"_clinvar.csv",sep=""))
 }
 ```
-
-
+All genes included are below
+```R
+format_by_gene("KIF5A")
+format_by_gene("SPG11")
+format_by_gene("UBQLN2")
+format_by_gene("ANG")
+format_by_gene("SIGMAR1")
+format_by_gene("CHCHD10")
+format_by_gene("VCP")
+format_by_gene("C9orf72")
+format_by_gene("SLC52A3")
+format_by_gene("FIG4")
+format_by_gene("SQSTM1")
+format_by_gene("OPTN")
+format_by_gene("MATR3")
+format_by_gene("VAPB")
+format_by_gene("SETX")
+format_by_gene("ALS2")
+format_by_gene("TARDBP")
+format_by_gene("DCT1N")
+format_by_gene("FUS")
+format_by_gene("SOD1")
+```
 
 
