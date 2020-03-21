@@ -192,5 +192,6 @@ format_by_gene("DCT1N")
 format_by_gene("FUS")
 format_by_gene("SOD1")
 ```
+#### Web scrap information on each gene
 
 
