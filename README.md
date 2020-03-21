@@ -146,6 +146,28 @@ gnomad <- gnomad %>% select("ID","Position","rsID","Allele Frequency")
 left_join(dataframe, gnomad,by = "ID")
 }
 ```
+##### `citation_extractor` function
+
+**Purpose:** to web scrape the PubMed ID to be included in the app's variant table. (Still being developed)
+```
+#Not fully developed yet
+```
+#### Applying helper functions to each gene
+**Purpose:** this function filters the processed ClinVar data by gene, applies the 3 helper functions,  selects and renames columns, and exports the generated data frame as a csv file into the "clinvar_cache" folder
+```
+# applying functions to each gene---------
+format_by_gene<-function(gene){
+gene_filtered_clinvar <- processed_clinvar %>% filter(Gene == as.character(gene))
+gene_gnomadjoin <- gnomad_join(gene_filtered_clinvar,as.character(gene))
+gene_cite <- citation_extractor(gene_gnomadjoin)
+gene_parsed <- clinvar.parse(gene_cite)
+gene_name <- gene_parsed %>% 
+  select(VariationID,Name,Gene,GRCh38Location,"rsID","Allele Frequency",Clinical.Significance,Protein.Consequence,Nucleotide.Consequence,Review.Criteria,"Pubmed_ID") %>%
+  rename("Position"="GRCh38Location","Allele.Frequency"="Allele Frequency")
+
+write_csv(x=gene_name,path = paste("../clinvar_cache/",gene,"_clinvar.csv",sep=""))
+}
+```
 
 
 
