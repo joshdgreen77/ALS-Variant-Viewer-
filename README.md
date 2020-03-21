@@ -91,7 +91,7 @@ processed_clinvar <- fread(file ="../2_Gene_Formatting/clinvar_ALS.csv")
 #### Helper functions
 ##### `clinvar.parse` function
 
-**Purpose:** Polish, extract, and web scrape additional information about the processed clinvar data.
+**Purpose:** Polish, extract, and web scrape Clinical Significance, Protein Consequence, Nucleotide Consequence, and Review Criteria from the processed ClinVar data.
 
 ```
 # function for parsing and extracting information from the processed clinvar data----------
@@ -103,33 +103,29 @@ x$Clinical.Significance <- str_replace(string = x$Clinical.Significance,pattern 
   x$Protein.Consequence <-str_extract(string= x$Name, pattern = "p\\....\\d*...")
   x$Nucleotide.Consequence <-str_extract(string= x$Name, pattern = "c.*>[A,T,G,C]")
 
-# data extracted from the clinvar website
+# Web scrape variant review criteria from ClinVar website
 review.criteria<- c()
-
-#for loop that: 
-  #1) webscrapes review criteria from cv website, 
-  #2) performs text manipulation on the scrapped data
-  #3) adds each scrapped element to an empty vector
   for(i in 1:length(x$VariationID)) {
-    cv.url <- paste("https://www.ncbi.nlm.nih.gov/clinvar/variation/",x$VariationID[i],"/",sep="")
-    
-    #loading bar
+  #loading bar
     print(paste(i,"of",length(x$VariationID),x$Variation[i],cv.url,sep=" "))
     
-    #1) webscrapes review criteria from cv website,
+    # generate URL
+    cv.url <- paste("https://www.ncbi.nlm.nih.gov/clinvar/variation/",x$VariationID[i],"/",sep="")
+    # web scrap from URL
     review<- cv.url %>% read_html() %>% html_node(css = '.no-margin-top dd:nth-child(4)') %>% html_text()
-    #2) performs text manipulation on the scrapped data 
+    # text polishing
     review_f <- gsub(pattern = "\\\n || \\s",replacement = "",x = review)
-    #3) adds each scrapped element to an empty vector
+    # append to empty vector
     review.criteria[i] <- review_f
   }
-  # appends scrapped review criteria vector to the clinvar data frame
+  # append vector to the data frame
   x$Review.Criteria <- review.criteria
   x <- as.data.frame(x)
 }
 ```
 ##### `gnomad_join` function
-**Purpose:** join the polished clinvar dataset with the data on gnomAD. This allows us to obtain rsID and allele frequency data on each variant.
+
+**Purpose:** join the polished ClinVar dataset with the data on gnomAD to obtain the rsID and the allele frequency columns
 ```
 # function for joining clinvar dataset with gnomad dataset
 gnomad_join <- function(dataframe,gene){ #read in the gnomad gene of interest
