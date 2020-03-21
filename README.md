@@ -125,7 +125,7 @@ review.criteria<- c()
 ```
 ##### `gnomad_join` function
 
-**Purpose:** join the polished ClinVar dataset with the data on gnomAD to obtain the rsID and the allele frequency columns
+**Purpose:** join the polished ClinVar dataset, that has been filtered by gene, with the gene-specific data on gnomAD to obtain the rsID and the allele frequency columns
 ```
 # function for joining clinvar dataset with gnomad dataset
 gnomad_join <- function(dataframe,gene){ #read in the gnomad gene of interest
