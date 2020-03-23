@@ -52,7 +52,7 @@ p<- ggplot(x, aes(x=Position,text3= rsID, y= Clinical.Significance, text1 = Nucl
   scale_y_discrete(limits = c("Uncertain significance","Pathogenic","Likely pathogenic","Likely benign","Benign"))
 
 #convert ggplot to plotly object----------
-ggplotly(p,tooltip = c("x","fill","text1","text2","text3","text4")) %>% layout(legend = list(orientation = "h",x=1,y=-1))
+ggplotly(p,tooltip = c("x","fill","text1","text2","text3","text4")) %>% layout(legend = list(orientation = "h",x=0,y=-1))
 }
 
 
