@@ -37,15 +37,14 @@ for(i in c(1:length(data2$VariationID))){
 data2$rsID <- rsID_link
 data2$VariationID <- VariationID_link
 #rename the columns and print out the data frame
-DT::datatable(data = data2,escape = FALSE, options = list(pageLength = 1000,
-                                                          autoWidth = TRUE
-                                                          ),
+DT::datatable(data = data2,escape = FALSE,
               #renames the columns
-              colnames = c("ClinVar ID","Position (GRCh38)","rsID","Clinical Significance","Protein Consequence","Nucleotide Consequence","Allele Frequency\n\n(gnomAD)","Review Criteria")
-              # #adds buttons to the table so it can be downloaded in various file formats
-               # extensions = 'Buttons', options = list(
-               #   dom = 'Bfrtip',
-               #   buttons = c('copy','csv')) 
+              colnames = c("ClinVar ID","Position (GRCh38)","rsID","Clinical Significance","Protein Consequence","Nucleotide Consequence","Allele Frequency\n\n(gnomAD)","Review Criteria"),
+               #adds buttons to the table so it can be downloaded in various file formats
+                extensions = 'Buttons',  options = list(pageLength = 1000,
+                                                        autoWidth = TRUE,
+                                                        dom = 'Bfrtip',
+                                                        buttons = c('csv'))
 )
 
   
