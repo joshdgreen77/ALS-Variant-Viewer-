@@ -228,6 +228,7 @@ SPG11 <- generate_gene_info("SPG11","https://www.ncbi.nlm.nih.gov/gene/80208")
 
 #UBQLN2
 UBQLN2 <- generate_gene_info("UBQLN2","https://www.ncbi.nlm.nih.gov/gene/29978")
+
 #ANG
 ANG <- generate_gene_info("ANG","https://www.ncbi.nlm.nih.gov/gene/283")
 
