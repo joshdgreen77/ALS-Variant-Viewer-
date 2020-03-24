@@ -1,18 +1,7 @@
 # ALS-Variant-Viewer-
 Shiny application that is used to view variants and genes reported to be associated with ALS on ClinVar
-## Quick Start
-### Step 1: Install relevant packages 
-Copy and paste this into your R console.
-```
 
-install.packages(c("shiny","shinydashboard","tidyverse","stringr","data.table","DT","RColorBrewer","plotly"))
-
-```
-### Step 2: Clone repository to your local drive 
-
-### Step 3: Open App.R and click "Run App" in top right corner of Rstudio
-
-
+## [View Shiny app here](https://pdgenetics.shinyapps.io/ALS-Variant-Viewer/)
 
 ## Detailed Workflow 
 Processing the raw ClinVar data
