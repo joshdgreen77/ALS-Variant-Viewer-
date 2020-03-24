@@ -1,0 +1,10 @@
+name: ALS-Variant-Viewer
+title: ALS-Variant-Viewer
+username:
+account: pdgenetics
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1988918
+bundleId: 2919239
+url: https://pdgenetics.shinyapps.io/ALS-Variant-Viewer/
+when: 1585073558.61872
