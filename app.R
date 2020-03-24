@@ -4,6 +4,10 @@ library(shiny)
 library(shinydashboard)
 
 
+##RUN THIS TO UPDATE SHINY APP ON THE SERVER##
+#library(rsconnect)
+#rsconnect::deployApp("/Users/greenjod/Documents/GitHub/ALS-Variant-Viewer-/")
+
 # Sourcing and Importing-----------
 
 #import the processed clinvar datasets
@@ -19,7 +23,7 @@ source("variant_DT.R")
 
 # User interface---------------
 ui <- dashboardPage(
-  dashboardHeader(title ="ALS Variant Viewer v1.0"),
+  dashboardHeader(title ="ALS Variant Viewer"),
   dashboardSidebar(
     sidebarMenu(
       #make sidebar menu item for the variant plot
