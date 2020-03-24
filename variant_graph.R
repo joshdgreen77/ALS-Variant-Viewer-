@@ -20,15 +20,7 @@ variant_graph <- function(x){
 
 
 #graphing----------
-p<- ggplot(x, aes(x=Position,text3= rsID, y= Clinical.Significance, text1 = Nucleotide.Consequence, text2= Protein.Consequence, text4 = ClinVar.Stars))+
-  
-  # #adds lollipops
-  # geom_linerange(position = position_jitter(width = 2000,height = 0,seed = 1),size = 1,
-  #                aes(
-  #                  x = Position,
-  #                  ymin = 0,
-  #                  ymax = Clinical.Significance
-  #                ),show.legend = FALSE)+
+p<- ggplot(x, aes(x=Position, y= Clinical.Significance, text1 = Nucleotide.Consequence, text2= Protein.Consequence,text3= rsID, text4 =ClinVar.Stars))+
   
   #prevents overplotting
     geom_jitter(position = position_jitter(width = 2000,height = 0,seed = 1),mapping= aes(fill= Clinical.Significance),shape = 21,size = 5,color = "black", stroke = 1,show.legend = TRUE)+
@@ -45,14 +37,13 @@ p<- ggplot(x, aes(x=Position,text3= rsID, y= Clinical.Significance, text1 = Nucl
         legend.title = element_blank()
    )+
   labs(x = "Position (GRCh38)")+
-  
   #assign color to each value
   scale_fill_manual(limits = c("Benign","Likely benign","Likely pathogenic","Pathogenic","Uncertain significance"),values = c("#ADDDA8","#FFFFC4","#FAAE6A","#D41B25","#3483B7"))+
    #ordering the y discrete values on the y axis
   scale_y_discrete(limits = c("Uncertain significance","Pathogenic","Likely pathogenic","Likely benign","Benign"))
 
 #convert ggplot to plotly object----------
-ggplotly(p,tooltip = c("x","fill","text1","text2","text3","text4")) %>% layout(legend = list(orientation = "h",x=0,y=-1))
+ggplotly(p,tooltip = c("x","fill","text1","text2","text3")) %>% layout(legend = list(orientation = "h",x=0,y=-1))
 }
 
 
