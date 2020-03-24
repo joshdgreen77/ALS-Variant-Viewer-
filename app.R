@@ -70,11 +70,10 @@ ui <- dashboardPage(
                   p("The ALS-linked variants displayed in this browser are from NCBI ClinVar (Last retrieved March 15 2020). The SNP identifiers (rsID) and Allele Frequencies are from gnomadAD v2.1.1. The information on each gene is from the NBCI gene search tool"),
                   hr(),
                   h2("References"),
-                  
                   tags$ul(
                     tags$li(" Karczewski, K. J., Francioli, L. C., Tiao, G., Cummings, B. B., Alföldi, J., Wang, Q., Collins, R. L., Laricchia, K. M., Ganna, A., Birnbaum, D. P., Gauthier, L. D., Brand, H., Solomonson, M., Watts, N. A., Rhodes, D., Singer-Berk, M., England, E. M., Seaby, E. G., Kosmicki, J. A., … MacArthur, D. G. (2019). Variation across 141,456 human exomes and genomes reveals the spectrum of loss-of-function intolerance across human protein-coding genes. In bioRxiv (p. 531210),",tags$a(href="https://doi.org/10.1101/531210", "https://doi.org/10.1101/531210")), 
-                    tags$li("Second list item"), 
-                    tags$li("Third list item")
+                    br(),
+                    tags$li("Landrum MJ, Lee JM, Benson M, Brown GR, Chao C, Chitipiralla S, Gu B, Hart J, Hoffman D, Jang W, Karapetyan K, Katz K, Liu C, Maddipatla Z, Malheiro A, McDaniel K, Ovetsky M, Riley G, Zhou G, Holmes JB, Kattman BL, Maglott DR. ClinVar: improving access to variant interpretations and supporting evidence. Nucleic Acids Res . 2018 Jan 4. PubMed PMID:",tags$a(href="https://www.ncbi.nlm.nih.gov/pubmed/29165669","29165669")) 
                     )
                   )
                 )
