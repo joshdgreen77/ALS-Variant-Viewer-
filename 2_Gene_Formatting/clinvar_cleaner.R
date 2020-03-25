@@ -54,7 +54,7 @@ review.criteria<- c()
 gnomad_join <- function(dataframe,gene){ #read in the gnomad gene of interest
 
 #create a file path for each gene gnomad csv.file
-file <- paste("../gnomad_raw/",gene,"_gnomad.csv",sep="")
+file <- paste("gnomad_raw/",gene,"_gnomad.csv",sep="")
 
 #import the gnomad csv file for the appropriate gene
 gnomad <- as.data.frame(fread(file))
