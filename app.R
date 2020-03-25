@@ -42,7 +42,7 @@ ui <- dashboardPage(
         tabItem(tabName =  "plot",
                 fluidRow(
                   column(width=6, box(width=12,
-                                      h1(textOutput(outputId = "gene")),
+                                      h1(uiOutput(outputId = "gene")),
                                       hr(),
                                       h2("Exons:"),h3(textOutput(outputId="exons")),
                                       h2("Locus:"),h3(textOutput(outputId="locus")),
@@ -86,8 +86,11 @@ ui <- dashboardPage(
 # Server processing----------
 server <- function(input, output){
   # assign the choice in the select input to a variable
-  output$gene <- renderText({
-    paste(input$select)
+  output$gene <- renderUI({
+    info <- gene_info %>% filter(gene == input$select)
+    
+    url <- a(input$select, href=info$link)
+    tagList(url)
   })
   
 # generates the gene information object
