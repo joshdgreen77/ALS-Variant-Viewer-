@@ -16,7 +16,7 @@ source("data_import.R")
 #import the function that makes variant plot makes the "variant_graph" function
 source("variant_graph.R")
 
-#import the function that makes the data table "tableman" function
+#import the function that makes the data table "format_variant_table" function
 source("variant_DT.R")
 
 
@@ -174,7 +174,7 @@ server <- function(input, output){
                    "KIF5A"=KIF5A
                    
     )
-    tableman(variants_dataframe = data)
+    format_variant_table(variants_dataframe = data)
   })
   
 }
