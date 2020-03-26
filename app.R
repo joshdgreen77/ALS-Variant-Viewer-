@@ -23,7 +23,7 @@ source("variant_DT.R")
 
 # User interface---------------
 ui <- dashboardPage(
-  dashboardHeader(title ="ALS Variant Viewer"),
+  dashboardHeader(title ="ALS Variant Browser"),
   dashboardSidebar(
     sidebarMenu(
       #make sidebar menu item for the variant plot
@@ -67,7 +67,10 @@ ui <- dashboardPage(
                     hr(),
                     h2("Data"),
                     hr(),
-                  p("The ALS-linked variants displayed in this browser are from NCBI ClinVar (Last retrieved March 15 2020). The SNP identifiers (rsID) and Allele Frequencies are from gnomadAD v2.1.1. The information on each gene is from the NBCI gene search tool"),
+                  tags$ul(
+                    tags$li("The variants displayed in this browser have been linked to Amyotrophic Lateral Sclerosis (ALS) on NCBI ClinVar (Last checked March 15 2020)."),
+                    tags$li("Reference SNP cluster ID (rsID) and Allele Frequencies are retrieved from gnomadAD v2.1.1."),
+                    tags$li("Information about each gene is from NCBI Gene database")),
                   hr(),
                   h2("References"),
                   tags$ul(
