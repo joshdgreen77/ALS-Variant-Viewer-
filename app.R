@@ -1,10 +1,8 @@
 #---------
 ##RUN THIS TO UPDATE SHINY APP ON THE SERVER##
-library(rsconnect)
-rsconnect::deployApp("/Users/greenjod/Documents/GitHub/ALS-Variant-Viewer-/")
 
 
-Y#importing the required packages----------
+#importing the required packages----------
 library(shiny)
 library(shinydashboard)
 
