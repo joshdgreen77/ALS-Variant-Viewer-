@@ -174,7 +174,7 @@ server <- function(input, output){
                    "KIF5A"=KIF5A
                    
     )
-    tableman(data2 = data)
+    tableman(variants_dataframe = data)
   })
   
 }
