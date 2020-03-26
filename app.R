@@ -27,7 +27,7 @@ ui <- dashboardPage(
   dashboardSidebar(
     sidebarMenu(
       #make sidebar menu item for the variant plot
-      menuItem("Variant Plot", tabName = "plot"),
+      menuItem("Variant Browser ", tabName = "browser"),
       menuItem("About",tabName = "About"),
       #make selector widget in the sidebar
       selectInput(inputId = "select",
@@ -39,7 +39,7 @@ ui <- dashboardPage(
   dashboardBody(
       tabItems(
         #the interface for the plot tab
-        tabItem(tabName =  "plot",
+        tabItem(tabName =  "browser",
                 fluidRow(
                   column(width=6, box(width=12,
                                       h1(uiOutput(outputId = "gene")),
