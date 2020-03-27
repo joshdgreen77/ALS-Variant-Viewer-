@@ -1,5 +1,5 @@
 VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Protein.Consequence,Nucleotide.Consequence,Review.Criteria,Pubmed_ID
-378638,NM_025137.4(SPG11):c.7155T>G (p.Tyr2385Ter),SPG11,44563298,rs778305085,1.989748814109707e-5,Conflicting interpretations of pathogenicity,p.Tyr2385Ter,c.7155T>G,"criteria provided, conflicting interpretations ",rs778305085:
+378638,NM_025137.4(SPG11):c.7155T>G (p.Tyr2385Ter),SPG11,44563298,rs778305085,1.989748814109707e-5,Uncertain significance,p.Tyr2385Ter,c.7155T>G,"criteria provided, conflicting interpretations ",rs778305085:
 316077,NM_025137.4(SPG11):c.6950G>A (p.Gly2317Asp),SPG11,44565903,rs79186522,7.505253677574302e-5,Uncertain significance,p.Gly2317Asp,c.6950G>A,"criteria provided, multiple submitters, no conflicts ",rs79186522:27790088
 560924,NM_025137.4(SPG11):c.6899T>G (p.Leu2300Arg),SPG11,44565954,rs371334506,3.982667431338813e-6,Uncertain significance,p.Leu2300Arg,c.6899T>G,"criteria provided, multiple submitters, no conflicts ",rs371334506:
 466559,NM_025137.4(SPG11):c.6625C>T (p.Arg2209Cys),SPG11,44567553,rs374057859,2.192222560091649e-4,Uncertain significance,p.Arg2209Cys,c.6625C>T,"criteria provided, multiple submitters, no conflicts ",rs374057859:

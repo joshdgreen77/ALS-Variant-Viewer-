@@ -24,10 +24,10 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 366506,NM_001256054.2(C9orf72):c.1426G>C (p.Asp476His),C9orf72,27548256,rs767272170,4.080699921650562e-6,Uncertain significance,p.Asp476His,c.1426G>C,"criteria provided, single submitter ",rs767272170:
 366507,NM_001256054.2(C9orf72):c.1424G>A (p.Arg475Gln),C9orf72,27548258,rs750045383,8.146573144006974e-6,Uncertain significance,p.Arg475Gln,c.1424G>A,"criteria provided, single submitter ",rs750045383:
 366507,NM_001256054.2(C9orf72):c.1424G>A (p.Arg475Gln),C9orf72,27548258,rs750045383,4.073286572003487e-6,Uncertain significance,p.Arg475Gln,c.1424G>A,"criteria provided, single submitter ",rs750045383:
-366508,NM_001256054.2(C9orf72):c.1404C>T (p.Phe468=),C9orf72,27548278,rs141063383,0.00289826246323895,Benign/Likely benign,p.Phe468=),c.1404C>T,"criteria provided, multiple submitters, no conflicts ",rs141063383:
+366508,NM_001256054.2(C9orf72):c.1404C>T (p.Phe468=),C9orf72,27548278,rs141063383,0.00289826246323895,Likely benign,p.Phe468=),c.1404C>T,"criteria provided, multiple submitters, no conflicts ",rs141063383:
 366520,NM_001256054.2(C9orf72):c.1260-14del,C9orf72,27548436,rs764751687,0.0063604240282685515,Uncertain significance,NA,NA,"criteria provided, single submitter ",rs764751687:
 366522,NM_001256054.2(C9orf72):c.1238T>C (p.Ile413Thr),C9orf72,27548578,rs760887239,1.1554245189051356e-4,Uncertain significance,p.Ile413Thr,c.1238T>C,"criteria provided, single submitter ",rs760887239:
-366523,NM_001256054.2(C9orf72):c.1149+9T>C,C9orf72,27550641,rs139352974,7.055989833463863e-4,Benign/Likely benign,NA,c.1149+9T>C,"criteria provided, multiple submitters, no conflicts ",rs139352974:
+366523,NM_001256054.2(C9orf72):c.1149+9T>C,C9orf72,27550641,rs139352974,7.055989833463863e-4,Likely benign,NA,c.1149+9T>C,"criteria provided, multiple submitters, no conflicts ",rs139352974:
 366524,NM_001256054.2(C9orf72):c.870C>T (p.Ser290=),C9orf72,27556782,rs10122902,0.23353889706876071,Benign,p.Ser290=),c.870C>T,"criteria provided, single submitter ","rs10122902:18755042, 20801717, 22459598, 22509407"
 366525,NM_001256054.2(C9orf72):c.792G>T (p.Arg264Ser),C9orf72,27558554,NA,NA,Uncertain significance,p.Arg264Ser,c.792G>T,"criteria provided, single submitter ",N/A
 366526,NM_001256054.2(C9orf72):c.620A>G (p.Asn207Ser),C9orf72,27561630,rs17769294,0.09970632578545348,Likely benign,p.Asn207Ser,c.620A>G,"criteria provided, single submitter ",rs17769294:18755042

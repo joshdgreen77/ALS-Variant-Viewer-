@@ -17,12 +17,12 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 4412,NM_020919.4(ALS2):c.4721del (p.Val1574fs),ALS2,201704571,NA,NA,Pathogenic,p.Val1574fs),NA,no assertion criteria provided ,N/A
 640352,NM_020919.4(ALS2):c.4627G>T (p.Val1543Phe),ALS2,201705200,NA,NA,Uncertain significance,p.Val1543Phe,c.4627G>T,"criteria provided, single submitter ",N/A
 465191,NM_020919.4(ALS2):c.4627-5T>C,ALS2,201705205,rs764322790,3.213858156370269e-5,Likely benign,NA,c.4627-5T>C,"criteria provided, single submitter ",rs764322790:
-333584,NM_020919.4(ALS2):c.4581-7A>G,ALS2,201705468,rs114458388,0.0026052075600982126,Benign/Likely benign,NA,c.4581-7A>G,"criteria provided, multiple submitters, no conflicts ",rs114458388:
+333584,NM_020919.4(ALS2):c.4581-7A>G,ALS2,201705468,rs114458388,0.0026052075600982126,Likely benign,NA,c.4581-7A>G,"criteria provided, multiple submitters, no conflicts ",rs114458388:
 261378,NM_020919.4(ALS2):c.4580+7G>A,ALS2,201706839,rs3219169,0.20109939469124977,Benign,NA,c.4580+7G>A,"criteria provided, multiple submitters, no conflicts ",rs3219169:25741868
 241311,NM_020919.4(ALS2):c.4498G>A (p.Glu1500Lys),ALS2,201706928,rs780151065,1.203977943124082e-5,Uncertain significance,p.Glu1500Lys,c.4498G>A,"criteria provided, single submitter ",rs780151065:
 439402,NM_020919.4(ALS2):c.4495C>T (p.Arg1499Cys),ALS2,201706931,rs112869526,4.277495383869565e-5,Uncertain significance,p.Arg1499Cys,c.4495C>T,"criteria provided, multiple submitters, no conflicts ",rs112869526:
 578554,NM_020919.4(ALS2):c.4435C>T (p.Pro1479Ser),ALS2,201706991,rs534239794,4.018291261823822e-6,Uncertain significance,p.Pro1479Ser,c.4435C>T,"criteria provided, single submitter ",rs534239794:
-333585,NM_020919.4(ALS2):c.4416G>A (p.Thr1472=),ALS2,201707010,rs200202953,7.729247328757809e-4,Conflicting interpretations of pathogenicity,p.Thr1472=),c.4416G>A,"criteria provided, conflicting interpretations ",rs200202953:
+333585,NM_020919.4(ALS2):c.4416G>A (p.Thr1472=),ALS2,201707010,rs200202953,7.729247328757809e-4,Uncertain significance,p.Thr1472=),c.4416G>A,"criteria provided, conflicting interpretations ",rs200202953:
 648585,NM_020919.4(ALS2):c.4415C>T (p.Thr1472Met),ALS2,201707011,rs201089588,1.2527291599556177e-4,Uncertain significance,p.Thr1472Met,c.4415C>T,"criteria provided, single submitter ",rs201089588:
 333586,NM_020919.4(ALS2):c.4404-14C>T,ALS2,201707036,rs375025577,1.6686690695501267e-5,Uncertain significance,NA,c.4404-14C>T,"criteria provided, single submitter ",rs375025577:
 333587,NM_020919.4(ALS2):c.4366G>C (p.Gly1456Arg),ALS2,201707906,NA,NA,Uncertain significance,p.Gly1456Arg,c.4366G>C,"criteria provided, single submitter ",N/A
@@ -30,13 +30,13 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 242457,NM_020919.4(ALS2):c.4261C>T (p.Arg1421Ter),ALS2,201709900,rs863225293,4.010684463410526e-6,Likely pathogenic,p.Arg1421Ter,c.4261C>T,"criteria provided, single submitter ","rs863225293:12919135, 18394004, 20301421"
 660166,NM_020919.4(ALS2):c.4141C>T (p.His1381Tyr),ALS2,201710020,NA,NA,Uncertain significance,p.His1381Tyr,c.4141C>T,"criteria provided, single submitter ",N/A
 333588,NM_020919.4(ALS2):c.4123-4T>C,ALS2,201710042,rs886055453,4.032908533634457e-6,Uncertain significance,NA,c.4123-4T>C,"criteria provided, single submitter ",rs886055453:
-282606,NM_020919.4(ALS2):c.4119A>G (p.Ile1373Met),ALS2,201710994,rs61757691,0.0027319481001191214,Conflicting interpretations of pathogenicity,p.Ile1373Met,c.4119A>G,"criteria provided, conflicting interpretations ",rs61757691:27790088
+282606,NM_020919.4(ALS2):c.4119A>G (p.Ile1373Met),ALS2,201710994,rs61757691,0.0027319481001191214,Uncertain significance,p.Ile1373Met,c.4119A>G,"criteria provided, conflicting interpretations ",rs61757691:27790088
 412224,NM_020919.4(ALS2):c.4021C>T (p.Arg1341Cys),ALS2,201711092,rs771371026,1.2059138012814845e-5,Uncertain significance,p.Arg1341Cys,c.4021C>T,"criteria provided, single submitter ",rs771371026:
 261377,NM_020919.4(ALS2):c.4015C>T (p.Leu1339=),ALS2,201711098,rs3219168,0.920264666205095,Benign,p.Leu1339=),c.4015C>T,"criteria provided, multiple submitters, no conflicts ",rs3219168:25741868
 465190,NM_020919.4(ALS2):c.4004+6T>A,ALS2,201715666,NA,NA,Uncertain significance,NA,c.4004+6T>A,"criteria provided, single submitter ",N/A
 333589,NM_020919.4(ALS2):c.3930C>A (p.Gly1310=),ALS2,201715746,rs780354290,3.6100503802586404e-5,Uncertain significance,p.Gly1310=),c.3930C>A,"criteria provided, single submitter ",rs780354290:
-261374,NM_020919.4(ALS2):c.3885G>A (p.Ala1295=),ALS2,201715791,rs34946105,0.03229494650158857,Benign/Likely benign,p.Ala1295=),c.3885G>A,"criteria provided, multiple submitters, no conflicts ",rs34946105:25741868
-333590,NM_020919.4(ALS2):c.3876G>A (p.Lys1292=),ALS2,201715800,rs200417604,1.2465364095477565e-4,Conflicting interpretations of pathogenicity,p.Lys1292=),c.3876G>A,"criteria provided, conflicting interpretations ",rs200417604:
+261374,NM_020919.4(ALS2):c.3885G>A (p.Ala1295=),ALS2,201715791,rs34946105,0.03229494650158857,Likely benign,p.Ala1295=),c.3885G>A,"criteria provided, multiple submitters, no conflicts ",rs34946105:25741868
+333590,NM_020919.4(ALS2):c.3876G>A (p.Lys1292=),ALS2,201715800,rs200417604,1.2465364095477565e-4,Uncertain significance,p.Lys1292=),c.3876G>A,"criteria provided, conflicting interpretations ",rs200417604:
 533742,NM_020919.4(ALS2):c.3863C>T (p.Pro1288Leu),ALS2,201715813,rs376835062,4.988633043279955e-5,Uncertain significance,p.Pro1288Leu,c.3863C>T,"criteria provided, single submitter ",rs376835062:
 533746,NM_020919.4(ALS2):c.3785C>T (p.Thr1262Ile),ALS2,201718128,NA,NA,Uncertain significance,p.Thr1262Ile,c.3785C>T,"criteria provided, single submitter ",N/A
 412225,NM_020919.4(ALS2):c.3746T>C (p.Phe1249Ser),ALS2,201718167,rs551822626,2.1361587593189926e-5,Uncertain significance,p.Phe1249Ser,c.3746T>C,"criteria provided, multiple submitters, no conflicts ",rs551822626:
@@ -46,27 +46,27 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 645923,NM_020919.4(ALS2):c.3520A>T (p.Lys1174Ter),ALS2,201723434,rs757972700,4.008208811646251e-6,Pathogenic,p.Lys1174Ter,c.3520A>T,"criteria provided, single submitter ",rs757972700:
 533750,NM_020919.4(ALS2):c.3486A>C (p.Gly1162=),ALS2,201724321,rs41309044,1.1748789518655654e-4,Likely benign,p.Gly1162=),c.3486A>C,"criteria provided, single submitter ",rs41309044:
 578623,NM_020919.4(ALS2):c.3449T>A (p.Met1150Lys),ALS2,201724358,NA,NA,Uncertain significance,p.Met1150Lys,c.3449T>A,"criteria provided, single submitter ",N/A
-393199,NM_020919.4(ALS2):c.3415C>T (p.Arg1139Ter),ALS2,201724392,rs767350733,2.0040401449321832e-5,Pathogenic/Likely pathogenic,p.Arg1139Ter,c.3415C>T,"criteria provided, multiple submitters, no conflicts ",rs767350733:
+393199,NM_020919.4(ALS2):c.3415C>T (p.Arg1139Ter),ALS2,201724392,rs767350733,2.0040401449321832e-5,Likely pathogenic,p.Arg1139Ter,c.3415C>T,"criteria provided, multiple submitters, no conflicts ",rs767350733:
 412226,NM_020919.4(ALS2):c.3319G>A (p.Gly1107Arg),ALS2,201725384,rs757704778,6.407746253248371e-5,Uncertain significance,p.Gly1107Arg,c.3319G>A,"criteria provided, single submitter ",rs757704778:
 577205,NM_020919.4(ALS2):c.3307C>A (p.His1103Asn),ALS2,201725396,rs778406073,1.7800815989404954e-5,Uncertain significance,p.His1103Asn,c.3307C>A,"criteria provided, single submitter ",rs778406073:
-333592,NM_020919.4(ALS2):c.3206G>A (p.Gly1069Glu),ALS2,201726526,rs200706696,6.481066028530935e-4,Conflicting interpretations of pathogenicity,p.Gly1069Glu,c.3206G>A,"criteria provided, conflicting interpretations ",rs200706696:
+333592,NM_020919.4(ALS2):c.3206G>A (p.Gly1069Glu),ALS2,201726526,rs200706696,6.481066028530935e-4,Uncertain significance,p.Gly1069Glu,c.3206G>A,"criteria provided, conflicting interpretations ",rs200706696:
 571278,NM_020919.4(ALS2):c.3183-3C>G,ALS2,201726552,NA,NA,Uncertain significance,NA,c.3183-3C>G,"criteria provided, single submitter ",N/A
 580658,NM_020919.4(ALS2):c.3134A>T (p.Lys1045Met),ALS2,201726712,rs781051642,7.118907105381182e-6,Uncertain significance,p.Lys1045Met,c.3134A>T,"criteria provided, multiple submitters, no conflicts ",rs781051642:
 4413,NM_020919.4(ALS2):c.2992C>T (p.Arg998Ter),ALS2,201726854,rs121908137,3.9294800123150714e-4,Pathogenic,p.Arg998Ter,c.2992C>T,no assertion criteria provided ,"rs121908137:12919135, 20301421"
 4416,NM_020919.4(ALS2):c.2980-2A>G,ALS2,201726868,NA,NA,Pathogenic,NA,c.2980-2A>G,no assertion criteria provided ,N/A
 578624,NM_020919.4(ALS2):c.2979G>A (p.Lys993=),ALS2,201727212,NA,NA,Uncertain significance,p.Lys993=),c.2979G>A,"criteria provided, single submitter ",N/A
-333593,NM_020919.4(ALS2):c.2909G>T (p.Gly970Val),ALS2,201727708,rs375742430,3.762429454447729e-4,Conflicting interpretations of pathogenicity,p.Gly970Val,c.2909G>T,"criteria provided, conflicting interpretations ",rs375742430:
+333593,NM_020919.4(ALS2):c.2909G>T (p.Gly970Val),ALS2,201727708,rs375742430,3.762429454447729e-4,Uncertain significance,p.Gly970Val,c.2909G>T,"criteria provided, conflicting interpretations ",rs375742430:
 579232,NM_020919.4(ALS2):c.2876T>C (p.Leu959Pro),ALS2,201727741,rs1178248335,6.466715813706851e-6,Uncertain significance,p.Leu959Pro,c.2876T>C,"criteria provided, single submitter ",rs1178248335:
 465188,NM_020919.4(ALS2):c.2875C>A (p.Leu959Met),ALS2,201727742,NA,NA,Uncertain significance,p.Leu959Met,c.2875C>A,"criteria provided, single submitter ",N/A
 657160,NM_020919.4(ALS2):c.2833C>T (p.His945Tyr),ALS2,201728520,rs768066388,1.604943225133411e-5,Uncertain significance,p.His945Tyr,c.2833C>T,"criteria provided, single submitter ",rs768066388:
-261369,NM_020919.4(ALS2):c.2796C>T (p.Ser932=),ALS2,201728557,rs3219161,0.09537312794790316,Benign/Likely benign,p.Ser932=),c.2796C>T,"criteria provided, multiple submitters, no conflicts ",rs3219161:25741868
-100653,NM_020919.4(ALS2):c.2761C>T (p.Arg921Ter),ALS2,201728592,NA,NA,Pathogenic/Likely pathogenic,p.Arg921Ter,c.2761C>T,no assertion criteria provided ,N/A
+261369,NM_020919.4(ALS2):c.2796C>T (p.Ser932=),ALS2,201728557,rs3219161,0.09537312794790316,Likely benign,p.Ser932=),c.2796C>T,"criteria provided, multiple submitters, no conflicts ",rs3219161:25741868
+100653,NM_020919.4(ALS2):c.2761C>T (p.Arg921Ter),ALS2,201728592,NA,NA,Likely pathogenic,p.Arg921Ter,c.2761C>T,no assertion criteria provided ,N/A
 333594,NM_020919.4(ALS2):c.2712G>A (p.Thr904=),ALS2,201729052,rs201200488,2.0295675952828576e-4,Uncertain significance,p.Thr904=),c.2712G>A,"criteria provided, multiple submitters, no conflicts ",rs201200488:
 465187,NM_020919.4(ALS2):c.2581-5T>A,ALS2,201729188,rs1171928153,4.024242034012894e-6,Uncertain significance,NA,c.2581-5T>A,"criteria provided, single submitter ",rs1171928153:
 652809,NM_020919.4(ALS2):c.2566A>G (p.Thr856Ala),ALS2,201733290,rs758153067,8.021819348628268e-6,Uncertain significance,p.Thr856Ala,c.2566A>G,"criteria provided, single submitter ",rs758153067:
-333595,NM_020919.4(ALS2):c.2479A>T (p.Thr827Ser),ALS2,201733377,rs202219507,6.377051166038462e-4,Conflicting interpretations of pathogenicity,p.Thr827Ser,c.2479A>T,"criteria provided, conflicting interpretations ",rs202219507:25741868
+333595,NM_020919.4(ALS2):c.2479A>T (p.Thr827Ser),ALS2,201733377,rs202219507,6.377051166038462e-4,Uncertain significance,p.Thr827Ser,c.2479A>T,"criteria provided, conflicting interpretations ",rs202219507:25741868
 261368,NM_020919.4(ALS2):c.2466G>A (p.Val822=),ALS2,201733390,rs2276615,0.5311815450919392,Benign,p.Val822=),c.2466G>A,"criteria provided, multiple submitters, no conflicts ",rs2276615:25741868
-241310,NM_020919.4(ALS2):c.2241C>T (p.Tyr747=),ALS2,201741784,rs3219160,0.0018538985347071196,Conflicting interpretations of pathogenicity,p.Tyr747=),c.2241C>T,"criteria provided, conflicting interpretations ",rs3219160:
+241310,NM_020919.4(ALS2):c.2241C>T (p.Tyr747=),ALS2,201741784,rs3219160,0.0018538985347071196,Uncertain significance,p.Tyr747=),c.2241C>T,"criteria provided, conflicting interpretations ",rs3219160:
 412227,NM_020919.4(ALS2):c.2222G>A (p.Arg741Gln),ALS2,201741803,rs753349655,1.2046354371622002e-5,Uncertain significance,p.Arg741Gln,c.2222G>A,"criteria provided, single submitter ",rs753349655:
 465185,NM_020919.4(ALS2):c.2171-4A>G,ALS2,201741858,rs780648054,4.047272138578598e-6,Likely benign,NA,c.2171-4A>G,"criteria provided, single submitter ",rs780648054:
 465185,NM_020919.4(ALS2):c.2171-4A>G,ALS2,201741858,rs780648054,1.2141816415735793e-5,Likely benign,NA,c.2171-4A>G,"criteria provided, single submitter ",rs780648054:
@@ -83,10 +83,10 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 242456,NM_020919.4(ALS2):c.1911C>A (p.Tyr637Ter),ALS2,201746653,NA,NA,Likely pathogenic,p.Tyr637Ter,c.1911C>A,"criteria provided, single submitter ",N/A
 217879,NM_020919.3(ALS2):c.[1911C>A;4261C>T],ALS2,201746653,NA,NA,Pathogenic,NA,c.[1911C>A;4261C>T,no assertion criteria provided ,N/A
 412209,NM_020919.4(ALS2):c.1816-1G>A,ALS2,201746749,NA,NA,Likely pathogenic,NA,c.1816-1G>A,"criteria provided, single submitter ",N/A
-261366,NM_020919.4(ALS2):c.1816-8C>T,ALS2,201746756,rs185911369,0.0016037406359366202,Conflicting interpretations of pathogenicity,NA,c.1816-8C>T,"criteria provided, conflicting interpretations ",rs185911369:25741868
+261366,NM_020919.4(ALS2):c.1816-8C>T,ALS2,201746756,rs185911369,0.0016037406359366202,Uncertain significance,NA,c.1816-8C>T,"criteria provided, conflicting interpretations ",rs185911369:25741868
 465183,NM_020919.4(ALS2):c.1815+8T>G,ALS2,201749704,rs746020900,1.603000817530417e-5,Likely benign,NA,c.1815+8T>G,"criteria provided, single submitter ",rs746020900:
 333596,NM_020919.4(ALS2):c.1805G>A (p.Arg602His),ALS2,201749722,rs201496655,2.4918303561893505e-5,Uncertain significance,p.Arg602His,c.1805G>A,"criteria provided, single submitter ",rs201496655:
-333597,NM_020919.4(ALS2):c.1677A>G (p.Lys559=),ALS2,201753206,rs367640165,2.812829350272026e-4,Conflicting interpretations of pathogenicity,p.Lys559=),c.1677A>G,"criteria provided, conflicting interpretations ",rs367640165:
+333597,NM_020919.4(ALS2):c.1677A>G (p.Lys559=),ALS2,201753206,rs367640165,2.812829350272026e-4,Uncertain significance,p.Lys559=),c.1677A>G,"criteria provided, conflicting interpretations ",rs367640165:
 465182,NM_020919.4(ALS2):c.1659A>G (p.Val553=),ALS2,201753224,NA,NA,Likely benign,p.Val553=),c.1659A>G,"criteria provided, single submitter ",N/A
 465181,NM_020919.4(ALS2):c.1641G>A (p.Arg547=),ALS2,201753242,rs34122078,3.9179649377755934e-4,Uncertain significance,p.Arg547=),c.1641G>A,"criteria provided, single submitter ",rs34122078:
 662391,NM_020919.4(ALS2):c.1624G>A (p.Gly542Ser),ALS2,201754519,rs778030657,8.0150683284575e-6,Uncertain significance,p.Gly542Ser,c.1624G>A,"criteria provided, single submitter ",rs778030657:
@@ -101,18 +101,18 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 333599,NM_020919.4(ALS2):c.1251A>G (p.Ser417=),ALS2,201757622,rs750482532,2.0048276249208095e-05,Uncertain significance,p.Ser417=),c.1251A>G,"criteria provided, single submitter ",rs750482532:
 533743,NM_020919.4(ALS2):c.1233T>G (p.Tyr411Ter),ALS2,201757640,rs369577952,8.023492786879984e-6,Pathogenic,p.Tyr411Ter,c.1233T>G,"criteria provided, multiple submitters, no conflicts ",rs369577952:
 465179,NM_020919.4(ALS2):c.1171G>A (p.Ala391Thr),ALS2,201757702,rs41308816,5.6430678941682924e-5,Uncertain significance,p.Ala391Thr,c.1171G>A,"criteria provided, single submitter ",rs41308816:
-241307,NM_020919.4(ALS2):c.1115C>G (p.Pro372Arg),ALS2,201757758,rs190369242,0.0010606797189198745,Conflicting interpretations of pathogenicity,p.Pro372Arg,c.1115C>G,"criteria provided, conflicting interpretations ",rs190369242:
+241307,NM_020919.4(ALS2):c.1115C>G (p.Pro372Arg),ALS2,201757758,rs190369242,0.0010606797189198745,Uncertain significance,p.Pro372Arg,c.1115C>G,"criteria provided, conflicting interpretations ",rs190369242:
 261364,NM_020919.4(ALS2):c.1102G>A (p.Val368Met),ALS2,201760892,rs3219156,0.9084170236423638,Benign,p.Val368Met,c.1102G>A,"criteria provided, multiple submitters, no conflicts ",rs3219156:25741868
 533745,NM_020919.4(ALS2):c.1037A>G (p.Asn346Ser),ALS2,201760957,rs199757764,1.5659811939894796e-4,Uncertain significance,p.Asn346Ser,c.1037A>G,"criteria provided, single submitter ",rs199757764:
 333600,NM_020919.4(ALS2):c.997G>T (p.Ala333Ser),ALS2,201760997,rs777806515,1.4236598022536534e-5,Uncertain significance,p.Ala333Ser,c.997G>T,"criteria provided, single submitter ",rs777806515:
 807369,NM_020919.4(ALS2):c.913del (p.Glu304_Leu305insTer),ALS2,201761081,NA,NA,Pathogenic,p.Glu304_Le,NA,"criteria provided, single submitter ",N/A
-804392,NM_020919.4(ALS2):c.601C>T (p.Arg201Ter),ALS2,201761393,NA,NA,Pathogenic/Likely pathogenic,p.Arg201Ter,c.601C>T,"criteria provided, multiple submitters, no conflicts ",N/A
+804392,NM_020919.4(ALS2):c.601C>T (p.Arg201Ter),ALS2,201761393,NA,NA,Likely pathogenic,p.Arg201Ter,c.601C>T,"criteria provided, multiple submitters, no conflicts ",N/A
 4414,NM_001135745.2(ALS2):c.553del (p.Thr185fs),ALS2,201761441,NA,NA,Pathogenic,p.Thr185fs),NA,"criteria provided, single submitter ",N/A
-241312,NM_020919.4(ALS2):c.475G>A (p.Glu159Lys),ALS2,201761519,rs3219155,0.008223918430121614,Benign/Likely benign,p.Glu159Lys,c.475G>A,"criteria provided, multiple submitters, no conflicts ",rs3219155:14676054
+241312,NM_020919.4(ALS2):c.475G>A (p.Glu159Lys),ALS2,201761519,rs3219155,0.008223918430121614,Likely benign,p.Glu159Lys,c.475G>A,"criteria provided, multiple submitters, no conflicts ",rs3219155:14676054
 4415,NM_020919.4(ALS2):c.470G>A (p.Cys157Tyr),ALS2,201761524,NA,NA,Pathogenic,p.Cys157Tyr,c.470G>A,no assertion criteria provided ,N/A
 533747,NM_020919.4(ALS2):c.358G>T (p.Ala120Ser),ALS2,201761636,rs202084736,4.2729260285289026e-5,Uncertain significance,p.Ala120Ser,c.358G>T,"criteria provided, single submitter ",rs202084736:
 643618,NM_020919.4(ALS2):c.329G>T (p.Gly110Val),ALS2,201761665,rs758017229,4.010330611655625e-6,Uncertain significance,p.Gly110Val,c.329G>T,"criteria provided, single submitter ",rs758017229:
-261370,NM_020919.4(ALS2):c.280A>G (p.Ile94Val),ALS2,201761714,rs3219154,0.02565383736866149,Benign/Likely benign,p.Ile94Val,c.280A>G,"criteria provided, multiple submitters, no conflicts ","rs3219154:25741868, 28430856"
+261370,NM_020919.4(ALS2):c.280A>G (p.Ile94Val),ALS2,201761714,rs3219154,0.02565383736866149,Likely benign,p.Ile94Val,c.280A>G,"criteria provided, multiple submitters, no conflicts ","rs3219154:25741868, 28430856"
 333601,NM_020919.4(ALS2):c.248T>G (p.Ile83Ser),ALS2,201761746,NA,NA,Uncertain significance,p.Ile83Ser,c.248T>G,"criteria provided, single submitter ",N/A
 644325,NM_020919.4(ALS2):c.218G>A (p.Gly73Glu),ALS2,201761776,rs754181704,4.055248708403287e-6,Uncertain significance,p.Gly73Glu,c.218G>A,"criteria provided, single submitter ",rs754181704:
 4405,NM_020919.4(ALS2):c.138del (p.Ala47fs),ALS2,201767266,NA,NA,Pathogenic,p.Ala47fs),NA,no assertion criteria provided ,N/A

@@ -23,7 +23,7 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 570108,NM_004738.4(VAPB):c.493G>A (p.Glu165Lys),VAPB,58441003,rs772254840,7.960389103819394e-6,Uncertain significance,p.Glu165Lys,c.493G>A,"criteria provided, single submitter ",rs772254840:
 465875,NM_004738.4(VAPB):c.510G>A (p.Met170Ile),VAPB,58441020,rs143144050,0.0012630104224893688,Likely benign,p.Met170Ile,c.510G>A,"criteria provided, multiple submitters, no conflicts ",rs143144050:
 574815,NM_004738.4(VAPB):c.545G>A (p.Arg182Lys),VAPB,58441055,NA,NA,Uncertain significance,p.Arg182Lys,c.545G>A,"criteria provided, single submitter ",N/A
-338932,NM_004738.4(VAPB):c.574-4G>A,VAPB,58444073,rs201798741,2.6177454843890393e-4,Conflicting interpretations of pathogenicity,NA,c.574-4G>A,"criteria provided, conflicting interpretations ",rs201798741:
+338932,NM_004738.4(VAPB):c.574-4G>A,VAPB,58444073,rs201798741,2.6177454843890393e-4,Uncertain significance,NA,c.574-4G>A,"criteria provided, conflicting interpretations ",rs201798741:
 338933,NM_004738.4(VAPB):c.618C>T (p.Ser206=),VAPB,58444121,rs747208140,3.181040995665832e-5,Uncertain significance,p.Ser206=),c.618C>T,"criteria provided, single submitter ",rs747208140:
 191163,NM_004738.4(VAPB):c.656G>T (p.Gly219Val),VAPB,58444159,rs786205553,3.976269622890589e-6,Uncertain significance,p.Gly219Val,c.656G>T,"criteria provided, multiple submitters, no conflicts ",rs786205553:25741868
 191163,NM_004738.4(VAPB):c.656G>T (p.Gly219Val),VAPB,58444159,rs786205553,3.976269622890589e-6,Uncertain significance,p.Gly219Val,c.656G>T,"criteria provided, multiple submitters, no conflicts ",rs786205553:25741868

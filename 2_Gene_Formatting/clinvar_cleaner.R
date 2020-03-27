@@ -18,9 +18,6 @@ processed_clinvar <- fread(file ="../2_Gene_Formatting/clinvar_ALS.csv")
 # Helper functions---------
 # function for parsing and extracting information from the processed clinvar data----------
 clinvar.parse <- function(x){
-#remove the date for clinical significance column
-x$Clinical.Significance <- str_replace(string = x$Clinical.Significance,pattern = "\\(.*\\)",replacement = "")
-  
 #extracting information from the Name column in dataframe
   x$Protein.Consequence <-str_extract(string= x$Name, pattern = "p\\....\\d*...")
   x$Nucleotide.Consequence <-str_extract(string= x$Name, pattern = "c.*>[A,T,G,C]")

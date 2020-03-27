@@ -1,6 +1,6 @@
 VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Protein.Consequence,Nucleotide.Consequence,Review.Criteria,Pubmed_ID
 369360,NM_000454.4(SOD1):c.-156G>C,SOD1,31659614,NA,NA,Likely benign,NA,c.-156G>C,"criteria provided, single submitter ",N/A
-339660,NM_000454.4(SOD1):c.-109A>G,SOD1,31659661,NA,NA,Benign/Likely benign,NA,c.-109A>G,"criteria provided, multiple submitters, no conflicts ",N/A
+339660,NM_000454.4(SOD1):c.-109A>G,SOD1,31659661,NA,NA,Likely benign,NA,c.-109A>G,"criteria provided, multiple submitters, no conflicts ",N/A
 339661,NM_000454.4(SOD1):c.-84C>G,SOD1,31659686,NA,NA,Uncertain significance,NA,c.-84C>G,"criteria provided, single submitter ",N/A
 339662,NM_000454.4(SOD1):c.-83T>C,SOD1,31659687,NA,NA,Likely benign,NA,c.-83T>C,"criteria provided, single submitter ",N/A
 339663,NM_000454.4(SOD1):c.-56T>A,SOD1,31659714,NA,NA,Uncertain significance,NA,c.-56T>A,"criteria provided, single submitter ",N/A
@@ -17,7 +17,7 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 14780,NM_000454.4(SOD1):c.37G>C (p.Gly13Arg),SOD1,31659806,NA,NA,Pathogenic,p.Gly13Arg,c.37G>C,no assertion criteria provided ,N/A
 14776,NM_000454.4(SOD1):c.49G>A (p.Gly17Ser),SOD1,31659818,NA,NA,Pathogenic,p.Gly17Ser,c.49G>A,no assertion criteria provided ,N/A
 652612,NM_000454.4(SOD1):c.56T>C (p.Ile19Thr),SOD1,31659825,NA,NA,Uncertain significance,p.Ile19Thr,c.56T>C,"criteria provided, single submitter ",N/A
-516816,NM_000454.4(SOD1):c.59A>G (p.Asn20Ser),SOD1,31659828,rs768029813,7.812222577323249e-5,Conflicting interpretations of pathogenicity,p.Asn20Ser,c.59A>G,"criteria provided, conflicting interpretations ",rs768029813:
+516816,NM_000454.4(SOD1):c.59A>G (p.Asn20Ser),SOD1,31659828,rs768029813,7.812222577323249e-5,Uncertain significance,p.Asn20Ser,c.59A>G,"criteria provided, conflicting interpretations ",rs768029813:
 14773,NM_000454.4(SOD1):c.64G>A (p.Glu22Lys),SOD1,31659833,NA,NA,Pathogenic,p.Glu22Lys,c.64G>A,no assertion criteria provided ,N/A
 339668,NM_000454.4(SOD1):c.66G>A (p.Glu22=),SOD1,31659835,rs756458346,2.0002720369970316e-5,Uncertain significance,p.Glu22=),c.66G>A,"criteria provided, single submitter ",rs756458346:
 440292,NM_000454.4(SOD1):c.73-108T>A,SOD1,31663682,NA,NA,Benign,NA,c.73-108T>A,"criteria provided, multiple submitters, no conflicts ",N/A
@@ -40,14 +40,14 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 14758,NM_000454.4(SOD1):c.256G>C (p.Gly86Arg),SOD1,31667274,NA,NA,Pathogenic,p.Gly86Arg,c.256G>C,no assertion criteria provided ,N/A
 468253,NM_000454.4(SOD1):c.260A>G (p.Asn87Ser),SOD1,31667278,NA,NA,Likely pathogenic,p.Asn87Ser,c.260A>G,"criteria provided, single submitter ",N/A
 567744,NM_000454.4(SOD1):c.268G>A (p.Ala90Thr),SOD1,31667286,NA,NA,Uncertain significance,p.Ala90Thr,c.268G>A,"criteria provided, multiple submitters, no conflicts ",N/A
-14766,NM_000454.4(SOD1):c.272A>C (p.Asp91Ala),SOD1,31667290,rs80265967,0.001502425090852529,Conflicting interpretations of pathogenicity,p.Asp91Ala,c.272A>C,"criteria provided, conflicting interpretations ","rs80265967:7647793, 7655469, 8909456, 9817920, 10439968, 10809943, 11220750, 11284995, 11369193, 14506936, 17420412, 19965850, 22292843, 23100398, 23962495, 25741868, 28430856"
+14766,NM_000454.4(SOD1):c.272A>C (p.Asp91Ala),SOD1,31667290,rs80265967,0.001502425090852529,Uncertain significance,p.Asp91Ala,c.272A>C,"criteria provided, conflicting interpretations ","rs80265967:7647793, 7655469, 8909456, 9817920, 10439968, 10809943, 11220750, 11284995, 11369193, 14506936, 17420412, 19965850, 22292843, 23100398, 23962495, 25741868, 28430856"
 14784,NM_000454.4(SOD1):c.280G>C (p.Gly94Arg),SOD1,31667298,NA,NA,Pathogenic,p.Gly94Arg,c.280G>C,"criteria provided, single submitter ",N/A
 14759,NM_000454.4(SOD1):c.280G>T (p.Gly94Cys),SOD1,31667298,NA,NA,Pathogenic,p.Gly94Cys,c.280G>T,no assertion criteria provided ,N/A
 14760,NM_000454.4(SOD1):c.281G>C (p.Gly94Ala),SOD1,31667299,rs121912438,7.95279222535032e-6,Pathogenic,p.Gly94Ala,c.281G>C,no assertion criteria provided ,"rs121912438:8446170, 8560268, 8650157, 9228005"
 14760,NM_000454.4(SOD1):c.281G>C (p.Gly94Ala),SOD1,31667299,rs121912438,1.192918833802548e-5,Pathogenic,p.Gly94Ala,c.281G>C,no assertion criteria provided ,"rs121912438:8446170, 8560268, 8650157, 9228005"
 14783,NM_000454.4(SOD1):c.289G>A (p.Asp97Asn),SOD1,31667307,rs121912459,2.385818693684738e-5,Uncertain significance,p.Asp97Asn,c.289G>A,"criteria provided, single submitter ","rs121912459:10809943, 11220750"
 692200,NM_000454.4(SOD1):c.290A>T (p.Asp97Val),SOD1,31667308,NA,NA,Likely pathogenic,p.Asp97Val,c.290A>T,"criteria provided, single submitter ",N/A
-574319,NM_000454.4(SOD1):c.301G>A (p.Glu101Lys),SOD1,31667319,NA,NA,Pathogenic/Likely pathogenic,p.Glu101Lys,c.301G>A,"criteria provided, multiple submitters, no conflicts ",N/A
+574319,NM_000454.4(SOD1):c.301G>A (p.Glu101Lys),SOD1,31667319,NA,NA,Likely pathogenic,p.Glu101Lys,c.301G>A,"criteria provided, multiple submitters, no conflicts ",N/A
 14761,NM_000454.4(SOD1):c.302A>G (p.Glu101Gly),SOD1,31667320,NA,NA,Pathogenic,p.Glu101Gly,c.302A>G,"criteria provided, single submitter ",N/A
 14767,NM_000454.4(SOD1):c.313A>T (p.Ile105Phe),SOD1,31667331,NA,NA,Pathogenic,p.Ile105Phe,c.313A>T,no assertion criteria provided ,N/A
 695024,NC_000021.9:g.31667335C>T,SOD1,31667335,rs1378590183,3.9763328667769435e-6,Pathogenic,NA,NA,"criteria provided, single submitter ",rs1378590183:
@@ -59,7 +59,7 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 14777,NM_000454.4(SOD1):c.380T>A (p.Leu127Ter),SOD1,31668493,NA,NA,Pathogenic,p.Leu127Ter,c.380T>A,no assertion criteria provided ,N/A
 14774,NM_000454.4(SOD1):c.404G>A (p.Ser135Asn),SOD1,31668517,rs121912451,3.97886427298192e-6,Pathogenic,p.Ser135Asn,c.404G>A,no assertion criteria provided ,rs121912451:8990014
 649792,NM_000454.4(SOD1):c.416G>A (p.Gly139Glu),SOD1,31668529,NA,NA,Uncertain significance,p.Gly139Glu,c.416G>A,"criteria provided, single submitter ",N/A
-339669,NM_000454.4(SOD1):c.423T>A (p.Ala141=),SOD1,31668536,rs143100660,4.0680316386738924e-4,Benign/Likely benign,p.Ala141=),c.423T>A,"criteria provided, multiple submitters, no conflicts ",rs143100660:
+339669,NM_000454.4(SOD1):c.423T>A (p.Ala141=),SOD1,31668536,rs143100660,4.0680316386738924e-4,Likely benign,p.Ala141=),c.423T>A,"criteria provided, multiple submitters, no conflicts ",rs143100660:
 14768,NM_000454.4(SOD1):c.434T>C (p.Leu145Ser),SOD1,31668547,NA,NA,Pathogenic,p.Leu145Ser,c.434T>C,"criteria provided, multiple submitters, no conflicts ",N/A
 586637,NM_000454.4(SOD1):c.435G>C (p.Leu145Phe),SOD1,31668548,rs1482760341,1.591773713448896e-5,Pathogenic,p.Leu145Phe,c.435G>C,"criteria provided, multiple submitters, no conflicts ",rs1482760341:
 14769,NM_000454.4(SOD1):c.436G>A (p.Ala146Thr),SOD1,31668549,NA,NA,Pathogenic,p.Ala146Thr,c.436G>A,no assertion criteria provided ,N/A

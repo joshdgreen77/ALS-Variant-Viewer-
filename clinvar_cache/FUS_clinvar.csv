@@ -9,13 +9,13 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 259594,NM_004960.3(FUS):c.147C>A (p.Gly49=),FUS,31182621,rs741810,0.3163698199121833,Benign,p.Gly49=),c.147C>A,"criteria provided, multiple submitters, no conflicts ","rs741810:20061612, 21222600, 25741868"
 259594,NM_004960.3(FUS):c.147C>A (p.Gly49=),FUS,31182621,rs741810,3.9763328667769435e-6,Benign,p.Gly49=),c.147C>A,"criteria provided, multiple submitters, no conflicts ","rs741810:20061612, 21222600, 25741868"
 259594,NM_004960.3(FUS):c.147C>A (p.Gly49=),FUS,31182621,rs741810,3.9763328667769435e-6,Benign,p.Gly49=),c.147C>A,"criteria provided, multiple submitters, no conflicts ","rs741810:20061612, 21222600, 25741868"
-259595,NM_004960.3(FUS):c.153C>T (p.Gly51=),FUS,31182627,rs61733962,0.012297979440917381,Benign/Likely benign,p.Gly51=),c.153C>T,"criteria provided, multiple submitters, no conflicts ",rs61733962:25741868
-259596,NM_004960.3(FUS):c.190+9T>C,FUS,31182673,rs73530283,0.02094984904513091,Benign/Likely benign,NA,c.190+9T>C,"criteria provided, multiple submitters, no conflicts ",rs73530283:25741868
-259596,NM_004960.3(FUS):c.190+9T>C,FUS,31182673,rs73530283,3.976649116388566e-6,Benign/Likely benign,NA,c.190+9T>C,"criteria provided, multiple submitters, no conflicts ",rs73530283:25741868
+259595,NM_004960.3(FUS):c.153C>T (p.Gly51=),FUS,31182627,rs61733962,0.012297979440917381,Likely benign,p.Gly51=),c.153C>T,"criteria provided, multiple submitters, no conflicts ",rs61733962:25741868
+259596,NM_004960.3(FUS):c.190+9T>C,FUS,31182673,rs73530283,0.02094984904513091,Likely benign,NA,c.190+9T>C,"criteria provided, multiple submitters, no conflicts ",rs73530283:25741868
+259596,NM_004960.3(FUS):c.190+9T>C,FUS,31182673,rs73530283,3.976649116388566e-6,Likely benign,NA,c.190+9T>C,"criteria provided, multiple submitters, no conflicts ",rs73530283:25741868
 318983,NM_004960.3(FUS):c.192A>G (p.Thr64=),FUS,31183859,rs776333956,1.1928808868671766e-5,Uncertain significance,p.Thr64=),c.192A>G,"criteria provided, single submitter ",rs776333956:
 259598,NM_004960.3(FUS):c.291C>T (p.Tyr97=),FUS,31183958,rs1052352,0.5200526248779866,Benign,p.Tyr97=),c.291C>T,"criteria provided, multiple submitters, no conflicts ","rs1052352:20061612, 21222600, 25741868"
 318984,NM_004960.3(FUS):c.403A>G (p.Ser135Gly),FUS,31184276,rs886051934,3.1904032669729455e-5,Uncertain significance,p.Ser135Gly,c.403A>G,"criteria provided, single submitter ",rs886051934:
-318985,NM_004960.3(FUS):c.524-5C>T,FUS,31184934,rs73530287,0.0048054198834094845,Benign/Likely benign,NA,c.524-5C>T,"criteria provided, multiple submitters, no conflicts ",rs73530287:
+318985,NM_004960.3(FUS):c.524-5C>T,FUS,31184934,rs73530287,0.0048054198834094845,Likely benign,NA,c.524-5C>T,"criteria provided, multiple submitters, no conflicts ",rs73530287:
 29708,NM_004960.3(FUS):c.616G>A (p.Gly206Ser),FUS,31185031,rs387906628,6.488976850575085e-5,Pathogenic,p.Gly206Ser,c.616G>A,no assertion criteria provided ,rs387906628:20668259
 16227,NM_004960.3(FUS):c.646C>T (p.Arg216Cys),FUS,31185061,rs267606832,3.2057446944925306e-05,Pathogenic,p.Arg216Cys,c.646C>T,no assertion criteria provided ,"rs267606832:19861302, 22863194"
 16227,NM_004960.3(FUS):c.646C>T (p.Arg216Cys),FUS,31185061,rs267606832,1.2845587747795532e-4,Pathogenic,p.Arg216Cys,c.646C>T,no assertion criteria provided ,"rs267606832:19861302, 22863194"
@@ -30,7 +30,7 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 318989,NM_004960.3(FUS):c.951G>A (p.Thr317=),FUS,31189679,rs771216742,7.952855472757494e-6,Uncertain significance,p.Thr317=),c.951G>A,"criteria provided, single submitter ",rs771216742:
 566220,NM_004960.3(FUS):c.1111C>T (p.Arg371Cys),FUS,31190084,rs773141319,3.1841049480990894e-5,Uncertain significance,p.Arg371Cys,c.1111C>T,"criteria provided, single submitter ",rs773141319:
 566220,NM_004960.3(FUS):c.1111C>T (p.Arg371Cys),FUS,31190084,rs773141319,3.98914951332376e-6,Uncertain significance,p.Arg371Cys,c.1111C>T,"criteria provided, single submitter ",rs773141319:
-318990,NM_004960.3(FUS):c.1156C>A (p.Arg386=),FUS,31190129,rs61733965,0.004810140908833682,Benign/Likely benign,p.Arg386=),c.1156C>A,"criteria provided, multiple submitters, no conflicts ",rs61733965:
+318990,NM_004960.3(FUS):c.1156C>A (p.Arg386=),FUS,31190129,rs61733965,0.004810140908833682,Likely benign,p.Arg386=),c.1156C>A,"criteria provided, multiple submitters, no conflicts ",rs61733965:
 540278,NM_004960.3(FUS):c.1171C>G (p.Pro391Ala),FUS,31190277,rs560450437,4.807076015895398e-5,Uncertain significance,p.Pro391Ala,c.1171C>G,"criteria provided, single submitter ",rs560450437:
 318991,NM_004960.3(FUS):c.1181G>T (p.Arg394Leu),FUS,31190287,NA,NA,Uncertain significance,p.Arg394Leu,c.1181G>T,"criteria provided, single submitter ",N/A
 37069,NM_004960.3(FUS):c.1292C>T (p.Pro431Leu),FUS,31190398,rs186547381,1.1761519160583942e-4,Uncertain significance,p.Pro431Leu,c.1292C>T,"criteria provided, multiple submitters, no conflicts ",rs186547381:22863194
@@ -53,7 +53,7 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 16228,NM_004960.3(FUS):c.1570A>T (p.Arg524Trp),FUS,31191427,NA,NA,Pathogenic,p.Arg524Trp,c.1570A>T,no assertion criteria provided ,N/A
 280109,NM_004960.3(FUS):c.1572G>C (p.Arg524Ser),FUS,31191429,NA,NA,Pathogenic,p.Arg524Ser,c.1572G>C,"criteria provided, single submitter ",N/A
 280110,NM_004960.3(FUS):c.1574C>T (p.Pro525Leu),FUS,31191431,rs886041390,3.97728176654947e-6,Pathogenic,p.Pro525Leu,c.1574C>T,"criteria provided, multiple submitters, no conflicts ",rs886041390:
-318993,NM_004960.3(FUS):c.*41G>A,FUS,31191479,rs80301724,0.006399087767012295,Benign/Likely benign,NA,c.*41G>A,"criteria provided, multiple submitters, no conflicts ","rs80301724:22292843, 24033266, 27790088"
+318993,NM_004960.3(FUS):c.*41G>A,FUS,31191479,rs80301724,0.006399087767012295,Likely benign,NA,c.*41G>A,"criteria provided, multiple submitters, no conflicts ","rs80301724:22292843, 24033266, 27790088"
 567482,NM_004960.3(FUS):c.*108C>T,FUS,31191546,NA,NA,Uncertain significance,NA,c.*108C>T,"criteria provided, single submitter ",N/A
 318994,NM_004960.3(FUS):c.*196C>T,FUS,31191634,NA,NA,Uncertain significance,NA,c.*196C>T,"criteria provided, single submitter ",N/A
 318995,NM_004960.3(FUS):c.*214C>T,FUS,31191652,NA,NA,Likely benign,NA,c.*214C>T,"criteria provided, single submitter ",N/A

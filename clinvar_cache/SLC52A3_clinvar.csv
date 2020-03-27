@@ -24,8 +24,8 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 543056,NM_033409.4(SLC52A3):c.1149G>A (p.Met383Ile),SLC52A3,761749,rs763995965,3.90223e-5,Uncertain significance,p.Met383Ile,c.1149G>A,"criteria provided, single submitter ",rs763995965:
 571043,NM_033409.4(SLC52A3):c.1102G>A (p.Val368Met),SLC52A3,761796,rs148181353,7.96622e-6,Uncertain significance,p.Val368Met,c.1102G>A,"criteria provided, single submitter ",rs148181353:
 543065,NM_033409.4(SLC52A3):c.1095C>T (p.Val365=),SLC52A3,761803,rs776667122,3.98333e-6,Likely benign,p.Val365=),c.1095C>T,"criteria provided, single submitter ",rs776667122:
-210024,NM_033409.4(SLC52A3):c.1048T>A (p.Leu350Met),SLC52A3,763523,rs76947760,3.97937e-6,Benign/Likely benign,p.Leu350Met,c.1048T>A,"criteria provided, multiple submitters, no conflicts ",rs76947760:20206331
-210024,NM_033409.4(SLC52A3):c.1048T>A (p.Leu350Met),SLC52A3,763523,rs76947760,0.005224768,Benign/Likely benign,p.Leu350Met,c.1048T>A,"criteria provided, multiple submitters, no conflicts ",rs76947760:20206331
+210024,NM_033409.4(SLC52A3):c.1048T>A (p.Leu350Met),SLC52A3,763523,rs76947760,3.97937e-6,Likely benign,p.Leu350Met,c.1048T>A,"criteria provided, multiple submitters, no conflicts ",rs76947760:20206331
+210024,NM_033409.4(SLC52A3):c.1048T>A (p.Leu350Met),SLC52A3,763523,rs76947760,0.005224768,Likely benign,p.Leu350Met,c.1048T>A,"criteria provided, multiple submitters, no conflicts ",rs76947760:20206331
 476621,NM_033409.4(SLC52A3):c.994G>A (p.Val332Ile),SLC52A3,763577,rs890765839,1.19331e-5,Uncertain significance,p.Val332Ile,c.994G>A,"criteria provided, single submitter ",rs890765839:
 210023,NM_033409.4(SLC52A3):c.989G>T (p.Gly330Val),SLC52A3,763582,NA,NA,Pathogenic,p.Gly330Val,c.989G>T,no assertion criteria provided ,N/A
 543060,NM_033409.4(SLC52A3):c.987T>C (p.Tyr329=),SLC52A3,763584,rs376546378,6.71891e-5,Likely benign,p.Tyr329=),c.987T>C,"criteria provided, single submitter ",rs376546378:
@@ -63,8 +63,8 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 662152,NM_033409.4(SLC52A3):c.515T>C (p.Ile172Thr),SLC52A3,765260,rs774371416,3.97665e-6,Uncertain significance,p.Ile172Thr,c.515T>C,"criteria provided, single submitter ",rs774371416:
 642283,NM_033409.4(SLC52A3):c.499G>A (p.Val167Ile),SLC52A3,765276,rs112034541,2.12133e-5,Uncertain significance,p.Val167Ile,c.499G>A,"criteria provided, single submitter ",rs112034541:
 210031,NM_033409.4(SLC52A3):c.403A>G (p.Thr135Ala),SLC52A3,765372,rs527853872,4.95361e-5,Uncertain significance,p.Thr135Ala,c.403A>G,"criteria provided, single submitter ",rs527853872:
-476610,NM_033409.4(SLC52A3):c.395G>A (p.Arg132Gln),SLC52A3,765380,rs142157418,3.98042e-6,Conflicting interpretations of pathogenicity,p.Arg132Gln,c.395G>A,"criteria provided, conflicting interpretations ",rs142157418:
-476610,NM_033409.4(SLC52A3):c.395G>A (p.Arg132Gln),SLC52A3,765380,rs142157418,1.45074e-4,Conflicting interpretations of pathogenicity,p.Arg132Gln,c.395G>A,"criteria provided, conflicting interpretations ",rs142157418:
+476610,NM_033409.4(SLC52A3):c.395G>A (p.Arg132Gln),SLC52A3,765380,rs142157418,3.98042e-6,Uncertain significance,p.Arg132Gln,c.395G>A,"criteria provided, conflicting interpretations ",rs142157418:
+476610,NM_033409.4(SLC52A3):c.395G>A (p.Arg132Gln),SLC52A3,765380,rs142157418,1.45074e-4,Uncertain significance,p.Arg132Gln,c.395G>A,"criteria provided, conflicting interpretations ",rs142157418:
 141,NM_033409.4(SLC52A3):c.394C>T (p.Arg132Trp),SLC52A3,765381,rs267606684,1.99008e-5,Uncertain significance,p.Arg132Trp,c.394C>T,"criteria provided, single submitter ",rs267606684:20206331
 210030,NM_033409.4(SLC52A3):c.374C>A (p.Thr125Asn),SLC52A3,765401,rs767263985,2.83372e-5,Pathogenic,p.Thr125Asn,c.374C>A,no assertion criteria provided ,rs767263985:
 639327,NM_033409.4(SLC52A3):c.327G>T (p.Leu109Phe),SLC52A3,765448,NA,NA,Uncertain significance,p.Leu109Phe,c.327G>T,"criteria provided, single submitter ",N/A

@@ -12,29 +12,29 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 565324,NM_001008212.2(OPTN):c.14C>G (p.Pro5Arg),OPTN,13109136,NA,NA,Uncertain significance,p.Pro5Arg,c.14C>G,"criteria provided, single submitter ",N/A
 96022,NM_001008212.2(OPTN):c.102G>A (p.Thr34=),OPTN,13109224,rs2234968,0.23653067580193085,Benign,p.Thr34=),c.102G>A,"criteria provided, multiple submitters, no conflicts ","rs2234968:17122126, 20668460, 20671613, 23757202, 25741868, 27485216, 28993189"
 96022,NM_001008212.2(OPTN):c.102G>A (p.Thr34=),OPTN,13109224,rs2234968,3.979941096871766e-6,Benign,p.Thr34=),c.102G>A,"criteria provided, multiple submitters, no conflicts ","rs2234968:17122126, 20668460, 20671613, 23757202, 25741868, 27485216, 28993189"
-96023,NM_001008212.2(OPTN):c.123G>A (p.Leu41=),OPTN,13109245,rs11591687,0.007325099968151739,Benign/Likely benign,p.Leu41=),c.123G>A,"criteria provided, multiple submitters, no conflicts ",rs11591687:23757202
-96023,NM_001008212.2(OPTN):c.123G>A (p.Leu41=),OPTN,13109245,rs11591687,3.980574795000398e-6,Benign/Likely benign,p.Leu41=),c.123G>A,"criteria provided, multiple submitters, no conflicts ",rs11591687:23757202
+96023,NM_001008212.2(OPTN):c.123G>A (p.Leu41=),OPTN,13109245,rs11591687,0.007325099968151739,Likely benign,p.Leu41=),c.123G>A,"criteria provided, multiple submitters, no conflicts ",rs11591687:23757202
+96023,NM_001008212.2(OPTN):c.123G>A (p.Leu41=),OPTN,13109245,rs11591687,3.980574795000398e-6,Likely benign,p.Leu41=),c.123G>A,"criteria provided, multiple submitters, no conflicts ",rs11591687:23757202
 299209,NM_001008212.2(OPTN):c.247C>T (p.Arg83Cys),OPTN,13110354,rs756622651,1.194086881761517e-5,Uncertain significance,p.Arg83Cys,c.247C>T,"criteria provided, single submitter ",rs756622651:
 523078,NM_001008212.2(OPTN):c.275A>T (p.Glu92Val),OPTN,13110382,rs202044898,8.13548770480206e-5,Uncertain significance,p.Glu92Val,c.275A>T,"criteria provided, single submitter ",rs202044898:
-7099,NM_001008212.2(OPTN):c.293T>A (p.Met98Lys),OPTN,13110400,rs11258194,0.046073998598993825,Benign/Likely benign,p.Met98Lys,c.293T>A,"criteria provided, multiple submitters, no conflicts ","rs11258194:11834836, 11978762, 12208142, 15761120, 16619239, 20668460, 25741868, 26658948, 27485216, 28430856"
-299210,NM_001008212.2(OPTN):c.402C>A (p.Ala134=),OPTN,13112485,rs113955718,0.0025427205341481355,Benign/Likely benign,p.Ala134=),c.402C>A,"criteria provided, multiple submitters, no conflicts ",rs113955718:
-299210,NM_001008212.2(OPTN):c.402C>A (p.Ala134=),OPTN,13112485,rs113955718,4.9510552820686925e-5,Benign/Likely benign,p.Ala134=),c.402C>A,"criteria provided, multiple submitters, no conflicts ",rs113955718:
+7099,NM_001008212.2(OPTN):c.293T>A (p.Met98Lys),OPTN,13110400,rs11258194,0.046073998598993825,Likely benign,p.Met98Lys,c.293T>A,"criteria provided, multiple submitters, no conflicts ","rs11258194:11834836, 11978762, 12208142, 15761120, 16619239, 20668460, 25741868, 26658948, 27485216, 28430856"
+299210,NM_001008212.2(OPTN):c.402C>A (p.Ala134=),OPTN,13112485,rs113955718,0.0025427205341481355,Likely benign,p.Ala134=),c.402C>A,"criteria provided, multiple submitters, no conflicts ",rs113955718:
+299210,NM_001008212.2(OPTN):c.402C>A (p.Ala134=),OPTN,13112485,rs113955718,4.9510552820686925e-5,Likely benign,p.Ala134=),c.402C>A,"criteria provided, multiple submitters, no conflicts ",rs113955718:
 651429,NM_001008212.2(OPTN):c.403G>A (p.Glu135Lys),OPTN,13112486,rs140599944,9.548261155551783e-5,Uncertain significance,p.Glu135Lys,c.403G>A,"criteria provided, single submitter ",rs140599944:
 651429,NM_001008212.2(OPTN):c.403G>A (p.Glu135Lys),OPTN,13112486,rs140599944,3.9771552204139425e-5,Uncertain significance,p.Glu135Lys,c.403G>A,"criteria provided, single submitter ",rs140599944:
-631627,NM_001008212.2(OPTN):c.403G>T (p.Glu135Ter),OPTN,13112486,rs140599944,9.548261155551783e-5,Conflicting interpretations of pathogenicity,p.Glu135Ter,c.403G>T,"criteria provided, conflicting interpretations ",rs140599944:
-631627,NM_001008212.2(OPTN):c.403G>T (p.Glu135Ter),OPTN,13112486,rs140599944,3.9771552204139425e-5,Conflicting interpretations of pathogenicity,p.Glu135Ter,c.403G>T,"criteria provided, conflicting interpretations ",rs140599944:
+631627,NM_001008212.2(OPTN):c.403G>T (p.Glu135Ter),OPTN,13112486,rs140599944,9.548261155551783e-5,Uncertain significance,p.Glu135Ter,c.403G>T,"criteria provided, conflicting interpretations ",rs140599944:
+631627,NM_001008212.2(OPTN):c.403G>T (p.Glu135Ter),OPTN,13112486,rs140599944,3.9771552204139425e-5,Uncertain significance,p.Glu135Ter,c.403G>T,"criteria provided, conflicting interpretations ",rs140599944:
 299211,NM_001008212.2(OPTN):c.425A>C (p.Gln142Pro),OPTN,13112508,rs757411888,3.976522610507564e-6,Uncertain significance,p.Gln142Pro,c.425A>C,"criteria provided, single submitter ",rs757411888:
 299212,NM_001008212.2(OPTN):c.441G>A (p.Val147=),OPTN,13112524,NA,NA,Uncertain significance,p.Val147=),c.441G>A,"criteria provided, single submitter ",N/A
 299213,NM_001008212.2(OPTN):c.444G>A (p.Val148=),OPTN,13112527,rs780011442,3.535317825072474e-5,Uncertain significance,p.Val148=),c.444G>A,"criteria provided, single submitter ",rs780011442:
 299214,NM_001008212.2(OPTN):c.447G>A (p.Arg149=),OPTN,13112530,rs555741399,4.5331636710672815e-4,Likely benign,p.Arg149=),c.447G>A,"criteria provided, single submitter ",rs555741399:
-256881,NM_001008212.2(OPTN):c.489A>G (p.Glu163=),OPTN,13112572,rs113811959,0.001513137426817886,Benign/Likely benign,p.Glu163=),c.489A>G,"criteria provided, multiple submitters, no conflicts ",rs113811959:25741868
+256881,NM_001008212.2(OPTN):c.489A>G (p.Glu163=),OPTN,13112572,rs113811959,0.001513137426817886,Likely benign,p.Glu163=),c.489A>G,"criteria provided, multiple submitters, no conflicts ",rs113811959:25741868
 197846,NM_001008212.2(OPTN):c.553-5C>T,OPTN,13116262,rs2244380,0.8139288648403638,Benign,NA,c.553-5C>T,"criteria provided, multiple submitters, no conflicts ","rs2244380:15312511, 16385451, 20668460, 25741868, 27485216"
 299215,NM_001008212.2(OPTN):c.573A>G (p.Ser191=),OPTN,13116287,rs773095721,5.571651437486071e-5,Uncertain significance,p.Ser191=),c.573A>G,"criteria provided, single submitter ",rs773095721:
 256883,NM_001008212.2(OPTN):c.626+24G>A,OPTN,13116364,rs11258211,0.025473521178794208,Benign,NA,c.626+24G>A,"criteria provided, multiple submitters, no conflicts ","rs11258211:25741868, 27485216"
-299216,NM_001008212.2(OPTN):c.627-10T>C,OPTN,13118878,rs80327830,0.0029026601236017027,Benign/Likely benign,NA,c.627-10T>C,"criteria provided, multiple submitters, no conflicts ",rs80327830:
-266060,NM_001008212.2(OPTN):c.941A>T (p.Gln314Leu),OPTN,13124053,rs142812715,1.4863784036295944e-4,Conflicting interpretations of pathogenicity,p.Gln314Leu,c.941A>T,"criteria provided, conflicting interpretations ",rs142812715:28089114
+299216,NM_001008212.2(OPTN):c.627-10T>C,OPTN,13118878,rs80327830,0.0029026601236017027,Likely benign,NA,c.627-10T>C,"criteria provided, multiple submitters, no conflicts ",rs80327830:
+266060,NM_001008212.2(OPTN):c.941A>T (p.Gln314Leu),OPTN,13124053,rs142812715,1.4863784036295944e-4,Uncertain significance,p.Gln314Leu,c.941A>T,"criteria provided, conflicting interpretations ",rs142812715:28089114
 299217,NM_001008212.2(OPTN):c.961A>T (p.Ser321Cys),OPTN,13124073,NA,NA,Uncertain significance,p.Ser321Cys,c.961A>T,"criteria provided, single submitter ",N/A
-299218,NM_001008212.2(OPTN):c.963C>T (p.Ser321=),OPTN,13124075,rs150381274,0.001735125468377427,Conflicting interpretations of pathogenicity,p.Ser321=),c.963C>T,"criteria provided, conflicting interpretations ",rs150381274:
+299218,NM_001008212.2(OPTN):c.963C>T (p.Ser321=),OPTN,13124075,rs150381274,0.001735125468377427,Uncertain significance,p.Ser321=),c.963C>T,"criteria provided, conflicting interpretations ",rs150381274:
 7101,NM_001008212.2(OPTN):c.1192C>T (p.Gln398Ter),OPTN,13125989,rs267606928,7.966159753367695e-6,Pathogenic,p.Gln398Ter,c.1192C>T,no assertion criteria provided ,rs267606928:20428114
 299219,NM_001008212.2(OPTN):c.1243-13G>A,OPTN,13127732,rs374144660,7.96895295927068e-6,Uncertain significance,NA,c.1243-13G>A,"criteria provided, single submitter ",rs374144660:
 460308,NM_001008212.2(OPTN):c.1401+21C>G,OPTN,13127924,rs553828705,1.6703254748496707e-4,Likely benign,NA,c.1401+21C>G,"criteria provided, single submitter ",rs553828705:
@@ -42,8 +42,8 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 299220,NM_001008212.2(OPTN):c.1427A>G (p.His476Arg),OPTN,13132092,NA,NA,Uncertain significance,p.His476Arg,c.1427A>G,"criteria provided, single submitter ",N/A
 7102,NM_001008212.2(OPTN):c.1433A>G (p.Glu478Gly),OPTN,13132098,NA,NA,Pathogenic,p.Glu478Gly,c.1433A>G,no assertion criteria provided ,N/A
 299222,NM_001008212.2(OPTN):c.1569G>A (p.Ala523=),OPTN,13133538,rs771316696,1.4141371288773873e-5,Uncertain significance,p.Ala523=),c.1569G>A,"criteria provided, single submitter ",rs771316696:
-299223,NM_001008212.2(OPTN):c.1612+10G>A,OPTN,13133591,rs191671333,0.0012412037200749673,Benign/Likely benign,NA,c.1612+10G>A,"criteria provided, multiple submitters, no conflicts ",rs191671333:
-7098,NM_001008212.2(OPTN):c.1634G>A (p.Arg545Gln),OPTN,13136766,rs75654767,0.002973875160893365,Conflicting interpretations of pathogenicity,p.Arg545Gln,c.1634G>A,"criteria provided, conflicting interpretations ","rs75654767:11834836, 25333069, 25741868, 27485216"
+299223,NM_001008212.2(OPTN):c.1612+10G>A,OPTN,13133591,rs191671333,0.0012412037200749673,Likely benign,NA,c.1612+10G>A,"criteria provided, multiple submitters, no conflicts ",rs191671333:
+7098,NM_001008212.2(OPTN):c.1634G>A (p.Arg545Gln),OPTN,13136766,rs75654767,0.002973875160893365,Uncertain significance,p.Arg545Gln,c.1634G>A,"criteria provided, conflicting interpretations ","rs75654767:11834836, 25333069, 25741868, 27485216"
 299224,NM_001008212.2(OPTN):c.*152G>T,OPTN,13137018,NA,NA,Uncertain significance,NA,c.*152G>T,"criteria provided, single submitter ",N/A
 299225,NM_001008212.2(OPTN):c.*218G>C,OPTN,13137084,NA,NA,Uncertain significance,NA,c.*218G>C,"criteria provided, single submitter ",N/A
 299226,NM_001008212.2(OPTN):c.*269C>T,OPTN,13137135,NA,NA,Likely benign,NA,c.*269C>T,"criteria provided, single submitter ",N/A

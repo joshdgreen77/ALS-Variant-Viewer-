@@ -1,16 +1,16 @@
 VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Protein.Consequence,Nucleotide.Consequence,Review.Criteria,Pubmed_ID
 810899,NM_001199397.3(NEK1):c.3222+64T>A,NEK1,169424489,rs72691050,0.0025469595670168737,Likely benign,NA,c.3222+64T>A,"criteria provided, single submitter ",rs72691050:
-208600,NM_012224.3(NEK1):c.3023C>G (p.Ser1008Ter),NEK1,169424668,rs199947197,1.1768230058199247e-4,Pathogenic/Likely pathogenic,p.Ser1008Ter,c.3023C>G,"criteria provided, multiple submitters, no conflicts ","rs199947197:21211617, 22499340, 24033266"
-348101,NM_012224.3(NEK1):c.2680+12T>A,NEK1,169438071,rs77658514,0.01465374002314334,Benign/Likely benign,NA,c.2680+12T>A,"criteria provided, multiple submitters, no conflicts ",rs77658514:
-495118,NM_012224.3(NEK1):c.2350A>T (p.Arg784Ter),NEK1,169477124,rs749428135,4.710004992605292e-6,risk factor,p.Arg784Ter,c.2350A>T,no assertion criteria provided ,rs749428135:
+208600,NM_012224.3(NEK1):c.3023C>G (p.Ser1008Ter),NEK1,169424668,rs199947197,1.1768230058199247e-4,Likely pathogenic,p.Ser1008Ter,c.3023C>G,"criteria provided, multiple submitters, no conflicts ","rs199947197:21211617, 22499340, 24033266"
+348101,NM_012224.3(NEK1):c.2680+12T>A,NEK1,169438071,rs77658514,0.01465374002314334,Likely benign,NA,c.2680+12T>A,"criteria provided, multiple submitters, no conflicts ",rs77658514:
+495118,NM_012224.3(NEK1):c.2350A>T (p.Arg784Ter),NEK1,169477124,rs749428135,4.710004992605292e-6,Likely benign,p.Arg784Ter,c.2350A>T,no assertion criteria provided ,rs749428135:
 811174,NM_001199397.3(NEK1):c.2400G>C (p.Glu800Asp),NEK1,169477158,NA,NA,Uncertain significance,p.Glu800Asp,c.2400G>C,"criteria provided, single submitter ",N/A
 578956,NM_012224.3(NEK1):c.1841C>G (p.Ala614Gly),NEK1,169507119,rs529024280,1.488239189802585e-5,Uncertain significance,p.Ala614Gly,c.1841C>G,"criteria provided, multiple submitters, no conflicts ",rs529024280:
 578956,NM_012224.3(NEK1):c.1841C>G (p.Ala614Gly),NEK1,169507119,rs529024280,4.197870839909998e-6,Uncertain significance,p.Ala614Gly,c.1841C>G,"criteria provided, multiple submitters, no conflicts ",rs529024280:
-348108,NM_012224.3(NEK1):c.1792G>A (p.Ala598Thr),NEK1,169507750,rs33933790,0.05106620169220215,Benign/Likely benign,p.Ala598Thr,c.1792G>A,"criteria provided, multiple submitters, no conflicts ",rs33933790:
-95507,NM_012224.3(NEK1):c.1746A>G (p.Glu582=),NEK1,169508251,rs17544885,0.04918466967101564,Benign/Likely benign,p.Glu582=),c.1746A>G,"criteria provided, multiple submitters, no conflicts ",rs17544885:23757202
-495120,NM_012224.3(NEK1):c.1648C>T (p.Arg550Ter),NEK1,169537826,rs371575563,1.0716582124741017e-5,risk factor,p.Arg550Ter,c.1648C>T,no assertion criteria provided ,rs371575563:
-266047,NM_012224.3(NEK1):c.1137T>A (p.Asp379Glu),NEK1,169561835,rs372585344,1.2960176258397114e-4,Conflicting interpretations of pathogenicity,p.Asp379Glu,c.1137T>A,"criteria provided, conflicting interpretations ",rs372585344:28089114
+348108,NM_012224.3(NEK1):c.1792G>A (p.Ala598Thr),NEK1,169507750,rs33933790,0.05106620169220215,Likely benign,p.Ala598Thr,c.1792G>A,"criteria provided, multiple submitters, no conflicts ",rs33933790:
+95507,NM_012224.3(NEK1):c.1746A>G (p.Glu582=),NEK1,169508251,rs17544885,0.04918466967101564,Likely benign,p.Glu582=),c.1746A>G,"criteria provided, multiple submitters, no conflicts ",rs17544885:23757202
+495120,NM_012224.3(NEK1):c.1648C>T (p.Arg550Ter),NEK1,169537826,rs371575563,1.0716582124741017e-5,Likely benign,p.Arg550Ter,c.1648C>T,no assertion criteria provided ,rs371575563:
+266047,NM_012224.3(NEK1):c.1137T>A (p.Asp379Glu),NEK1,169561835,rs372585344,1.2960176258397114e-4,Uncertain significance,p.Asp379Glu,c.1137T>A,"criteria provided, conflicting interpretations ",rs372585344:28089114
 348117,NM_012224.3(NEK1):c.1068G>A (p.Arg356=),NEK1,169562149,rs17055010,0.024091809605929028,Benign,p.Arg356=),c.1068G>A,"criteria provided, multiple submitters, no conflicts ",rs17055010:
-266046,NM_012224.3(NEK1):c.1021G>A (p.Ala341Thr),NEK1,169562196,rs189186475,0.0017284638974073042,Conflicting interpretations of pathogenicity,p.Ala341Thr,c.1021G>A,"criteria provided, conflicting interpretations ","rs189186475:25741868, 28089114"
-199125,NM_012224.3(NEK1):c.782G>A (p.Arg261His),NEK1,169585374,rs200161705,6.03539153596691e-5,Conflicting interpretations of pathogenicity,p.Arg261His,c.782G>A,"criteria provided, conflicting interpretations ",rs200161705:28089114
-199125,NM_012224.3(NEK1):c.782G>A (p.Arg261His),NEK1,169585374,rs200161705,0.0023043779608577287,Conflicting interpretations of pathogenicity,p.Arg261His,c.782G>A,"criteria provided, conflicting interpretations ",rs200161705:28089114
+266046,NM_012224.3(NEK1):c.1021G>A (p.Ala341Thr),NEK1,169562196,rs189186475,0.0017284638974073042,Uncertain significance,p.Ala341Thr,c.1021G>A,"criteria provided, conflicting interpretations ","rs189186475:25741868, 28089114"
+199125,NM_012224.3(NEK1):c.782G>A (p.Arg261His),NEK1,169585374,rs200161705,6.03539153596691e-5,Uncertain significance,p.Arg261His,c.782G>A,"criteria provided, conflicting interpretations ",rs200161705:28089114
+199125,NM_012224.3(NEK1):c.782G>A (p.Arg261His),NEK1,169585374,rs200161705,0.0023043779608577287,Uncertain significance,p.Arg261His,c.782G>A,"criteria provided, conflicting interpretations ",rs200161705:28089114

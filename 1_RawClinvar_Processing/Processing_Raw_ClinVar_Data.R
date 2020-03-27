@@ -43,9 +43,7 @@ clinvar_no_blanks$GRCh38Location <- as.numeric(clinvar_no_blanks$GRCh38Location)
 
 
 # clean up the "Gene" column---------
-
 # assign all variants to a single gene. clean up the gene column
-
 clinvar_clean_gene <- clinvar_no_blanks # name new data frame
 
 
@@ -59,8 +57,25 @@ clinvar_clean_gene$Gene<- gsub(pattern = "CNTF\\|ZFP91-CNTF",replacement = "CNTF
 clinvar_clean_gene$Gene<- gsub(pattern = "FANCG\\|VCP",replacement = "VCP",x=clinvar_clean_gene$Gene)
 #TARDBP
 clinvar_clean_gene$Gene<- gsub(pattern = "MASP2\\|TARDBP",replacement = "TARDBP",x=clinvar_clean_gene$Gene)
-#PRPH
+#PRPH 
 clinvar_clean_gene$Gene<- gsub(pattern = "PRPH\\|LOC101927267",replacement = "PRPH",x=clinvar_clean_gene$Gene)
+
+
+# clean up the "Clinical.Significance" column---------
+# Remove the date from the clinical significance column
+clinvar_clean_gene$Clinical.Significance <- str_replace(string = clinvar_clean_gene$Clinical.Significance,pattern = "\\(.*\\)",replacement = "")
+
+# Define column to sort clinical.significance column
+clinsig_stratify <- function(gene){
+  #stratify the different Clinical.Significance levels 1 of 5 categories
+  gene <- gsub(pattern = "Conflicting interpretations of pathogenicity",replacement="Uncertain significance", x = gene) 
+  gene <- gsub(pattern = "Pathogenic/Likely pathogenic",replacement = "Likely pathogenic",x=gene)
+  gene <- gsub(pattern = "Benign/Likely benign",replacement = "Likely benign",x=gene)
+  gene <- gsub(pattern = "risk factor",replacement = "Likely benign",x = gene)
+}
+
+# apply function to the data frame
+clinvar_clean_gene$Clinical.Significance<-clinsig_stratify(clinvar_clean_gene$Clinical.Significance)
 
 # write the cleaned up clinvar data to a file to be read by clinvar cleaner
 write_csv(x = clinvar_clean_gene,path = "../2_Gene_Formatting/clinvar_ALS.csv")

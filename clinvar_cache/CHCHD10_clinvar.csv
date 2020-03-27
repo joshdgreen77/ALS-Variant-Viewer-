@@ -18,7 +18,7 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 567906,NM_213720.3(CHCHD10):c.276T>A (p.Ala92=),CHCHD10,23766261,rs1252496774,1.58929e-4,Uncertain significance,p.Ala92=),c.276T>A,"criteria provided, single submitter ",rs1252496774:
 540611,NM_213720.3(CHCHD10):c.274G>A (p.Ala92Thr),CHCHD10,23766263,rs374353973,0.083131218,Uncertain significance,p.Ala92Thr,c.274G>A,"criteria provided, single submitter ",rs374353973:
 540611,NM_213720.3(CHCHD10):c.274G>A (p.Ala92Thr),CHCHD10,23766263,rs374353973,7.42464e-5,Uncertain significance,p.Ala92Thr,c.274G>A,"criteria provided, single submitter ",rs374353973:
-204292,NM_213720.3(CHCHD10):c.239C>T (p.Pro80Leu),CHCHD10,23767396,rs775332895,2.83193e-4,Benign/Likely benign,p.Pro80Leu,c.239C>T,"criteria provided, multiple submitters, no conflicts ",rs775332895:25576308
+204292,NM_213720.3(CHCHD10):c.239C>T (p.Pro80Leu),CHCHD10,23767396,rs775332895,2.83193e-4,Likely benign,p.Pro80Leu,c.239C>T,"criteria provided, multiple submitters, no conflicts ",rs775332895:25576308
 640736,NM_213720.3(CHCHD10):c.224G>A (p.Gly75Glu),CHCHD10,23767411,rs767069606,3.00379e-5,Uncertain significance,p.Gly75Glu,c.224G>A,"criteria provided, single submitter ",rs767069606:
 640736,NM_213720.3(CHCHD10):c.224G>A (p.Gly75Glu),CHCHD10,23767411,rs767069606,8.51151e-6,Uncertain significance,p.Gly75Glu,c.224G>A,"criteria provided, single submitter ",rs767069606:
 652563,NM_213720.3(CHCHD10):c.214G>C (p.Ala72Pro),CHCHD10,23767421,rs542541060,8.57677e-6,Uncertain significance,p.Ala72Pro,c.214G>C,"criteria provided, single submitter ",rs542541060:
@@ -32,7 +32,7 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 140745,NM_213720.3(CHCHD10):c.176C>T (p.Ser59Leu),CHCHD10,23767459,NA,NA,Pathogenic,p.Ser59Leu,c.176C>T,no assertion criteria provided ,N/A
 180222,NM_213720.2(CHCHD10):c.[43C>A ;172G>C],CHCHD10,23767463,NA,NA,Pathogenic,NA,c.[43C>A ;172G>C,no assertion criteria provided ,N/A
 655109,NM_213720.3(CHCHD10):c.151A>G (p.Thr51Ala),CHCHD10,23767484,NA,NA,Uncertain significance,p.Thr51Ala,c.151A>G,"criteria provided, single submitter ",N/A
-204291,NM_213720.3(CHCHD10):c.100C>T (p.Pro34Ser),CHCHD10,23767535,rs551521196,0.002444318,Benign/Likely benign,p.Pro34Ser,c.100C>T,"criteria provided, multiple submitters, no conflicts ","rs551521196:25155093, 25576308"
+204291,NM_213720.3(CHCHD10):c.100C>T (p.Pro34Ser),CHCHD10,23767535,rs551521196,0.002444318,Likely benign,p.Pro34Ser,c.100C>T,"criteria provided, multiple submitters, no conflicts ","rs551521196:25155093, 25576308"
 180220,NM_213720.3(CHCHD10):c.44G>T (p.Arg15Leu),CHCHD10,23767591,NA,NA,Pathogenic,p.Arg15Leu,c.44G>T,"criteria provided, single submitter ",N/A
 204293,NM_001301339.1(CHCHD10):c.[43C>G;172G>C],CHCHD10,23767592,NA,NA,Pathogenic,NA,c.[43C>G;172G>C,no assertion criteria provided ,N/A
 655645,NM_213720.3(CHCHD10):c.42C>T (p.Ser14=),CHCHD10,23767593,NA,NA,Uncertain significance,p.Ser14=),c.42C>T,"criteria provided, single submitter ",N/A

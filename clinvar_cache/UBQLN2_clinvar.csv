@@ -5,16 +5,16 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 368607,NM_013444.3(UBQLN2):c.243A>G (p.Leu81=),UBQLN2,56564116,rs778382794,1.1009881368528254e-5,Likely benign,p.Leu81=),c.243A>G,"criteria provided, single submitter ",rs778382794:
 539318,NM_013444.3(UBQLN2):c.968C>T (p.Pro323Leu),UBQLN2,56564841,NA,NA,Uncertain significance,p.Pro323Leu,c.968C>T,"criteria provided, single submitter ",N/A
 368608,NM_013444.3(UBQLN2):c.1170C>T (p.Pro390=),UBQLN2,56565043,rs1057515976,5.466034064324289e-6,Uncertain significance,p.Pro390=),c.1170C>T,"criteria provided, single submitter ",rs1057515976:
-368609,NM_013444.3(UBQLN2):c.1383G>A (p.Gly461=),UBQLN2,56565256,rs142250604,0.0037776131334204214,Benign/Likely benign,p.Gly461=),c.1383G>A,"criteria provided, multiple submitters, no conflicts ",rs142250604:
-260311,NM_013444.3(UBQLN2):c.1461C>A (p.Thr487=),UBQLN2,56565334,rs45559331,0.00586631119432601,Conflicting interpretations of pathogenicity,p.Thr487=),c.1461C>A,"criteria provided, conflicting interpretations ",rs45559331:25741868
+368609,NM_013444.3(UBQLN2):c.1383G>A (p.Gly461=),UBQLN2,56565256,rs142250604,0.0037776131334204214,Likely benign,p.Gly461=),c.1383G>A,"criteria provided, multiple submitters, no conflicts ",rs142250604:
+260311,NM_013444.3(UBQLN2):c.1461C>A (p.Thr487=),UBQLN2,56565334,rs45559331,0.00586631119432601,Uncertain significance,p.Thr487=),c.1461C>A,"criteria provided, conflicting interpretations ",rs45559331:25741868
 29951,NM_013444.3(UBQLN2):c.1489C>T (p.Pro497Ser),UBQLN2,56565362,NA,NA,Pathogenic,p.Pro497Ser,c.1489C>T,no assertion criteria provided ,N/A
 157594,NM_013444.3(UBQLN2):c.1490C>T (p.Pro497Leu),UBQLN2,56565363,NA,NA,Pathogenic,p.Pro497Leu,c.1490C>T,no assertion criteria provided ,N/A
 29950,NM_013444.3(UBQLN2):c.1490C>A (p.Pro497His),UBQLN2,56565363,NA,NA,Pathogenic,p.Pro497His,c.1490C>A,no assertion criteria provided ,N/A
 29952,NM_013444.3(UBQLN2):c.1516C>A (p.Pro506Thr),UBQLN2,56565389,rs387906711,6.56056053429205e-6,Pathogenic,p.Pro506Thr,c.1516C>A,no assertion criteria provided ,rs387906711:21857683
 29953,NM_013444.3(UBQLN2):c.1525C>T (p.Pro509Ser),UBQLN2,56565398,rs387906712,2.0257677659833077e-5,Uncertain significance,p.Pro509Ser,c.1525C>T,"criteria provided, single submitter ",rs387906712:21857683
-29954,NM_013444.3(UBQLN2):c.1573C>T (p.Pro525Ser),UBQLN2,56565446,rs369947678,2.0475160218128708e-5,Conflicting interpretations of pathogenicity,p.Pro525Ser,c.1573C>T,"criteria provided, conflicting interpretations ","rs369947678:21857683, 25333069"
-29954,NM_013444.3(UBQLN2):c.1573C>T (p.Pro525Ser),UBQLN2,56565446,rs369947678,2.7300213624171608e-5,Conflicting interpretations of pathogenicity,p.Pro525Ser,c.1573C>T,"criteria provided, conflicting interpretations ","rs369947678:21857683, 25333069"
-29954,NM_013444.3(UBQLN2):c.1573C>T (p.Pro525Ser),UBQLN2,56565446,rs369947678,2.972050833957464e-4,Conflicting interpretations of pathogenicity,p.Pro525Ser,c.1573C>T,"criteria provided, conflicting interpretations ","rs369947678:21857683, 25333069"
+29954,NM_013444.3(UBQLN2):c.1573C>T (p.Pro525Ser),UBQLN2,56565446,rs369947678,2.0475160218128708e-5,Uncertain significance,p.Pro525Ser,c.1573C>T,"criteria provided, conflicting interpretations ","rs369947678:21857683, 25333069"
+29954,NM_013444.3(UBQLN2):c.1573C>T (p.Pro525Ser),UBQLN2,56565446,rs369947678,2.7300213624171608e-5,Uncertain significance,p.Pro525Ser,c.1573C>T,"criteria provided, conflicting interpretations ","rs369947678:21857683, 25333069"
+29954,NM_013444.3(UBQLN2):c.1573C>T (p.Pro525Ser),UBQLN2,56565446,rs369947678,2.972050833957464e-4,Uncertain significance,p.Pro525Ser,c.1573C>T,"criteria provided, conflicting interpretations ","rs369947678:21857683, 25333069"
 640437,NM_013444.3(UBQLN2):c.1574C>T (p.Pro525Leu),UBQLN2,56565447,NA,NA,Uncertain significance,p.Pro525Leu,c.1574C>T,"criteria provided, single submitter ",N/A
 368610,NM_013444.3(UBQLN2):c.*16T>C,UBQLN2,56565764,NA,NA,Uncertain significance,NA,c.*16T>C,"criteria provided, single submitter ",N/A
 368611,NM_013444.3(UBQLN2):c.*41G>T,UBQLN2,56565789,NA,NA,Uncertain significance,NA,c.*41G>T,"criteria provided, single submitter ",N/A

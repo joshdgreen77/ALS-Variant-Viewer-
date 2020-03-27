@@ -15,7 +15,7 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 566721,NM_018834.6(MATR3):c.1435-10T>C,MATR3,139319324,rs772340385,1.1958384820823534e-5,Uncertain significance,NA,c.1435-10T>C,"criteria provided, single submitter ",rs772340385:
 664538,NM_018834.6(MATR3):c.1572G>T (p.Lys524Asn),MATR3,139319471,NA,NA,Uncertain significance,p.Lys524Asn,c.1572G>T,"criteria provided, single submitter ",N/A
 578420,NM_018834.6(MATR3):c.1598G>A (p.Ser533Asn),MATR3,139319497,NA,NA,Uncertain significance,p.Ser533Asn,c.1598G>A,"criteria provided, single submitter ",N/A
-263208,NM_018834.6(MATR3):c.1602+6A>G,MATR3,139319507,rs80036770,0.014213298876851207,Benign/Likely benign,NA,c.1602+6A>G,"criteria provided, multiple submitters, no conflicts ",rs80036770:25741868
+263208,NM_018834.6(MATR3):c.1602+6A>G,MATR3,139319507,rs80036770,0.014213298876851207,Likely benign,NA,c.1602+6A>G,"criteria provided, multiple submitters, no conflicts ",rs80036770:25741868
 126562,NM_018834.6(MATR3):c.1864A>G (p.Thr622Ala),MATR3,139322683,rs587777301,3.984444727782736e-6,Pathogenic,p.Thr622Ala,c.1864A>G,no assertion criteria provided ,rs587777301:24686783
 644662,NM_018834.6(MATR3):c.1874A>C (p.Lys625Thr),MATR3,139322693,NA,NA,Uncertain significance,p.Lys625Thr,c.1874A>C,"criteria provided, single submitter ",N/A
 541139,NM_018834.6(MATR3):c.1896T>C (p.Gly632=),MATR3,139322715,rs202208841,3.583487290565076e-5,Likely benign,p.Gly632=),c.1896T>C,"criteria provided, single submitter ",rs202208841:
