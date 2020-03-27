@@ -54,7 +54,7 @@ review.criteria<- c()
 gnomad_join <- function(dataframe,gene){ #read in the gnomad gene of interest
 
 #create a file path for each gene gnomad csv.file
-file <- paste("gnomad_raw/",gene,"_gnomad.csv",sep="")
+file <- paste("../2_Gene_Formatting/gnomad_raw/",gene,"_gnomad.csv",sep="")
 
 #import the gnomad csv file for the appropriate gene
 gnomad <- as.data.frame(fread(file))
@@ -112,6 +112,7 @@ gene_name <- gene_parsed %>%
 write_csv(x=gene_name,path = paste("../clinvar_cache/",gene,"_clinvar.csv",sep=""))
 }
 
+format_by_gene("NEK1")
 format_by_gene("KIF5A")
 format_by_gene("SPG11")
 format_by_gene("UBQLN2")
