@@ -141,7 +141,9 @@ server <- function(input, output){
                    "UBQLN2"=UBQLN2,
                    "SPG11"=SPG11,
                    "KIF5A"=KIF5A,
-                   "NEK1"=NEK1
+                   "NEK1"=NEK1,
+                   "HNRNPA2B1"=HNRNPA2B1,
+                   "NEFH"=NEFH
                    
     )
     # the imported variant_graph function comes from the thing sourced in line 10
@@ -173,7 +175,9 @@ server <- function(input, output){
                    "UBQLN2"=UBQLN2,
                    "SPG11"=SPG11,
                    "KIF5A"=KIF5A,
-                   "NEK1"=NEK1
+                   "NEK1"=NEK1,
+                   "HNRNPA2B1"=HNRNPA2B1,
+                   "NEFH"=NEFH
                    
     )
     format_variant_table(variants_dataframe = data)

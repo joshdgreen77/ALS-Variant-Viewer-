@@ -6,7 +6,7 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 643909,NM_004082.4(DCTN1):c.3776G>A (p.Arg1259Gln),DCTN1,74361560,rs573184955,6.364562118126272e-5,Uncertain significance,p.Arg1259Gln,c.3776G>A,"criteria provided, single submitter ",rs573184955:
 640080,NM_004082.4(DCTN1):c.3760G>T (p.Ala1254Ser),DCTN1,74361576,rs772655253,6.364258325245421e-5,Uncertain significance,p.Ala1254Ser,c.3760G>T,"criteria provided, single submitter ",rs772655253:
 337068,NM_004082.4(DCTN1):c.3759G>A (p.Ala1253=),DCTN1,74361577,rs886056328,7.954816641476414e-6,Uncertain significance,p.Ala1253=),c.3759G>A,"criteria provided, multiple submitters, no conflicts ",rs886056328:
-8402,NM_004082.4(DCTN1):c.3746C>T (p.Thr1249Ile),DCTN1,74361590,rs72466496,0.002814630420638737,Benign/Likely benign,p.Thr1249Ile,c.3746C>T,"criteria provided, multiple submitters, no conflicts ","rs72466496:15326253, 19506225, 28430856"
+8402,NM_004082.4(DCTN1):c.3746C>T (p.Thr1249Ile),DCTN1,74361590,rs72466496,0.002814630420638737,Likely benign,p.Thr1249Ile,c.3746C>T,"criteria provided, multiple submitters, no conflicts ","rs72466496:15326253, 19506225, 28430856"
 665455,NM_004082.4(DCTN1):c.3728T>C (p.Val1243Ala),DCTN1,74361608,rs762752851,1.0610755061330165e-5,Uncertain significance,p.Val1243Ala,c.3728T>C,"criteria provided, single submitter ",rs762752851:
 654711,NM_004082.4(DCTN1):c.3712C>G (p.Gln1238Glu),DCTN1,74361624,rs778307537,3.539647592685672e-5,Uncertain significance,p.Gln1238Glu,c.3712C>G,"criteria provided, single submitter ",rs778307537:
 536146,NM_004082.4(DCTN1):c.3652A>G (p.Thr1218Ala),DCTN1,74362099,rs886070472,3.976554236223228e-6,Uncertain significance,p.Thr1218Ala,c.3652A>G,"criteria provided, single submitter ",rs886070472:
@@ -22,7 +22,7 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 649963,NM_004082.4(DCTN1):c.3382C>G (p.Pro1128Ala),DCTN1,74363141,rs757510484,1.193592793882439e-5,Uncertain significance,p.Pro1128Ala,c.3382C>G,"criteria provided, single submitter ",rs757510484:
 649963,NM_004082.4(DCTN1):c.3382C>G (p.Pro1128Ala),DCTN1,74363141,rs757510484,3.978642646274797e-6,Uncertain significance,p.Pro1128Ala,c.3382C>G,"criteria provided, single submitter ",rs757510484:
 468272,NM_004082.4(DCTN1):c.3312C>T (p.Ile1104=),DCTN1,74363327,rs777452161,4.000736135448922e-6,Likely benign,p.Ile1104=),c.3312C>T,"criteria provided, single submitter ",rs777452161:
-8405,NM_004082.4(DCTN1):c.3302G>A (p.Arg1101Lys),DCTN1,74363337,rs121909345,2.8075692065809423e-5,risk factor,p.Arg1101Lys,c.3302G>A,no assertion criteria provided ,rs121909345:16240349
+8405,NM_004082.4(DCTN1):c.3302G>A (p.Arg1101Lys),DCTN1,74363337,rs121909345,2.8075692065809423e-5,Likely benign,p.Arg1101Lys,c.3302G>A,no assertion criteria provided ,rs121909345:16240349
 536151,NM_004082.4(DCTN1):c.3254G>A (p.Gly1085Glu),DCTN1,74363385,rs1274754432,3.187149413564508e-5,Uncertain significance,p.Gly1085Glu,c.3254G>A,"criteria provided, single submitter ",rs1274754432:
 536154,NM_004082.4(DCTN1):c.3241G>A (p.Val1081Met),DCTN1,74363398,rs764028925,1.60951545537216e-5,Uncertain significance,p.Val1081Met,c.3241G>A,"criteria provided, single submitter ",rs764028925:
 656139,NM_004082.4(DCTN1):c.3217A>G (p.Ile1073Val),DCTN1,74363422,rs757034536,6.444648524981068e-5,Uncertain significance,p.Ile1073Val,c.3217A>G,"criteria provided, single submitter ",rs757034536:
@@ -62,7 +62,7 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 536148,NM_004082.4(DCTN1):c.2477C>T (p.Thr826Met),DCTN1,74366610,rs766585070,4.6324671807517425e-5,Uncertain significance,p.Thr826Met,c.2477C>T,"criteria provided, single submitter ",rs766585070:
 536148,NM_004082.4(DCTN1):c.2477C>T (p.Thr826Met),DCTN1,74366610,rs766585070,4.012486859105536e-6,Uncertain significance,p.Thr826Met,c.2477C>T,"criteria provided, single submitter ",rs766585070:
 652089,NM_004082.4(DCTN1):c.2467G>A (p.Val823Ile),DCTN1,74366620,rs753992154,8.019889325527307e-6,Uncertain significance,p.Val823Ile,c.2467G>A,"criteria provided, single submitter ",rs753992154:
-259235,NM_004082.4(DCTN1):c.2448A>G (p.Ala816=),DCTN1,74366801,rs1130484,0.010749609394331446,Benign/Likely benign,p.Ala816=),c.2448A>G,"criteria provided, multiple submitters, no conflicts ",rs1130484:25741868
+259235,NM_004082.4(DCTN1):c.2448A>G (p.Ala816=),DCTN1,74366801,rs1130484,0.010749609394331446,Likely benign,p.Ala816=),c.2448A>G,"criteria provided, multiple submitters, no conflicts ",rs1130484:25741868
 649696,NM_004082.4(DCTN1):c.2427T>G (p.Asp809Glu),DCTN1,74366822,NA,NA,Uncertain significance,p.Asp809Glu,c.2427T>G,"criteria provided, single submitter ",N/A
 645944,NM_004082.4(DCTN1):c.2411G>A (p.Arg804Gln),DCTN1,74366838,rs1443384895,7.069635913750442e-6,Uncertain significance,p.Arg804Gln,c.2411G>A,"criteria provided, single submitter ",rs1443384895:
 652631,NM_004082.4(DCTN1):c.2384G>A (p.Arg795His),DCTN1,74366865,rs377530504,2.8281142840982206e-5,Uncertain significance,p.Arg795His,c.2384G>A,"criteria provided, single submitter ",rs377530504:
@@ -70,7 +70,7 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 8404,NM_004082.4(DCTN1):c.2353C>T (p.Arg785Trp),DCTN1,74366896,rs121909344,1.8385342639145222e-4,Uncertain significance,p.Arg785Trp,c.2353C>T,"criteria provided, multiple submitters, no conflicts ","rs121909344:15326253, 25025039"
 468264,NM_004082.4(DCTN1):c.2339T>C (p.Ile780Thr),DCTN1,74366910,rs374163967,3.9769337840524956e-5,Uncertain significance,p.Ile780Thr,c.2339T>C,"criteria provided, multiple submitters, no conflicts ",rs374163967:
 565854,NM_004082.4(DCTN1):c.2290G>A (p.Val764Ile),DCTN1,74367071,rs753618444,1.590887396990041e-5,Uncertain significance,p.Val764Ile,c.2290G>A,"criteria provided, single submitter ",rs753618444:
-337081,NM_004082.4(DCTN1):c.2278A>G (p.Met760Val),DCTN1,74367083,rs754780894,1.3082803538721563e-4,Conflicting interpretations of pathogenicity,p.Met760Val,c.2278A>G,"criteria provided, conflicting interpretations ",rs754780894:
+337081,NM_004082.4(DCTN1):c.2278A>G (p.Met760Val),DCTN1,74367083,rs754780894,1.3082803538721563e-4,Uncertain significance,p.Met760Val,c.2278A>G,"criteria provided, conflicting interpretations ",rs754780894:
 468263,NM_004082.4(DCTN1):c.2254-5C>T,DCTN1,74367112,rs746514094,3.9789275994334005e-6,Likely benign,NA,c.2254-5C>T,"criteria provided, single submitter ",rs746514094:
 468262,NM_004082.4(DCTN1):c.2254-10A>G,DCTN1,74367117,NA,NA,Likely benign,NA,c.2254-10A>G,"criteria provided, single submitter ",N/A
 536177,NM_004082.4(DCTN1):c.2238G>A (p.Leu746=),DCTN1,74367367,NA,NA,Likely benign,p.Leu746=),c.2238G>A,"criteria provided, single submitter ",N/A
@@ -92,7 +92,7 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 536157,NM_004082.4(DCTN1):c.1784G>A (p.Ser595Asn),DCTN1,74368798,NA,NA,Uncertain significance,p.Ser595Asn,c.1784G>A,"criteria provided, single submitter ",N/A
 648184,NM_004082.4(DCTN1):c.1780G>C (p.Asp594His),DCTN1,74368802,rs1200525088,3.976206381016e-6,Uncertain significance,p.Asp594His,c.1780G>C,"criteria provided, single submitter ",rs1200525088:
 536159,NM_004082.4(DCTN1):c.1752C>A (p.His584Gln),DCTN1,74368830,rs1345909454,3.976269622890589e-6,Uncertain significance,p.His584Gln,c.1752C>A,"criteria provided, single submitter ",rs1345909454:
-8403,NM_004082.4(DCTN1):c.1712T>C (p.Met571Thr),DCTN1,74368870,rs121909343,3.976902152299445e-6,risk factor,p.Met571Thr,c.1712T>C,no assertion criteria provided ,rs121909343:15326253
+8403,NM_004082.4(DCTN1):c.1712T>C (p.Met571Thr),DCTN1,74368870,rs121909343,3.976902152299445e-6,Likely benign,p.Met571Thr,c.1712T>C,no assertion criteria provided ,rs121909343:15326253
 536156,NM_004082.4(DCTN1):c.1706T>A (p.Ile569Asn),DCTN1,74368876,NA,NA,Uncertain significance,p.Ile569Asn,c.1706T>A,"criteria provided, single submitter ",N/A
 468258,NM_004082.4(DCTN1):c.1606A>C (p.Asn536His),DCTN1,74369193,NA,NA,Uncertain significance,p.Asn536His,c.1606A>C,"criteria provided, single submitter ",N/A
 259233,NM_004082.4(DCTN1):c.1605A>G (p.Thr535=),DCTN1,74369194,rs13429423,0.012775915949037741,Benign,p.Thr535=),c.1605A>G,"criteria provided, multiple submitters, no conflicts ",rs13429423:25741868
@@ -101,7 +101,7 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 658060,NM_004082.4(DCTN1):c.1584+5A>G,DCTN1,74369295,rs1283119090,3.976269622890589e-6,Uncertain significance,NA,c.1584+5A>G,"criteria provided, single submitter ",rs1283119090:
 660668,NM_004082.4(DCTN1):c.1526C>T (p.Thr509Met),DCTN1,74369358,rs967117932,2.475597680011317e-5,Uncertain significance,p.Thr509Met,c.1526C>T,"criteria provided, single submitter ",rs967117932:
 649404,NM_004082.4(DCTN1):c.1486G>C (p.Val496Leu),DCTN1,74369398,rs773897036,1.1941914527737086e-5,Uncertain significance,p.Val496Leu,c.1486G>C,"criteria provided, single submitter ",rs773897036:
-259232,NM_004082.4(DCTN1):c.1484G>A (p.Arg495Gln),DCTN1,74369400,rs17721059,0.013290059530972386,Benign/Likely benign,p.Arg495Gln,c.1484G>A,"criteria provided, multiple submitters, no conflicts ",rs17721059:25741868
+259232,NM_004082.4(DCTN1):c.1484G>A (p.Arg495Gln),DCTN1,74369400,rs17721059,0.013290059530972386,Likely benign,p.Arg495Gln,c.1484G>A,"criteria provided, multiple submitters, no conflicts ",rs17721059:25741868
 644603,NM_004082.4(DCTN1):c.1481C>T (p.Ala494Val),DCTN1,74369403,rs761331951,3.9820013538804606e-6,Uncertain significance,p.Ala494Val,c.1481C>T,"criteria provided, single submitter ",rs761331951:
 580500,NM_004082.4(DCTN1):c.1435C>T (p.Arg479Cys),DCTN1,74369449,NA,NA,Uncertain significance,p.Arg479Cys,c.1435C>T,"criteria provided, single submitter ",N/A
 640876,NM_004082.4(DCTN1):c.1430A>G (p.Asn477Ser),DCTN1,74369454,rs756081164,3.1861339450710506e-5,Uncertain significance,p.Asn477Ser,c.1430A>G,"criteria provided, single submitter ",rs756081164:
@@ -144,8 +144,8 @@ VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Prote
 574723,NM_004082.4(DCTN1):c.460C>T (p.Arg154Cys),DCTN1,74371722,rs141670992,4.566140545806e-5,Uncertain significance,p.Arg154Cys,c.460C>T,"criteria provided, multiple submitters, no conflicts ",rs141670992:
 648872,NM_004082.4(DCTN1):c.458C>T (p.Thr153Met),DCTN1,74371724,rs1052858105,1.2755915555839021e-4,Uncertain significance,p.Thr153Met,c.458C>T,"criteria provided, single submitter ",rs1052858105:
 565725,NM_004082.4(DCTN1):c.446G>A (p.Arg149Gln),DCTN1,74372935,rs149447433,7.556655026766467e-5,Uncertain significance,p.Arg149Gln,c.446G>A,"criteria provided, single submitter ",rs149447433:
-447238,NM_004082.4(DCTN1):c.442C>T (p.Arg148Trp),DCTN1,74372939,rs148810193,7.07178569660625e-5,Conflicting interpretations of pathogenicity,p.Arg148Trp,c.442C>T,"criteria provided, conflicting interpretations ",rs148810193:
-447238,NM_004082.4(DCTN1):c.442C>T (p.Arg148Trp),DCTN1,74372939,rs148810193,3.977408320738207e-6,Conflicting interpretations of pathogenicity,p.Arg148Trp,c.442C>T,"criteria provided, conflicting interpretations ",rs148810193:
+447238,NM_004082.4(DCTN1):c.442C>T (p.Arg148Trp),DCTN1,74372939,rs148810193,7.07178569660625e-5,Uncertain significance,p.Arg148Trp,c.442C>T,"criteria provided, conflicting interpretations ",rs148810193:
+447238,NM_004082.4(DCTN1):c.442C>T (p.Arg148Trp),DCTN1,74372939,rs148810193,3.977408320738207e-6,Uncertain significance,p.Arg148Trp,c.442C>T,"criteria provided, conflicting interpretations ",rs148810193:
 468276,NM_004082.4(DCTN1):c.439A>G (p.Thr147Ala),DCTN1,74372942,rs371437767,1.0608053634319175e-5,Uncertain significance,p.Thr147Ala,c.439A>G,"criteria provided, single submitter ",rs371437767:
 536163,NM_004082.4(DCTN1):c.427C>T (p.Arg143Ter),DCTN1,74374328,rs781290307,3.980162868264569e-6,Uncertain significance,p.Arg143Ter,c.427C>T,"criteria provided, single submitter ",rs781290307:
 536163,NM_004082.4(DCTN1):c.427C>T (p.Arg143Ter),DCTN1,74374328,rs781290307,1.5920651473058276e-5,Uncertain significance,p.Arg143Ter,c.427C>T,"criteria provided, single submitter ",rs781290307:

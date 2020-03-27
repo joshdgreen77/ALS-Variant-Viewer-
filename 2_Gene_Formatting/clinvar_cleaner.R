@@ -109,6 +109,8 @@ gene_name <- gene_parsed %>%
 write_csv(x=gene_name,path = paste("../clinvar_cache/",gene,"_clinvar.csv",sep=""))
 }
 
+format_by_gene("NEFH")
+format_by_gene("HNRNPA2B1")
 format_by_gene("NEK1")
 format_by_gene("KIF5A")
 format_by_gene("SPG11")
@@ -127,6 +129,6 @@ format_by_gene("VAPB")
 format_by_gene("SETX")
 format_by_gene("ALS2")
 format_by_gene("TARDBP")
-format_by_gene("DCT1N")
+format_by_gene("DCTN1")
 format_by_gene("FUS")
 format_by_gene("SOD1")

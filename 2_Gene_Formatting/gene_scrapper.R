@@ -32,7 +32,23 @@ link <-paste(url)
 return(data.frame(gene,exon,locus,protein,pfunction,link))
 }
 
+
+#append new genes --> run this function in the console just to prevent accidentally appending same gene multiple times
+appender<-function(x){
+  josh <- read.csv(file = "../gene_info.csv")
+  josh <- josh[ -c(1)]
+  josh <- rbind(josh,x)
+
+  write.csv(x = josh,file = "../gene_info.csv")
+}
+
 # scraps the information from each gene from the NCBI  website
+
+#NEFH
+NEFH <- generate_gene_info("NEFH","https://www.ncbi.nlm.nih.gov/gene/4744")
+
+#HNRNPA2B1
+HNRNPA2B1 <- generate_gene_info("HNRNPA2B1","https://www.ncbi.nlm.nih.gov/gene/3181")
 
 #NEK1 
 NEK1 <- generate_gene_info("NEK1","https://www.ncbi.nlm.nih.gov/gene/4750")
@@ -108,11 +124,4 @@ write.csv(x = gene_info,file = "../gene_info.csv")
 
 
 
-# append new genes --> run this function in the console just to prevent accidentally appending same gene multiple times
-# appender<-function(x){
-#   josh <- read.csv(file = "../gene_info.csv")
-#   josh <- josh[ -c(1)]
-#   josh <- rbind(josh,x)
-# 
-#   write.csv(x = josh,file = "../gene_info.csv")
-# }
+
