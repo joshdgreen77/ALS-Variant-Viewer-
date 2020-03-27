@@ -33,6 +33,10 @@ return(data.frame(gene,exon,locus,protein,pfunction,link))
 }
 
 # scraps the information from each gene from the NCBI  website
+
+#NEK1 
+NEK1 <- generate_gene_info("NEK1","https://www.ncbi.nlm.nih.gov/gene/4750")
+
 #KIF5A
 KIF5A <- generate_gene_info("KIF5A","https://www.ncbi.nlm.nih.gov/gene/3798")
 
@@ -98,7 +102,7 @@ SOD1 <- generate_gene_info("SOD1","https://www.ncbi.nlm.nih.gov/gene/6647/")
 
 # for re scraping all genes-----------------
 # bind the initial genes together
-gene_info<-rbind(SOD1,FUS,DCTN1,TARDBP,ALS2,SETX,VAPB,MATR3,OPTN,SQSTM1,FIG4,SLC52A3,C9orf72,VCP,TBK1,CHCHD10,SIGMAR1,ANG,UBQLN2,SPG11,KIF5A)
+gene_info<-rbind(SOD1,FUS,DCTN1,TARDBP,ALS2,SETX,VAPB,MATR3,OPTN,SQSTM1,FIG4,SLC52A3,C9orf72,VCP,TBK1,CHCHD10,SIGMAR1,ANG,UBQLN2,SPG11,KIF5A,NEK1)
 # write csv file to be sourced in the app.R
 write.csv(x = gene_info,file = "../gene_info.csv")
 
@@ -106,9 +110,9 @@ write.csv(x = gene_info,file = "../gene_info.csv")
 
 # append new genes --> run this function in the console just to prevent accidentally appending same gene multiple times
 # appender<-function(x){
-#   josh <- read.csv(file = "/Users/greenjod/Documents/GitHub/LNG_Scripts/als_app/als_variants_app/gene_info.csv")
+#   josh <- read.csv(file = "../gene_info.csv")
 #   josh <- josh[ -c(1)]
 #   josh <- rbind(josh,x)
-#   
-#   write.csv(x = josh,file = "/Users/greenjod/Documents/GitHub/LNG_Scripts/als_app/als_variants_app/gene_info.csv")
+# 
+#   write.csv(x = josh,file = "../gene_info.csv")
 # }
