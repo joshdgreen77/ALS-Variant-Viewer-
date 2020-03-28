@@ -42,11 +42,14 @@ DT::datatable(data = variants_dataframe,escape = FALSE,
               #renames the columns
               colnames = c("ClinVar ID","Position (GRCh38)","rsID","Clinical Significance","Protein Consequence","Nucleotide Consequence","Allele Frequency (gnomAD)","Review Criteria"),
                #adds buttons to the table so it can be downloaded in various file formats
-                extensions = 'Buttons',  options = list(pageLength = 1000,
+                extensions = c('Buttons','RowGroup'),  options = list(pageLength = 1000,
                                                         autoWidth = TRUE,
                                                         dom = 'Bfrtip',
-                                                        buttons = c('csv'))
-)
+                                                        buttons = c('csv'),
+                                                        searchHighlight = TRUE,
+                                                        order = list(list(4,'asc')),
+                                                        rowGroup = list(dataSrc = 4)
+                                                        ))
 
   
 }
