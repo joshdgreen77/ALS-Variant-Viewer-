@@ -1,81 +1,81 @@
-VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Protein.Consequence,Nucleotide.Consequence,Review.Criteria,Pubmed_ID
-366704,NM_007126.5(VCP):c.*906A>G,VCP,35056211,NA,NA,Likely benign,NA,c.*906A>G,"criteria provided, single submitter ",N/A
-366705,NM_007126.5(VCP):c.*788G>A,VCP,35056329,NA,NA,Uncertain significance,NA,c.*788G>A,"criteria provided, single submitter ",N/A
-366706,NM_007126.5(VCP):c.*700C>A,VCP,35056417,NA,NA,Uncertain significance,NA,c.*700C>A,"criteria provided, single submitter ",N/A
-366707,NM_007126.5(VCP):c.*596C>T,VCP,35056521,NA,NA,Likely benign,NA,c.*596C>T,"criteria provided, single submitter ",N/A
-366708,NM_007126.5(VCP):c.*438A>G,VCP,35056679,NA,NA,Likely benign,NA,c.*438A>G,"criteria provided, single submitter ",N/A
-366709,NM_007126.5(VCP):c.*384del,VCP,35056733,NA,NA,Uncertain significance,NA,NA,"criteria provided, single submitter ",N/A
-366710,NM_007126.5(VCP):c.*382C>T,VCP,35056735,NA,NA,Uncertain significance,NA,c.*382C>T,"criteria provided, single submitter ",N/A
-366711,NM_007126.5(VCP):c.*347C>T,VCP,35056770,NA,NA,Uncertain significance,NA,c.*347C>T,"criteria provided, single submitter ",N/A
-366712,NM_007126.5(VCP):c.*184G>A,VCP,35056933,NA,NA,Uncertain significance,NA,c.*184G>A,"criteria provided, single submitter ",N/A
-366713,NM_007126.5(VCP):c.*172C>G,VCP,35056945,NA,NA,Uncertain significance,NA,c.*172C>G,"criteria provided, single submitter ",N/A
-366714,NM_007126.5(VCP):c.*153G>T,VCP,35056964,NA,NA,Likely benign,NA,c.*153G>T,"criteria provided, single submitter ",N/A
-366715,NM_007126.5(VCP):c.*64C>T,VCP,35057053,rs553370942,1.9113149847094801e-4,Uncertain significance,NA,c.*64C>T,"criteria provided, single submitter ",rs553370942:
-284304,NM_007126.5(VCP):c.*4G>T,VCP,35057113,rs201091341,5.659509744968342e-4,Uncertain significance,NA,c.*4G>T,"criteria provided, conflicting interpretations ",rs201091341:
-284304,NM_007126.5(VCP):c.*4G>T,VCP,35057113,rs201091341,3.979085924381451e-6,Uncertain significance,NA,c.*4G>T,"criteria provided, conflicting interpretations ",rs201091341:
-284304,NM_007126.5(VCP):c.*4G>T,VCP,35057113,rs201091341,3.979085924381451e-6,Uncertain significance,NA,c.*4G>T,"criteria provided, conflicting interpretations ",rs201091341:
-568017,NM_007126.5(VCP):c.2397C>G (p.Asp799Glu),VCP,35057141,rs1329151473,3.185930929017459e-5,Uncertain significance,p.Asp799Glu,c.2397C>G,"criteria provided, single submitter ",rs1329151473:
-653332,NM_007126.5(VCP):c.2266G>A (p.Glu756Lys),VCP,35057425,NA,NA,Uncertain significance,p.Glu756Lys,c.2266G>A,"criteria provided, single submitter ",N/A
-194645,NM_007126.5(VCP):c.2214A>G (p.Glu738=),VCP,35057477,rs374391034,0.0019965591215139866,Likely benign,p.Glu738=),c.2214A>G,"criteria provided, multiple submitters, no conflicts ",rs374391034:
-532766,NM_007126.5(VCP):c.2161-6C>T,VCP,35057536,rs199513619,4.3409372083432815e-5,Likely benign,NA,c.2161-6C>T,"criteria provided, single submitter ",rs199513619:
-647081,NM_007126.5(VCP):c.2014T>G (p.Leu672Val),VCP,35059210,rs757829124,3.976427736378747e-6,Uncertain significance,p.Leu672Val,c.2014T>G,"criteria provided, single submitter ",rs757829124:
-572697,NM_007126.5(VCP):c.1984C>T (p.Arg662Cys),VCP,35059513,rs765795425,4.007823271025041e-6,Uncertain significance,p.Arg662Cys,c.1984C>T,"criteria provided, single submitter ",rs765795425:
-532763,NM_007126.5(VCP):c.1950G>A (p.Glu650=),VCP,35059547,rs752382520,7.973591465067697e-6,Likely benign,p.Glu650=),c.1950G>A,"criteria provided, single submitter ",rs752382520:
-366716,NM_007126.5(VCP):c.1856T>C (p.Ile619Thr),VCP,35059641,NA,NA,Uncertain significance,p.Ile619Thr,c.1856T>C,"criteria provided, single submitter ",N/A
-30153,NM_007126.5(VCP):c.1774G>A (p.Asp592Asn),VCP,35059723,rs387906790,3.976585862441942e-6,Pathogenic,p.Asp592Asn,c.1774G>A,no assertion criteria provided ,rs387906790:21145000
-260125,NM_007126.5(VCP):c.1704A>G (p.Gln568=),VCP,35059793,rs142577424,0.0026970821829331477,Likely benign,p.Gln568=),c.1704A>G,"criteria provided, multiple submitters, no conflicts ",rs142577424:25741868
-464106,NM_007126.5(VCP):c.1696-7C>T,VCP,35059808,NA,NA,Likely benign,NA,c.1696-7C>T,"criteria provided, single submitter ",N/A
-260124,NM_007126.5(VCP):c.1695+8A>G,VCP,35060305,rs684562,0.5859430920236703,Benign,NA,c.1695+8A>G,"criteria provided, multiple submitters, no conflicts ",rs684562:25741868
-397543,NM_007126.5(VCP):c.1374G>C (p.Gln458His),VCP,35060909,NA,NA,Uncertain significance,p.Gln458His,c.1374G>C,"criteria provided, single submitter ",N/A
-532759,NM_007126.5(VCP):c.1360-4C>G,VCP,35060927,NA,NA,Uncertain significance,NA,c.1360-4C>G,"criteria provided, single submitter ",N/A
-366717,NM_007126.5(VCP):c.1360-6T>C,VCP,35060929,rs370296303,7.952412762032e-6,Uncertain significance,NA,c.1360-6T>C,"criteria provided, single submitter ",rs370296303:
-366717,NM_007126.5(VCP):c.1360-6T>C,VCP,35060929,rs370296303,7.069735874667723e-6,Uncertain significance,NA,c.1360-6T>C,"criteria provided, single submitter ",rs370296303:
-260122,NM_007126.5(VCP):c.1360-14C>G,VCP,35060937,rs144304208,7.952539245781177e-6,Likely benign,NA,c.1360-14C>G,"criteria provided, multiple submitters, no conflicts ",rs144304208:25741868
-260122,NM_007126.5(VCP):c.1360-14C>G,VCP,35060937,rs144304208,0.002994096645339178,Likely benign,NA,c.1360-14C>G,"criteria provided, multiple submitters, no conflicts ",rs144304208:25741868
-532762,NM_007126.5(VCP):c.1329C>T (p.Asn443=),VCP,35061045,rs748816624,3.977882970683003e-6,Likely benign,p.Asn443=),c.1329C>T,"criteria provided, single submitter ",rs748816624:
-532760,NM_007126.5(VCP):c.1327A>C (p.Asn443His),VCP,35061047,rs770514866,7.955449482895783e-6,Uncertain significance,p.Asn443His,c.1327A>C,"criteria provided, single submitter ",rs770514866:
-565903,NM_007126.5(VCP):c.1194+3G>A,VCP,35061574,rs183223259,1.9796240128392757e-4,Uncertain significance,NA,c.1194+3G>A,"criteria provided, multiple submitters, no conflicts ",rs183223259:
-656560,NM_007126.5(VCP):c.1180G>A (p.Val394Met),VCP,35061591,NA,NA,Uncertain significance,p.Val394Met,c.1180G>A,"criteria provided, single submitter ",N/A
-366718,NM_007126.5(VCP):c.1092C>T (p.Asp364=),VCP,35061679,rs61752947,0.002007532261043435,Likely benign,p.Asp364=),c.1092C>T,"criteria provided, multiple submitters, no conflicts ",rs61752947:
-366719,NM_007126.5(VCP):c.927C>T (p.Ile309=),VCP,35062235,rs34097935,8.131920971870625e-4,Likely benign,p.Ile309=),c.927C>T,"criteria provided, multiple submitters, no conflicts ",rs34097935:
-260128,NM_007126.5(VCP):c.811+3G>A,VCP,35062975,rs514492,0.7468010610079575,Benign,NA,c.811+3G>A,"criteria provided, multiple submitters, no conflicts ","rs514492:25741868, 30954774"
-8470,NM_007126.5(VCP):c.695C>A (p.Ala232Glu),VCP,35064167,NA,NA,Pathogenic,p.Ala232Glu,c.695C>A,no assertion criteria provided ,N/A
-8473,NM_007126.5(VCP):c.572G>A (p.Arg191Gln),VCP,35065255,rs121909334,1.590558445070064e-5,Likely pathogenic,p.Arg191Gln,c.572G>A,"criteria provided, multiple submitters, no conflicts ","rs121909334:15034582, 21145000, 21984748"
-218305,NM_007126.5(VCP):c.553G>A (p.Glu185Lys),VCP,35065274,NA,NA,Uncertain significance,p.Glu185Lys,c.553G>A,"criteria provided, single submitter ",N/A
-532764,NM_007126.5(VCP):c.552C>T (p.Cys184=),VCP,35065275,rs769455914,4.771675335210192e-5,Likely benign,p.Cys184=),c.552C>T,"criteria provided, single submitter ",rs769455914:
-640109,NM_007126.5(VCP):c.512G>T (p.Ser171Ile),VCP,35065315,rs200911363,1.1929283209136241e-5,Uncertain significance,p.Ser171Ile,c.512G>T,"criteria provided, single submitter ",rs200911363:
-640109,NM_007126.5(VCP):c.512G>T (p.Ser171Ile),VCP,35065315,rs200911363,3.976427736378747e-6,Uncertain significance,p.Ser171Ile,c.512G>T,"criteria provided, single submitter ",rs200911363:
-532758,NM_007126.5(VCP):c.479C>T (p.Ala160Val),VCP,35065348,NA,NA,Uncertain significance,p.Ala160Val,c.479C>T,"criteria provided, single submitter ",N/A
-532761,NM_007126.5(VCP):c.478G>C (p.Ala160Pro),VCP,35065349,NA,NA,Uncertain significance,p.Ala160Pro,c.478G>C,"criteria provided, multiple submitters, no conflicts ",N/A
-8474,NM_007126.5(VCP):c.476G>A (p.Arg159His),VCP,35065351,rs121909335,7.953488002163349e-6,Pathogenic,p.Arg159His,c.476G>A,"criteria provided, multiple submitters, no conflicts ","rs121909335:15034582, 16247064, 19704082"
-280123,NM_007126.5(VCP):c.475C>T (p.Arg159Cys),VCP,35065352,rs387906789,3.977123585138285e-6,Pathogenic,p.Arg159Cys,c.475C>T,"criteria provided, multiple submitters, no conflicts ",rs387906789:21145000
-30152,NM_007126.5(VCP):c.475C>G (p.Arg159Gly),VCP,35065352,rs387906789,3.977123585138285e-6,Pathogenic,p.Arg159Gly,c.475C>G,no assertion criteria provided ,rs387906789:21145000
-8472,NM_007126.5(VCP):c.464G>C (p.Arg155Pro),VCP,35065363,NA,NA,Pathogenic,p.Arg155Pro,c.464G>C,no assertion criteria provided ,N/A
-8468,NM_007126.5(VCP):c.464G>A (p.Arg155His),VCP,35065363,NA,NA,Pathogenic,p.Arg155His,c.464G>A,"criteria provided, multiple submitters, no conflicts ",N/A
-217028,NM_007126.5(VCP):c.463C>G (p.Arg155Gly),VCP,35065364,NA,NA,Uncertain significance,p.Arg155Gly,c.463C>G,"criteria provided, conflicting interpretations ",N/A
-8469,NM_007126.5(VCP):c.463C>T (p.Arg155Cys),VCP,35065364,NA,NA,Pathogenic,p.Arg155Cys,c.463C>T,"criteria provided, multiple submitters, no conflicts ",N/A
-464109,NM_007126.5(VCP):c.426G>A (p.Ala142=),VCP,35066694,rs577812326,1.1934123637520885e-5,Uncertain significance,p.Ala142=),c.426G>A,"criteria provided, conflicting interpretations ",rs577812326:
-569394,NM_007126.5(VCP):c.374G>A (p.Gly125Asp),VCP,35066746,NA,NA,Uncertain significance,p.Gly125Asp,c.374G>A,"criteria provided, single submitter ",N/A
-597496,NM_007126.5(VCP):c.340A>G (p.Ile114Val),VCP,35066780,rs549915384,7.070735639335916e-5,Uncertain significance,p.Ile114Val,c.340A>G,"criteria provided, multiple submitters, no conflicts ",rs549915384:
-575232,NM_007126.5(VCP):c.320A>T (p.Asp107Val),VCP,35066800,NA,NA,Uncertain significance,p.Asp107Val,c.320A>T,"criteria provided, single submitter ",N/A
-464108,NM_007126.5(VCP):c.303-3C>T,VCP,35066820,NA,NA,Uncertain significance,NA,c.303-3C>T,"criteria provided, single submitter ",N/A
-280124,NM_007126.5(VCP):c.283C>T (p.Arg95Cys),VCP,35067910,rs121909332,3.9767123723475325e-6,Likely pathogenic,p.Arg95Cys,c.283C>T,"criteria provided, multiple submitters, no conflicts ","rs121909332:15034582, 16321991"
-8471,NM_007126.5(VCP):c.283C>G (p.Arg95Gly),VCP,35067910,rs121909332,3.9767123723475325e-6,Pathogenic,p.Arg95Gly,c.283C>G,no assertion criteria provided ,"rs121909332:15034582, 16321991"
-449554,NM_007126.5(VCP):c.278G>A (p.Arg93His),VCP,35067915,rs779959657,7.953108472446455e-6,Uncertain significance,p.Arg93His,c.278G>A,"criteria provided, conflicting interpretations ",rs779959657:
-593071,NM_007126.5(VCP):c.277C>T (p.Arg93Cys),VCP,35067916,NA,NA,Pathogenic,p.Arg93Cys,c.277C>T,"criteria provided, multiple submitters, no conflicts ",N/A
-217877,NM_007126.5(VCP):c.271A>T (p.Asn91Tyr),VCP,35067922,NA,NA,Likely pathogenic,p.Asn91Tyr,c.271A>T,no assertion criteria provided ,N/A
-532765,NM_007126.5(VCP):c.213C>T (p.Val71=),VCP,35067980,rs1195805928,3.97630124458229e-6,Likely benign,p.Val71=),c.213C>T,"criteria provided, single submitter ",rs1195805928:
-366720,NM_007126.5(VCP):c.185A>G (p.Lys62Arg),VCP,35068008,NA,NA,Uncertain significance,p.Lys62Arg,c.185A>G,"criteria provided, single submitter ",N/A
-638960,NM_007126.5(VCP):c.84T>A (p.Val28=),VCP,35068296,NA,NA,Uncertain significance,p.Val28=),c.84T>A,"criteria provided, single submitter ",N/A
-366721,NM_007126.5(VCP):c.18-5T>C,VCP,35068367,rs114256093,0.0040922145353196665,Likely benign,NA,c.18-5T>C,"criteria provided, multiple submitters, no conflicts ",rs114256093:
-366722,NM_007126.5(VCP):c.-53C>T,VCP,35072406,NA,NA,Uncertain significance,NA,c.-53C>T,"criteria provided, single submitter ",N/A
-366723,NM_007126.5(VCP):c.-215A>G,VCP,35072568,NA,NA,Uncertain significance,NA,c.-215A>G,"criteria provided, single submitter ",N/A
-366725,NM_007126.5(VCP):c.-250C>T,VCP,35072603,NA,NA,Uncertain significance,NA,c.-250C>T,"criteria provided, single submitter ",N/A
-366726,NM_007126.5(VCP):c.-267C>T,VCP,35072620,NA,NA,Likely benign,NA,c.-267C>T,"criteria provided, single submitter ",N/A
-366727,NM_007126.3(VCP):c.-370G>A,VCP,35072723,NA,NA,Uncertain significance,NA,c.-370G>A,"criteria provided, single submitter ",N/A
-366732,NM_004629.1(FANCG):c.1638T>C (p.Gly546=),VCP,35074493,NA,NA,Uncertain significance,p.Gly546=),c.1638T>C,"criteria provided, conflicting interpretations ",N/A
-259477,NM_004629.1(FANCG):c.1636+7A>G,VCP,35074920,NA,NA,Benign,NA,c.1636+7A>G,"criteria provided, multiple submitters, no conflicts ",N/A
-134361,NM_004629.1(FANCG):c.1538G>A (p.Arg513Gln),VCP,35075025,NA,NA,Likely benign,p.Arg513Gln,c.1538G>A,"criteria provided, multiple submitters, no conflicts ",N/A
-134370,NM_004629.1(FANCG):c.1133C>T (p.Ser378Leu),VCP,35075972,NA,NA,Likely benign,p.Ser378Leu,c.1133C>T,"criteria provided, multiple submitters, no conflicts ",N/A
-134367,NM_004629.1(FANCG):c.890C>T (p.Thr297Ile),VCP,35076758,NA,NA,Likely benign,p.Thr297Ile,c.890C>T,"criteria provided, multiple submitters, no conflicts ",N/A
-134366,NM_004629.1(FANCG):c.640C>T (p.Arg214Cys),VCP,35077270,NA,NA,Likely benign,p.Arg214Cys,c.640C>T,"criteria provided, multiple submitters, no conflicts ",N/A
+"","VariationID","Name","Gene","Position","rsID","Allele.Frequency","Clinical.Significance","Protein.Consequence","Nucleotide.Consequence","Review.Criteria","Pubmed_ID"
+"1",366704,"NM_007126.5(VCP):c.*906A>G","VCP",35056211,NA,NA,"Likely benign",NA,"c.*906A>G","criteria provided, single submitter ","N/A"
+"2",366705,"NM_007126.5(VCP):c.*788G>A","VCP",35056329,NA,NA,"Uncertain significance",NA,"c.*788G>A","criteria provided, single submitter ","N/A"
+"3",366706,"NM_007126.5(VCP):c.*700C>A","VCP",35056417,NA,NA,"Uncertain significance",NA,"c.*700C>A","criteria provided, single submitter ","N/A"
+"4",366707,"NM_007126.5(VCP):c.*596C>T","VCP",35056521,NA,NA,"Likely benign",NA,"c.*596C>T","criteria provided, single submitter ","N/A"
+"5",366708,"NM_007126.5(VCP):c.*438A>G","VCP",35056679,NA,NA,"Likely benign",NA,"c.*438A>G","criteria provided, single submitter ","N/A"
+"6",366709,"NM_007126.5(VCP):c.*384del","VCP",35056733,NA,NA,"Uncertain significance",NA,NA,"criteria provided, single submitter ","N/A"
+"7",366710,"NM_007126.5(VCP):c.*382C>T","VCP",35056735,NA,NA,"Uncertain significance",NA,"c.*382C>T","criteria provided, single submitter ","N/A"
+"8",366711,"NM_007126.5(VCP):c.*347C>T","VCP",35056770,NA,NA,"Uncertain significance",NA,"c.*347C>T","criteria provided, single submitter ","N/A"
+"9",366712,"NM_007126.5(VCP):c.*184G>A","VCP",35056933,NA,NA,"Uncertain significance",NA,"c.*184G>A","criteria provided, single submitter ","N/A"
+"10",366713,"NM_007126.5(VCP):c.*172C>G","VCP",35056945,NA,NA,"Uncertain significance",NA,"c.*172C>G","criteria provided, single submitter ","N/A"
+"11",366714,"NM_007126.5(VCP):c.*153G>T","VCP",35056964,NA,NA,"Likely benign",NA,"c.*153G>T","criteria provided, single submitter ","N/A"
+"12",366715,"NM_007126.5(VCP):c.*64C>T","VCP",35057053,"rs553370942",0.000191131498470948,"Uncertain significance",NA,"c.*64C>T","criteria provided, single submitter ","rs553370942:"
+"13",284304,"NM_007126.5(VCP):c.*4G>T","VCP",35057113,"rs201091341",0.000565950974496834,"Uncertain significance",NA,"c.*4G>T","criteria provided, conflicting interpretations ","rs201091341:"
+"14",284304,"NM_007126.5(VCP):c.*4G>T","VCP",35057113,"rs201091341",3.97908592438145e-06,"Uncertain significance",NA,"c.*4G>T","criteria provided, conflicting interpretations ","rs201091341:"
+"15",284304,"NM_007126.5(VCP):c.*4G>T","VCP",35057113,"rs201091341",3.97908592438145e-06,"Uncertain significance",NA,"c.*4G>T","criteria provided, conflicting interpretations ","rs201091341:"
+"16",568017,"NM_007126.5(VCP):c.2397C>G (p.Asp799Glu)","VCP",35057141,"rs1329151473",3.18593092901746e-05,"Uncertain significance","p.Asp799Glu","c.2397C>G","criteria provided, single submitter ","rs1329151473:"
+"17",653332,"NM_007126.5(VCP):c.2266G>A (p.Glu756Lys)","VCP",35057425,NA,NA,"Uncertain significance","p.Glu756Lys","c.2266G>A","criteria provided, single submitter ","N/A"
+"18",194645,"NM_007126.5(VCP):c.2214A>G (p.Glu738=)","VCP",35057477,"rs374391034",0.00199655912151399,"Likely benign","p.Glu738Glu","c.2214A>G","criteria provided, multiple submitters, no conflicts ","rs374391034:"
+"19",532766,"NM_007126.5(VCP):c.2161-6C>T","VCP",35057536,"rs199513619",4.34093720834328e-05,"Likely benign",NA,"c.2161-6C>T","criteria provided, single submitter ","rs199513619:"
+"20",647081,"NM_007126.5(VCP):c.2014T>G (p.Leu672Val)","VCP",35059210,"rs757829124",3.97642773637875e-06,"Uncertain significance","p.Leu672Val","c.2014T>G","criteria provided, single submitter ","rs757829124:"
+"21",572697,"NM_007126.5(VCP):c.1984C>T (p.Arg662Cys)","VCP",35059513,"rs765795425",4.00782327102504e-06,"Uncertain significance","p.Arg662Cys","c.1984C>T","criteria provided, single submitter ","rs765795425:"
+"22",532763,"NM_007126.5(VCP):c.1950G>A (p.Glu650=)","VCP",35059547,"rs752382520",7.9735914650677e-06,"Likely benign","p.Glu650Glu","c.1950G>A","criteria provided, single submitter ","rs752382520:"
+"23",366716,"NM_007126.5(VCP):c.1856T>C (p.Ile619Thr)","VCP",35059641,NA,NA,"Uncertain significance","p.Ile619Thr","c.1856T>C","criteria provided, single submitter ","N/A"
+"24",30153,"NM_007126.5(VCP):c.1774G>A (p.Asp592Asn)","VCP",35059723,"rs387906790",3.97658586244194e-06,"Pathogenic","p.Asp592Asn","c.1774G>A","no assertion criteria provided","rs387906790:21145000"
+"25",260125,"NM_007126.5(VCP):c.1704A>G (p.Gln568=)","VCP",35059793,"rs142577424",0.00269708218293315,"Likely benign","p.Gln568Gln","c.1704A>G","criteria provided, multiple submitters, no conflicts ","rs142577424:25741868"
+"26",464106,"NM_007126.5(VCP):c.1696-7C>T","VCP",35059808,NA,NA,"Likely benign",NA,"c.1696-7C>T","criteria provided, single submitter ","N/A"
+"27",260124,"NM_007126.5(VCP):c.1695+8A>G","VCP",35060305,"rs684562",0.58594309202367,"Benign",NA,"c.1695+8A>G","criteria provided, multiple submitters, no conflicts ","rs684562:25741868"
+"28",397543,"NM_007126.5(VCP):c.1374G>C (p.Gln458His)","VCP",35060909,NA,NA,"Uncertain significance","p.Gln458His","c.1374G>C","criteria provided, single submitter ","N/A"
+"29",532759,"NM_007126.5(VCP):c.1360-4C>G","VCP",35060927,NA,NA,"Uncertain significance",NA,"c.1360-4C>G","criteria provided, single submitter ","N/A"
+"30",366717,"NM_007126.5(VCP):c.1360-6T>C","VCP",35060929,"rs370296303",7.952412762032e-06,"Uncertain significance",NA,"c.1360-6T>C","criteria provided, single submitter ","rs370296303:"
+"31",366717,"NM_007126.5(VCP):c.1360-6T>C","VCP",35060929,"rs370296303",7.06973587466772e-06,"Uncertain significance",NA,"c.1360-6T>C","criteria provided, single submitter ","rs370296303:"
+"32",260122,"NM_007126.5(VCP):c.1360-14C>G","VCP",35060937,"rs144304208",7.95253924578118e-06,"Likely benign",NA,"c.1360-14C>G","criteria provided, multiple submitters, no conflicts ","rs144304208:25741868"
+"33",260122,"NM_007126.5(VCP):c.1360-14C>G","VCP",35060937,"rs144304208",0.00299409664533918,"Likely benign",NA,"c.1360-14C>G","criteria provided, multiple submitters, no conflicts ","rs144304208:25741868"
+"34",532762,"NM_007126.5(VCP):c.1329C>T (p.Asn443=)","VCP",35061045,"rs748816624",3.977882970683e-06,"Likely benign","p.Asn443Asn","c.1329C>T","criteria provided, single submitter ","rs748816624:"
+"35",532760,"NM_007126.5(VCP):c.1327A>C (p.Asn443His)","VCP",35061047,"rs770514866",7.95544948289578e-06,"Uncertain significance","p.Asn443His","c.1327A>C","criteria provided, single submitter ","rs770514866:"
+"36",565903,"NM_007126.5(VCP):c.1194+3G>A","VCP",35061574,"rs183223259",0.000197962401283928,"Uncertain significance",NA,"c.1194+3G>A","criteria provided, multiple submitters, no conflicts ","rs183223259:"
+"37",656560,"NM_007126.5(VCP):c.1180G>A (p.Val394Met)","VCP",35061591,NA,NA,"Uncertain significance","p.Val394Met","c.1180G>A","criteria provided, single submitter ","N/A"
+"38",366718,"NM_007126.5(VCP):c.1092C>T (p.Asp364=)","VCP",35061679,"rs61752947",0.00200753226104343,"Likely benign","p.Asp364Asp","c.1092C>T","criteria provided, multiple submitters, no conflicts ","rs61752947:"
+"39",366719,"NM_007126.5(VCP):c.927C>T (p.Ile309=)","VCP",35062235,"rs34097935",0.000813192097187062,"Likely benign","p.Ile309Ile","c.927C>T","criteria provided, multiple submitters, no conflicts ","rs34097935:"
+"40",260128,"NM_007126.5(VCP):c.811+3G>A","VCP",35062975,"rs514492",0.746801061007958,"Benign",NA,"c.811+3G>A","criteria provided, multiple submitters, no conflicts ","rs514492:25741868, 30954774"
+"41",8470,"NM_007126.5(VCP):c.695C>A (p.Ala232Glu)","VCP",35064167,NA,NA,"Pathogenic","p.Ala232Glu","c.695C>A","no assertion criteria provided","N/A"
+"42",8473,"NM_007126.5(VCP):c.572G>A (p.Arg191Gln)","VCP",35065255,"rs121909334",1.59055844507006e-05,"Likely pathogenic","p.Arg191Gln","c.572G>A","criteria provided, multiple submitters, no conflicts ","rs121909334:15034582, 21145000, 21984748"
+"43",218305,"NM_007126.5(VCP):c.553G>A (p.Glu185Lys)","VCP",35065274,NA,NA,"Uncertain significance","p.Glu185Lys","c.553G>A","criteria provided, single submitter ","N/A"
+"44",532764,"NM_007126.5(VCP):c.552C>T (p.Cys184=)","VCP",35065275,"rs769455914",4.77167533521019e-05,"Likely benign","p.Cys184Cys","c.552C>T","criteria provided, single submitter ","rs769455914:"
+"45",640109,"NM_007126.5(VCP):c.512G>T (p.Ser171Ile)","VCP",35065315,"rs200911363",1.19292832091362e-05,"Uncertain significance","p.Ser171Ile","c.512G>T","criteria provided, single submitter ","rs200911363:"
+"46",640109,"NM_007126.5(VCP):c.512G>T (p.Ser171Ile)","VCP",35065315,"rs200911363",3.97642773637875e-06,"Uncertain significance","p.Ser171Ile","c.512G>T","criteria provided, single submitter ","rs200911363:"
+"47",532758,"NM_007126.5(VCP):c.479C>T (p.Ala160Val)","VCP",35065348,NA,NA,"Uncertain significance","p.Ala160Val","c.479C>T","criteria provided, single submitter ","N/A"
+"48",532761,"NM_007126.5(VCP):c.478G>C (p.Ala160Pro)","VCP",35065349,NA,NA,"Uncertain significance","p.Ala160Pro","c.478G>C","criteria provided, multiple submitters, no conflicts ","N/A"
+"49",8474,"NM_007126.5(VCP):c.476G>A (p.Arg159His)","VCP",35065351,"rs121909335",7.95348800216335e-06,"Pathogenic","p.Arg159His","c.476G>A","criteria provided, multiple submitters, no conflicts ","rs121909335:15034582, 16247064, 19704082"
+"50",280123,"NM_007126.5(VCP):c.475C>T (p.Arg159Cys)","VCP",35065352,"rs387906789",3.97712358513828e-06,"Pathogenic","p.Arg159Cys","c.475C>T","criteria provided, multiple submitters, no conflicts ","rs387906789:21145000"
+"51",30152,"NM_007126.5(VCP):c.475C>G (p.Arg159Gly)","VCP",35065352,"rs387906789",3.97712358513828e-06,"Pathogenic","p.Arg159Gly","c.475C>G","no assertion criteria provided","rs387906789:21145000"
+"52",8472,"NM_007126.5(VCP):c.464G>C (p.Arg155Pro)","VCP",35065363,NA,NA,"Pathogenic","p.Arg155Pro","c.464G>C","no assertion criteria provided","N/A"
+"53",8468,"NM_007126.5(VCP):c.464G>A (p.Arg155His)","VCP",35065363,NA,NA,"Pathogenic","p.Arg155His","c.464G>A","criteria provided, multiple submitters, no conflicts ","N/A"
+"54",217028,"NM_007126.5(VCP):c.463C>G (p.Arg155Gly)","VCP",35065364,NA,NA,"Uncertain significance","p.Arg155Gly","c.463C>G","criteria provided, conflicting interpretations ","N/A"
+"55",8469,"NM_007126.5(VCP):c.463C>T (p.Arg155Cys)","VCP",35065364,NA,NA,"Pathogenic","p.Arg155Cys","c.463C>T","criteria provided, multiple submitters, no conflicts ","N/A"
+"56",464109,"NM_007126.5(VCP):c.426G>A (p.Ala142=)","VCP",35066694,"rs577812326",1.19341236375209e-05,"Uncertain significance","p.Ala142Ala","c.426G>A","criteria provided, conflicting interpretations ","rs577812326:"
+"57",569394,"NM_007126.5(VCP):c.374G>A (p.Gly125Asp)","VCP",35066746,NA,NA,"Uncertain significance","p.Gly125Asp","c.374G>A","criteria provided, single submitter ","N/A"
+"58",597496,"NM_007126.5(VCP):c.340A>G (p.Ile114Val)","VCP",35066780,"rs549915384",7.07073563933592e-05,"Uncertain significance","p.Ile114Val","c.340A>G","criteria provided, multiple submitters, no conflicts ","rs549915384:"
+"59",575232,"NM_007126.5(VCP):c.320A>T (p.Asp107Val)","VCP",35066800,NA,NA,"Uncertain significance","p.Asp107Val","c.320A>T","criteria provided, single submitter ","N/A"
+"60",464108,"NM_007126.5(VCP):c.303-3C>T","VCP",35066820,NA,NA,"Uncertain significance",NA,"c.303-3C>T","criteria provided, single submitter ","N/A"
+"61",280124,"NM_007126.5(VCP):c.283C>T (p.Arg95Cys)","VCP",35067910,"rs121909332",3.97671237234753e-06,"Likely pathogenic","p.Arg95Cys","c.283C>T","criteria provided, multiple submitters, no conflicts ","rs121909332:15034582, 16321991"
+"62",8471,"NM_007126.5(VCP):c.283C>G (p.Arg95Gly)","VCP",35067910,"rs121909332",3.97671237234753e-06,"Pathogenic","p.Arg95Gly","c.283C>G","no assertion criteria provided","rs121909332:15034582, 16321991"
+"63",449554,"NM_007126.5(VCP):c.278G>A (p.Arg93His)","VCP",35067915,"rs779959657",7.95310847244646e-06,"Uncertain significance","p.Arg93His","c.278G>A","criteria provided, conflicting interpretations ","rs779959657:"
+"64",593071,"NM_007126.5(VCP):c.277C>T (p.Arg93Cys)","VCP",35067916,NA,NA,"Pathogenic","p.Arg93Cys","c.277C>T","criteria provided, multiple submitters, no conflicts ","N/A"
+"65",217877,"NM_007126.5(VCP):c.271A>T (p.Asn91Tyr)","VCP",35067922,NA,NA,"Likely pathogenic","p.Asn91Tyr","c.271A>T","no assertion criteria provided","N/A"
+"66",532765,"NM_007126.5(VCP):c.213C>T (p.Val71=)","VCP",35067980,"rs1195805928",3.97630124458229e-06,"Likely benign","p.Val71Val","c.213C>T","criteria provided, single submitter ","rs1195805928:"
+"67",366720,"NM_007126.5(VCP):c.185A>G (p.Lys62Arg)","VCP",35068008,NA,NA,"Uncertain significance","p.Lys62Arg","c.185A>G","criteria provided, single submitter ","N/A"
+"68",638960,"NM_007126.5(VCP):c.84T>A (p.Val28=)","VCP",35068296,NA,NA,"Uncertain significance","p.Val28Val","c.84T>A","criteria provided, single submitter ","N/A"
+"69",366721,"NM_007126.5(VCP):c.18-5T>C","VCP",35068367,"rs114256093",0.00409221453531967,"Likely benign",NA,"c.18-5T>C","criteria provided, multiple submitters, no conflicts ","rs114256093:"
+"70",366722,"NM_007126.5(VCP):c.-53C>T","VCP",35072406,NA,NA,"Uncertain significance",NA,"c.-53C>T","criteria provided, single submitter ","N/A"
+"71",366723,"NM_007126.5(VCP):c.-215A>G","VCP",35072568,NA,NA,"Uncertain significance",NA,"c.-215A>G","criteria provided, single submitter ","N/A"
+"72",366725,"NM_007126.5(VCP):c.-250C>T","VCP",35072603,NA,NA,"Uncertain significance",NA,"c.-250C>T","criteria provided, single submitter ","N/A"
+"73",366726,"NM_007126.5(VCP):c.-267C>T","VCP",35072620,NA,NA,"Likely benign",NA,"c.-267C>T","criteria provided, single submitter ","N/A"
+"74",366727,"NM_007126.3(VCP):c.-370G>A","VCP",35072723,NA,NA,"Uncertain significance",NA,"c.-370G>A","criteria provided, single submitter ","N/A"
+"75",366732,"NM_004629.1(FANCG):c.1638T>C (p.Gly546=)","VCP",35074493,NA,NA,"Uncertain significance","p.Gly546Gly","c.1638T>C","criteria provided, conflicting interpretations ","N/A"
+"76",259477,"NM_004629.1(FANCG):c.1636+7A>G","VCP",35074920,NA,NA,"Benign",NA,"c.1636+7A>G","criteria provided, multiple submitters, no conflicts ","N/A"
+"77",134361,"NM_004629.1(FANCG):c.1538G>A (p.Arg513Gln)","VCP",35075025,NA,NA,"Likely benign","p.Arg513Gln","c.1538G>A","criteria provided, multiple submitters, no conflicts ","N/A"
+"78",134370,"NM_004629.1(FANCG):c.1133C>T (p.Ser378Leu)","VCP",35075972,NA,NA,"Likely benign","p.Ser378Leu","c.1133C>T","criteria provided, multiple submitters, no conflicts ","N/A"
+"79",134367,"NM_004629.1(FANCG):c.890C>T (p.Thr297Ile)","VCP",35076758,NA,NA,"Likely benign","p.Thr297Ile","c.890C>T","criteria provided, multiple submitters, no conflicts ","N/A"
+"80",134366,"NM_004629.1(FANCG):c.640C>T (p.Arg214Cys)","VCP",35077270,NA,NA,"Likely benign","p.Arg214Cys","c.640C>T","criteria provided, multiple submitters, no conflicts ","N/A"

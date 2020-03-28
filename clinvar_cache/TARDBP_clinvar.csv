@@ -1,80 +1,80 @@
-VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Protein.Consequence,Nucleotide.Consequence,Review.Criteria,Pubmed_ID
-291727,NM_007375.3(TARDBP):c.-126G>T,TARDBP,11012630,NA,NA,Uncertain significance,NA,c.-126G>T,"criteria provided, single submitter ",N/A
-291729,NM_007375.3(TARDBP):c.-117G>A,TARDBP,11012639,NA,NA,Uncertain significance,NA,c.-117G>A,"criteria provided, single submitter ",N/A
-291730,NM_007375.3(TARDBP):c.-110C>T,TARDBP,11012646,NA,NA,Uncertain significance,NA,c.-110C>T,"criteria provided, single submitter ",N/A
-291731,NM_007375.3(TARDBP):c.-77G>A,TARDBP,11012679,NA,NA,Uncertain significance,NA,c.-77G>A,"criteria provided, single submitter ",N/A
-291732,NM_007375.3(TARDBP):c.-42C>T,TARDBP,11012714,NA,NA,Uncertain significance,NA,c.-42C>T,"criteria provided, single submitter ",N/A
-537329,NM_007375.3(TARDBP):c.111G>A (p.Gly37=),TARDBP,11013838,NA,NA,Likely benign,p.Gly37=),c.111G>A,"criteria provided, single submitter ",N/A
-291734,NM_007375.3(TARDBP):c.198T>C (p.Ala66=),TARDBP,11013925,rs61730366,3.97623800170183e-6,Likely benign,p.Ala66=),c.198T>C,"criteria provided, multiple submitters, no conflicts ",rs61730366:
-291734,NM_007375.3(TARDBP):c.198T>C (p.Ala66=),TARDBP,11013925,rs61730366,0.0061542485878102755,Likely benign,p.Ala66=),c.198T>C,"criteria provided, multiple submitters, no conflicts ",rs61730366:
-291735,NM_007375.3(TARDBP):c.238+9C>T,TARDBP,11013974,rs376560308,3.976870521049576e-6,Likely benign,NA,c.238+9C>T,"criteria provided, multiple submitters, no conflicts ",rs376560308:
-291735,NM_007375.3(TARDBP):c.238+9C>T,TARDBP,11013974,rs376560308,9.385414429676998e-4,Likely benign,NA,c.238+9C>T,"criteria provided, multiple submitters, no conflicts ",rs376560308:
-291736,NM_007375.3(TARDBP):c.239-15G>A,TARDBP,11016829,rs200066188,2.8364770954474543e-4,Uncertain significance,NA,c.239-15G>A,"criteria provided, single submitter ",rs200066188:
-537328,NM_007375.3(TARDBP):c.263C>T (p.Thr88Ile),TARDBP,11016868,NA,NA,Uncertain significance,p.Thr88Ile,c.263C>T,"criteria provided, single submitter ",N/A
-21481,NM_007375.3(TARDBP):c.269C>T (p.Ala90Val),TARDBP,11016874,rs80356715,7.954183900731784e-6,Uncertain significance,p.Ala90Val,c.269C>T,"criteria provided, single submitter ","rs80356715:18309045, 18372902, 18505686, 18545701, 28430856"
-21481,NM_007375.3(TARDBP):c.269C>T (p.Ala90Val),TARDBP,11016874,rs80356715,2.1920055436527297e-4,Uncertain significance,p.Ala90Val,c.269C>T,"criteria provided, single submitter ","rs80356715:18309045, 18372902, 18505686, 18545701, 28430856"
-291737,NM_007375.3(TARDBP):c.499A>G (p.Met167Val),TARDBP,11018829,NA,NA,Uncertain significance,p.Met167Val,c.499A>G,"criteria provided, single submitter ",N/A
-5233,NM_007375.3(TARDBP):c.506A>G (p.Asp169Gly),TARDBP,11018836,NA,NA,Uncertain significance,p.Asp169Gly,c.506A>G,no assertion criteria provided ,N/A
-291738,NM_007375.3(TARDBP):c.675A>G (p.Pro225=),TARDBP,11020560,rs61741294,0.002052094905851301,Likely benign,p.Pro225=),c.675A>G,"criteria provided, multiple submitters, no conflicts ",rs61741294:
-291739,NM_007375.3(TARDBP):c.720G>A (p.Ala240=),TARDBP,11022129,rs765175133,1.770249888474257e-5,Uncertain significance,p.Ala240=),c.720G>A,"criteria provided, conflicting interpretations ",rs765175133:
-291739,NM_007375.3(TARDBP):c.720G>A (p.Ala240=),TARDBP,11022129,rs765175133,3.983492407463471e-6,Uncertain significance,p.Ala240=),c.720G>A,"criteria provided, conflicting interpretations ",rs765175133:
-21482,NM_007375.3(TARDBP):c.800A>G (p.Asn267Ser),TARDBP,11022209,rs80356718,7.565862826924915e-5,Pathogenic,p.Asn267Ser,c.800A>G,no assertion criteria provided ,rs80356718:
-21483,NM_007375.3(TARDBP):c.859G>A (p.Gly287Ser),TARDBP,11022268,rs80356719,1.592622970401102e-5,Uncertain significance,p.Gly287Ser,c.859G>A,"criteria provided, conflicting interpretations ","rs80356719:18396105, 20301761, 28089114, 28430856"
-5231,NM_007375.3(TARDBP):c.869G>C (p.Gly290Ala),TARDBP,11022278,NA,NA,Pathogenic,p.Gly290Ala,c.869G>C,no assertion criteria provided ,N/A
-21484,NM_007375.3(TARDBP):c.881G>T (p.Gly294Val),TARDBP,11022290,rs80356721,3.981494015814494e-6,Pathogenic,p.Gly294Val,c.881G>T,no assertion criteria provided ,"rs80356721:18309045, 19236453, 19695877, 20301761"
-21484,NM_007375.3(TARDBP):c.881G>T (p.Gly294Val),TARDBP,11022290,rs80356721,1.1944482047443482e-5,Pathogenic,p.Gly294Val,c.881G>T,no assertion criteria provided ,"rs80356721:18309045, 19236453, 19695877, 20301761"
-5230,NM_007375.3(TARDBP):c.881G>C (p.Gly294Ala),TARDBP,11022290,rs80356721,3.981494015814494e-6,Pathogenic,p.Gly294Ala,c.881G>C,no assertion criteria provided ,"rs80356721:18309045, 19236453, 19695877, 20301761"
-5230,NM_007375.3(TARDBP):c.881G>C (p.Gly294Ala),TARDBP,11022290,rs80356721,1.1944482047443482e-5,Pathogenic,p.Gly294Ala,c.881G>C,no assertion criteria provided ,"rs80356721:18309045, 19236453, 19695877, 20301761"
-21485,NM_007375.3(TARDBP):c.883G>A (p.Gly295Ser),TARDBP,11022292,rs80356723,3.981398904319021e-6,Pathogenic,p.Gly295Ser,c.883G>A,no assertion criteria provided ,"rs80356723:19236453, 19350673, 20301761"
-21485,NM_007375.3(TARDBP):c.883G>A (p.Gly295Ser),TARDBP,11022292,rs80356723,7.962797808638043e-6,Pathogenic,p.Gly295Ser,c.883G>A,no assertion criteria provided ,"rs80356723:19236453, 19350673, 20301761"
-5232,NM_007375.3(TARDBP):c.892G>A (p.Gly298Ser),TARDBP,11022301,rs4884357,3.981779377568248e-6,Pathogenic,p.Gly298Ser,c.892G>A,"criteria provided, single submitter ","rs4884357:18396105, 20301761"
-580997,NM_007375.3(TARDBP):c.925G>A (p.Gly309Ser),TARDBP,11022334,rs1419402299,1.4158690604292915e-5,Uncertain significance,p.Gly309Ser,c.925G>A,"criteria provided, single submitter ",rs1419402299:
-21487,NM_007375.3(TARDBP):c.931A>G (p.Met311Val),TARDBP,11022340,rs80356725,3.982128208599804e-6,Uncertain significance,p.Met311Val,c.931A>G,"criteria provided, single submitter ",rs80356725:27790088
-5236,NM_007375.3(TARDBP):c.943G>A (p.Ala315Thr),TARDBP,11022352,rs80356726,3.9820013538804606e-6,Pathogenic,p.Ala315Thr,c.943G>A,no assertion criteria provided ,"rs80356726:18288693, 20301761"
-5229,NM_007375.3(TARDBP):c.991C>A (p.Gln331Lys),TARDBP,11022400,NA,NA,Pathogenic,p.Gln331Lys,c.991C>A,no assertion criteria provided ,N/A
-5228,NM_007375.3(TARDBP):c.1009A>G (p.Met337Val),TARDBP,11022418,rs80356730,7.967429149636287e-6,Pathogenic,p.Met337Val,c.1009A>G,"criteria provided, single submitter ","rs80356730:18309045, 20301761, 28430856"
-5235,NM_007375.3(TARDBP):c.1028A>G (p.Gln343Arg),TARDBP,11022437,NA,NA,Pathogenic,p.Gln343Arg,c.1028A>G,no assertion criteria provided ,N/A
-21467,NM_007375.3(TARDBP):c.1035C>A (p.Asn345Lys),TARDBP,11022444,rs80356732,7.973464310773745e-6,Uncertain significance,p.Asn345Lys,c.1035C>A,"criteria provided, single submitter ",rs80356732:
-5234,NM_007375.3(TARDBP):c.1042G>T (p.Gly348Cys),TARDBP,11022451,NA,NA,Pathogenic,p.Gly348Cys,c.1042G>T,"criteria provided, single submitter ",N/A
-21468,NM_007375.3(TARDBP):c.1055A>G (p.Asn352Ser),TARDBP,11022464,NA,NA,Pathogenic,p.Asn352Ser,c.1055A>G,"criteria provided, single submitter ",N/A
-291740,NM_007375.3(TARDBP):c.1098C>G (p.Ala366=),TARDBP,11022507,rs148325203,8.65165586122306e-4,Likely benign,p.Ala366=),c.1098C>G,"criteria provided, multiple submitters, no conflicts ",rs148325203:
-291740,NM_007375.3(TARDBP):c.1098C>G (p.Ala366=),TARDBP,11022507,rs148325203,1.649253300568168e-5,Likely benign,p.Ala366=),c.1098C>G,"criteria provided, multiple submitters, no conflicts ",rs148325203:
-21474,NM_007375.3(TARDBP):c.1144G>A (p.Ala382Thr),TARDBP,11022553,rs367543041,3.040886896383951e-5,Likely pathogenic,p.Ala382Thr,c.1144G>A,"criteria provided, single submitter ","rs367543041:18372902, 19224587, 19236453, 20301761"
-21476,NM_007375.3(TARDBP):c.1147A>G (p.Ile383Val),TARDBP,11022556,rs80356740,1.9075669365238025e-5,Pathogenic,p.Ile383Val,c.1147A>G,"criteria provided, single submitter ",rs80356740:
-190399,NM_007375.3(TARDBP):c.1150G>C (p.Gly384Arg),TARDBP,11022559,NA,NA,Uncertain significance,p.Gly384Arg,c.1150G>C,"criteria provided, multiple submitters, no conflicts ",N/A
-190400,NM_007375.3(TARDBP):c.1153T>G (p.Trp385Gly),TARDBP,11022562,NA,NA,Pathogenic,p.Trp385Gly,c.1153T>G,no assertion criteria provided ,N/A
-21465,NM_007375.3(TARDBP):c.*83T>C,TARDBP,11022737,NA,NA,Pathogenic,NA,c.*83T>C,no assertion criteria provided ,N/A
-291741,NM_007375.3(TARDBP):c.*129T>C,TARDBP,11022783,NA,NA,Uncertain significance,NA,c.*129T>C,"criteria provided, single submitter ",N/A
-291742,NM_007375.3(TARDBP):c.*159A>C,TARDBP,11022813,NA,NA,Uncertain significance,NA,c.*159A>C,"criteria provided, single submitter ",N/A
-291743,NM_007375.3(TARDBP):c.*208G>A,TARDBP,11022862,NA,NA,Likely benign,NA,c.*208G>A,"criteria provided, single submitter ",N/A
-291744,NM_007375.3(TARDBP):c.*214T>C,TARDBP,11022868,NA,NA,Uncertain significance,NA,c.*214T>C,"criteria provided, single submitter ",N/A
-291745,NM_007375.3(TARDBP):c.*505del,TARDBP,11023156,rs544313146,6.653094354184131e-6,Uncertain significance,NA,NA,"criteria provided, single submitter ",rs544313146:
-291745,NM_007375.3(TARDBP):c.*505del,TARDBP,11023156,rs544313146,1.1005943209333039e-4,Uncertain significance,NA,NA,"criteria provided, single submitter ",rs544313146:
-291746,NM_007375.3(TARDBP):c.*666G>A,TARDBP,11023320,rs778834503,3.183902190524707e-4,Uncertain significance,NA,c.*666G>A,"criteria provided, single submitter ",rs778834503:
-5239,NM_007375.3(TARDBP):c.*697G>A,TARDBP,11023351,NA,NA,Pathogenic,NA,c.*697G>A,no assertion criteria provided ,N/A
-291747,NM_007375.3(TARDBP):c.*842G>A,TARDBP,11023496,NA,NA,Uncertain significance,NA,c.*842G>A,"criteria provided, single submitter ",N/A
-291748,NM_007375.3(TARDBP):c.*862G>T,TARDBP,11023516,NA,NA,Uncertain significance,NA,c.*862G>T,"criteria provided, single submitter ",N/A
-291749,NM_007375.3(TARDBP):c.*963C>T,TARDBP,11023617,NA,NA,Uncertain significance,NA,c.*963C>T,"criteria provided, single submitter ",N/A
-291750,NM_007375.3(TARDBP):c.*1008T>G,TARDBP,11023662,NA,NA,Likely benign,NA,c.*1008T>G,"criteria provided, single submitter ",N/A
-291751,NM_007375.3(TARDBP):c.*1081C>T,TARDBP,11023735,NA,NA,Likely benign,NA,c.*1081C>T,"criteria provided, single submitter ",N/A
-291752,NM_007375.3(TARDBP):c.*1084A>T,TARDBP,11023738,NA,NA,Uncertain significance,NA,c.*1084A>T,"criteria provided, single submitter ",N/A
-291754,NM_007375.3(TARDBP):c.*1622A>T,TARDBP,11024276,NA,NA,Uncertain significance,NA,c.*1622A>T,"criteria provided, single submitter ",N/A
-291756,NM_007375.3(TARDBP):c.*1623T>A,TARDBP,11024277,NA,NA,Uncertain significance,NA,c.*1623T>A,"criteria provided, single submitter ",N/A
-291755,NM_007375.3(TARDBP):c.*1633del,TARDBP,11024277,NA,NA,Uncertain significance,NA,NA,"criteria provided, single submitter ",N/A
-291757,NM_007375.3(TARDBP):c.*1795A>G,TARDBP,11024449,NA,NA,Uncertain significance,NA,c.*1795A>G,"criteria provided, single submitter ",N/A
-291758,NM_007375.3(TARDBP):c.*2005T>C,TARDBP,11024659,NA,NA,Uncertain significance,NA,c.*2005T>C,"criteria provided, single submitter ",N/A
-291759,NM_007375.3(TARDBP):c.*2029C>T,TARDBP,11024683,NA,NA,Uncertain significance,NA,c.*2029C>T,"criteria provided, single submitter ",N/A
-291760,NM_007375.3(TARDBP):c.*2046T>G,TARDBP,11024700,NA,NA,Uncertain significance,NA,c.*2046T>G,"criteria provided, single submitter ",N/A
-291761,NM_007375.3(TARDBP):c.*2154G>T,TARDBP,11024808,NA,NA,Uncertain significance,NA,c.*2154G>T,"criteria provided, single submitter ",N/A
-291762,NM_007375.3(TARDBP):c.*2252A>G,TARDBP,11024906,NA,NA,Uncertain significance,NA,c.*2252A>G,"criteria provided, single submitter ",N/A
-291764,NM_007375.3(TARDBP):c.*2331A>G,TARDBP,11024985,NA,NA,Likely benign,NA,c.*2331A>G,"criteria provided, single submitter ",N/A
-291765,NM_007375.3(TARDBP):c.*2334G>A,TARDBP,11024988,NA,NA,Uncertain significance,NA,c.*2334G>A,"criteria provided, single submitter ",N/A
-291766,NM_007375.3(TARDBP):c.*2360C>T,TARDBP,11025014,NA,NA,Uncertain significance,NA,c.*2360C>T,"criteria provided, single submitter ",N/A
-291767,NM_007375.3(TARDBP):c.*2538del,TARDBP,11025191,NA,NA,Uncertain significance,NA,NA,"criteria provided, single submitter ",N/A
-291768,NM_007375.3(TARDBP):c.*2740G>A,TARDBP,11025394,NA,NA,Likely benign,NA,c.*2740G>A,"criteria provided, single submitter ",N/A
-291769,NM_007375.3(TARDBP):c.*2750G>A,TARDBP,11025404,NA,NA,Uncertain significance,NA,c.*2750G>A,"criteria provided, single submitter ",N/A
-291770,NM_007375.3(TARDBP):c.*2773A>G,TARDBP,11025427,NA,NA,Uncertain significance,NA,c.*2773A>G,"criteria provided, single submitter ",N/A
-291772,NM_006610.4(MASP2):c.*225T>C,TARDBP,11026660,NA,NA,Benign,NA,c.*225T>C,"criteria provided, single submitter ",N/A
-368798,NM_006610.4(MASP2):c.*184C>T,TARDBP,11026701,NA,NA,Likely benign,NA,c.*184C>T,"criteria provided, single submitter ",N/A
-291779,NM_006610.4(MASP2):c.1617T>C (p.Asn539=),TARDBP,11027329,NA,NA,Likely benign,p.Asn539=),c.1617T>C,"criteria provided, multiple submitters, no conflicts ",N/A
-291781,NM_006610.4(MASP2):c.1479C>T (p.Ser493=),TARDBP,11027467,NA,NA,Benign,p.Ser493=),c.1479C>T,"criteria provided, multiple submitters, no conflicts ",N/A
+"","VariationID","Name","Gene","Position","rsID","Allele.Frequency","Clinical.Significance","Protein.Consequence","Nucleotide.Consequence","Review.Criteria","Pubmed_ID"
+"1",291727,"NM_007375.3(TARDBP):c.-126G>T","TARDBP",11012630,NA,NA,"Uncertain significance",NA,"c.-126G>T","criteria provided, single submitter ","N/A"
+"2",291729,"NM_007375.3(TARDBP):c.-117G>A","TARDBP",11012639,NA,NA,"Uncertain significance",NA,"c.-117G>A","criteria provided, single submitter ","N/A"
+"3",291730,"NM_007375.3(TARDBP):c.-110C>T","TARDBP",11012646,NA,NA,"Uncertain significance",NA,"c.-110C>T","criteria provided, single submitter ","N/A"
+"4",291731,"NM_007375.3(TARDBP):c.-77G>A","TARDBP",11012679,NA,NA,"Uncertain significance",NA,"c.-77G>A","criteria provided, single submitter ","N/A"
+"5",291732,"NM_007375.3(TARDBP):c.-42C>T","TARDBP",11012714,NA,NA,"Uncertain significance",NA,"c.-42C>T","criteria provided, single submitter ","N/A"
+"6",537329,"NM_007375.3(TARDBP):c.111G>A (p.Gly37=)","TARDBP",11013838,NA,NA,"Likely benign","p.Gly37Gly","c.111G>A","criteria provided, single submitter ","N/A"
+"7",291734,"NM_007375.3(TARDBP):c.198T>C (p.Ala66=)","TARDBP",11013925,"rs61730366",3.97623800170183e-06,"Likely benign","p.Ala66Ala","c.198T>C","criteria provided, multiple submitters, no conflicts ","rs61730366:"
+"8",291734,"NM_007375.3(TARDBP):c.198T>C (p.Ala66=)","TARDBP",11013925,"rs61730366",0.00615424858781028,"Likely benign","p.Ala66Ala","c.198T>C","criteria provided, multiple submitters, no conflicts ","rs61730366:"
+"9",291735,"NM_007375.3(TARDBP):c.238+9C>T","TARDBP",11013974,"rs376560308",3.97687052104958e-06,"Likely benign",NA,"c.238+9C>T","criteria provided, multiple submitters, no conflicts ","rs376560308:"
+"10",291735,"NM_007375.3(TARDBP):c.238+9C>T","TARDBP",11013974,"rs376560308",0.0009385414429677,"Likely benign",NA,"c.238+9C>T","criteria provided, multiple submitters, no conflicts ","rs376560308:"
+"11",291736,"NM_007375.3(TARDBP):c.239-15G>A","TARDBP",11016829,"rs200066188",0.000283647709544745,"Uncertain significance",NA,"c.239-15G>A","criteria provided, single submitter ","rs200066188:"
+"12",537328,"NM_007375.3(TARDBP):c.263C>T (p.Thr88Ile)","TARDBP",11016868,NA,NA,"Uncertain significance","p.Thr88Ile","c.263C>T","criteria provided, single submitter ","N/A"
+"13",21481,"NM_007375.3(TARDBP):c.269C>T (p.Ala90Val)","TARDBP",11016874,"rs80356715",7.95418390073178e-06,"Uncertain significance","p.Ala90Val","c.269C>T","criteria provided, single submitter ","rs80356715:18309045, 18372902, 18505686, 18545701, 28430856"
+"14",21481,"NM_007375.3(TARDBP):c.269C>T (p.Ala90Val)","TARDBP",11016874,"rs80356715",0.000219200554365273,"Uncertain significance","p.Ala90Val","c.269C>T","criteria provided, single submitter ","rs80356715:18309045, 18372902, 18505686, 18545701, 28430856"
+"15",291737,"NM_007375.3(TARDBP):c.499A>G (p.Met167Val)","TARDBP",11018829,NA,NA,"Uncertain significance","p.Met167Val","c.499A>G","criteria provided, single submitter ","N/A"
+"16",5233,"NM_007375.3(TARDBP):c.506A>G (p.Asp169Gly)","TARDBP",11018836,NA,NA,"Uncertain significance","p.Asp169Gly","c.506A>G","no assertion criteria provided","N/A"
+"17",291738,"NM_007375.3(TARDBP):c.675A>G (p.Pro225=)","TARDBP",11020560,"rs61741294",0.0020520949058513,"Likely benign","p.Pro225Pro","c.675A>G","criteria provided, multiple submitters, no conflicts ","rs61741294:"
+"18",291739,"NM_007375.3(TARDBP):c.720G>A (p.Ala240=)","TARDBP",11022129,"rs765175133",1.77024988847426e-05,"Uncertain significance","p.Ala240Ala","c.720G>A","criteria provided, conflicting interpretations ","rs765175133:"
+"19",291739,"NM_007375.3(TARDBP):c.720G>A (p.Ala240=)","TARDBP",11022129,"rs765175133",3.98349240746347e-06,"Uncertain significance","p.Ala240Ala","c.720G>A","criteria provided, conflicting interpretations ","rs765175133:"
+"20",21482,"NM_007375.3(TARDBP):c.800A>G (p.Asn267Ser)","TARDBP",11022209,"rs80356718",7.56586282692492e-05,"Pathogenic","p.Asn267Ser","c.800A>G","no assertion criteria provided","rs80356718:"
+"21",21483,"NM_007375.3(TARDBP):c.859G>A (p.Gly287Ser)","TARDBP",11022268,"rs80356719",1.5926229704011e-05,"Uncertain significance","p.Gly287Ser","c.859G>A","criteria provided, conflicting interpretations ","rs80356719:18396105, 20301761, 28089114, 28430856"
+"22",5231,"NM_007375.3(TARDBP):c.869G>C (p.Gly290Ala)","TARDBP",11022278,NA,NA,"Pathogenic","p.Gly290Ala","c.869G>C","no assertion criteria provided","N/A"
+"23",21484,"NM_007375.3(TARDBP):c.881G>T (p.Gly294Val)","TARDBP",11022290,"rs80356721",3.98149401581449e-06,"Pathogenic","p.Gly294Val","c.881G>T","no assertion criteria provided","rs80356721:18309045, 19236453, 19695877, 20301761"
+"24",21484,"NM_007375.3(TARDBP):c.881G>T (p.Gly294Val)","TARDBP",11022290,"rs80356721",1.19444820474435e-05,"Pathogenic","p.Gly294Val","c.881G>T","no assertion criteria provided","rs80356721:18309045, 19236453, 19695877, 20301761"
+"25",5230,"NM_007375.3(TARDBP):c.881G>C (p.Gly294Ala)","TARDBP",11022290,"rs80356721",3.98149401581449e-06,"Pathogenic","p.Gly294Ala","c.881G>C","no assertion criteria provided","rs80356721:18309045, 19236453, 19695877, 20301761"
+"26",5230,"NM_007375.3(TARDBP):c.881G>C (p.Gly294Ala)","TARDBP",11022290,"rs80356721",1.19444820474435e-05,"Pathogenic","p.Gly294Ala","c.881G>C","no assertion criteria provided","rs80356721:18309045, 19236453, 19695877, 20301761"
+"27",21485,"NM_007375.3(TARDBP):c.883G>A (p.Gly295Ser)","TARDBP",11022292,"rs80356723",3.98139890431902e-06,"Pathogenic","p.Gly295Ser","c.883G>A","no assertion criteria provided","rs80356723:19236453, 19350673, 20301761"
+"28",21485,"NM_007375.3(TARDBP):c.883G>A (p.Gly295Ser)","TARDBP",11022292,"rs80356723",7.96279780863804e-06,"Pathogenic","p.Gly295Ser","c.883G>A","no assertion criteria provided","rs80356723:19236453, 19350673, 20301761"
+"29",5232,"NM_007375.3(TARDBP):c.892G>A (p.Gly298Ser)","TARDBP",11022301,"rs4884357",3.98177937756825e-06,"Pathogenic","p.Gly298Ser","c.892G>A","criteria provided, single submitter ","rs4884357:18396105, 20301761"
+"30",580997,"NM_007375.3(TARDBP):c.925G>A (p.Gly309Ser)","TARDBP",11022334,"rs1419402299",1.41586906042929e-05,"Uncertain significance","p.Gly309Ser","c.925G>A","criteria provided, single submitter ","rs1419402299:"
+"31",21487,"NM_007375.3(TARDBP):c.931A>G (p.Met311Val)","TARDBP",11022340,"rs80356725",3.9821282085998e-06,"Uncertain significance","p.Met311Val","c.931A>G","criteria provided, single submitter ","rs80356725:27790088"
+"32",5236,"NM_007375.3(TARDBP):c.943G>A (p.Ala315Thr)","TARDBP",11022352,"rs80356726",3.98200135388046e-06,"Pathogenic","p.Ala315Thr","c.943G>A","no assertion criteria provided","rs80356726:18288693, 20301761"
+"33",5229,"NM_007375.3(TARDBP):c.991C>A (p.Gln331Lys)","TARDBP",11022400,NA,NA,"Pathogenic","p.Gln331Lys","c.991C>A","no assertion criteria provided","N/A"
+"34",5228,"NM_007375.3(TARDBP):c.1009A>G (p.Met337Val)","TARDBP",11022418,"rs80356730",7.96742914963629e-06,"Pathogenic","p.Met337Val","c.1009A>G","criteria provided, single submitter ","rs80356730:18309045, 20301761, 28430856"
+"35",5235,"NM_007375.3(TARDBP):c.1028A>G (p.Gln343Arg)","TARDBP",11022437,NA,NA,"Pathogenic","p.Gln343Arg","c.1028A>G","no assertion criteria provided","N/A"
+"36",21467,"NM_007375.3(TARDBP):c.1035C>A (p.Asn345Lys)","TARDBP",11022444,"rs80356732",7.97346431077374e-06,"Uncertain significance","p.Asn345Lys","c.1035C>A","criteria provided, single submitter ","rs80356732:"
+"37",5234,"NM_007375.3(TARDBP):c.1042G>T (p.Gly348Cys)","TARDBP",11022451,NA,NA,"Pathogenic","p.Gly348Cys","c.1042G>T","criteria provided, single submitter ","N/A"
+"38",21468,"NM_007375.3(TARDBP):c.1055A>G (p.Asn352Ser)","TARDBP",11022464,NA,NA,"Pathogenic","p.Asn352Ser","c.1055A>G","criteria provided, single submitter ","N/A"
+"39",291740,"NM_007375.3(TARDBP):c.1098C>G (p.Ala366=)","TARDBP",11022507,"rs148325203",0.000865165586122306,"Likely benign","p.Ala366Ala","c.1098C>G","criteria provided, multiple submitters, no conflicts ","rs148325203:"
+"40",291740,"NM_007375.3(TARDBP):c.1098C>G (p.Ala366=)","TARDBP",11022507,"rs148325203",1.64925330056817e-05,"Likely benign","p.Ala366Ala","c.1098C>G","criteria provided, multiple submitters, no conflicts ","rs148325203:"
+"41",21474,"NM_007375.3(TARDBP):c.1144G>A (p.Ala382Thr)","TARDBP",11022553,"rs367543041",3.04088689638395e-05,"Likely pathogenic","p.Ala382Thr","c.1144G>A","criteria provided, single submitter ","rs367543041:18372902, 19224587, 19236453, 20301761"
+"42",21476,"NM_007375.3(TARDBP):c.1147A>G (p.Ile383Val)","TARDBP",11022556,"rs80356740",1.9075669365238e-05,"Pathogenic","p.Ile383Val","c.1147A>G","criteria provided, single submitter ","rs80356740:"
+"43",190399,"NM_007375.3(TARDBP):c.1150G>C (p.Gly384Arg)","TARDBP",11022559,NA,NA,"Uncertain significance","p.Gly384Arg","c.1150G>C","criteria provided, multiple submitters, no conflicts ","N/A"
+"44",190400,"NM_007375.3(TARDBP):c.1153T>G (p.Trp385Gly)","TARDBP",11022562,NA,NA,"Pathogenic","p.Trp385Gly","c.1153T>G","no assertion criteria provided","N/A"
+"45",21465,"NM_007375.3(TARDBP):c.*83T>C","TARDBP",11022737,NA,NA,"Pathogenic",NA,"c.*83T>C","no assertion criteria provided","N/A"
+"46",291741,"NM_007375.3(TARDBP):c.*129T>C","TARDBP",11022783,NA,NA,"Uncertain significance",NA,"c.*129T>C","criteria provided, single submitter ","N/A"
+"47",291742,"NM_007375.3(TARDBP):c.*159A>C","TARDBP",11022813,NA,NA,"Uncertain significance",NA,"c.*159A>C","criteria provided, single submitter ","N/A"
+"48",291743,"NM_007375.3(TARDBP):c.*208G>A","TARDBP",11022862,NA,NA,"Likely benign",NA,"c.*208G>A","criteria provided, single submitter ","N/A"
+"49",291744,"NM_007375.3(TARDBP):c.*214T>C","TARDBP",11022868,NA,NA,"Uncertain significance",NA,"c.*214T>C","criteria provided, single submitter ","N/A"
+"50",291745,"NM_007375.3(TARDBP):c.*505del","TARDBP",11023156,"rs544313146",6.65309435418413e-06,"Uncertain significance",NA,NA,"criteria provided, single submitter ","rs544313146:"
+"51",291745,"NM_007375.3(TARDBP):c.*505del","TARDBP",11023156,"rs544313146",0.00011005943209333,"Uncertain significance",NA,NA,"criteria provided, single submitter ","rs544313146:"
+"52",291746,"NM_007375.3(TARDBP):c.*666G>A","TARDBP",11023320,"rs778834503",0.000318390219052471,"Uncertain significance",NA,"c.*666G>A","criteria provided, single submitter ","rs778834503:"
+"53",5239,"NM_007375.3(TARDBP):c.*697G>A","TARDBP",11023351,NA,NA,"Pathogenic",NA,"c.*697G>A","no assertion criteria provided","N/A"
+"54",291747,"NM_007375.3(TARDBP):c.*842G>A","TARDBP",11023496,NA,NA,"Uncertain significance",NA,"c.*842G>A","criteria provided, single submitter ","N/A"
+"55",291748,"NM_007375.3(TARDBP):c.*862G>T","TARDBP",11023516,NA,NA,"Uncertain significance",NA,"c.*862G>T","criteria provided, single submitter ","N/A"
+"56",291749,"NM_007375.3(TARDBP):c.*963C>T","TARDBP",11023617,NA,NA,"Uncertain significance",NA,"c.*963C>T","criteria provided, single submitter ","N/A"
+"57",291750,"NM_007375.3(TARDBP):c.*1008T>G","TARDBP",11023662,NA,NA,"Likely benign",NA,"c.*1008T>G","criteria provided, single submitter ","N/A"
+"58",291751,"NM_007375.3(TARDBP):c.*1081C>T","TARDBP",11023735,NA,NA,"Likely benign",NA,"c.*1081C>T","criteria provided, single submitter ","N/A"
+"59",291752,"NM_007375.3(TARDBP):c.*1084A>T","TARDBP",11023738,NA,NA,"Uncertain significance",NA,"c.*1084A>T","criteria provided, single submitter ","N/A"
+"60",291754,"NM_007375.3(TARDBP):c.*1622A>T","TARDBP",11024276,NA,NA,"Uncertain significance",NA,"c.*1622A>T","criteria provided, single submitter ","N/A"
+"61",291756,"NM_007375.3(TARDBP):c.*1623T>A","TARDBP",11024277,NA,NA,"Uncertain significance",NA,"c.*1623T>A","criteria provided, single submitter ","N/A"
+"62",291755,"NM_007375.3(TARDBP):c.*1633del","TARDBP",11024277,NA,NA,"Uncertain significance",NA,NA,"criteria provided, single submitter ","N/A"
+"63",291757,"NM_007375.3(TARDBP):c.*1795A>G","TARDBP",11024449,NA,NA,"Uncertain significance",NA,"c.*1795A>G","criteria provided, single submitter ","N/A"
+"64",291758,"NM_007375.3(TARDBP):c.*2005T>C","TARDBP",11024659,NA,NA,"Uncertain significance",NA,"c.*2005T>C","criteria provided, single submitter ","N/A"
+"65",291759,"NM_007375.3(TARDBP):c.*2029C>T","TARDBP",11024683,NA,NA,"Uncertain significance",NA,"c.*2029C>T","criteria provided, single submitter ","N/A"
+"66",291760,"NM_007375.3(TARDBP):c.*2046T>G","TARDBP",11024700,NA,NA,"Uncertain significance",NA,"c.*2046T>G","criteria provided, single submitter ","N/A"
+"67",291761,"NM_007375.3(TARDBP):c.*2154G>T","TARDBP",11024808,NA,NA,"Uncertain significance",NA,"c.*2154G>T","criteria provided, single submitter ","N/A"
+"68",291762,"NM_007375.3(TARDBP):c.*2252A>G","TARDBP",11024906,NA,NA,"Uncertain significance",NA,"c.*2252A>G","criteria provided, single submitter ","N/A"
+"69",291764,"NM_007375.3(TARDBP):c.*2331A>G","TARDBP",11024985,NA,NA,"Likely benign",NA,"c.*2331A>G","criteria provided, single submitter ","N/A"
+"70",291765,"NM_007375.3(TARDBP):c.*2334G>A","TARDBP",11024988,NA,NA,"Uncertain significance",NA,"c.*2334G>A","criteria provided, single submitter ","N/A"
+"71",291766,"NM_007375.3(TARDBP):c.*2360C>T","TARDBP",11025014,NA,NA,"Uncertain significance",NA,"c.*2360C>T","criteria provided, single submitter ","N/A"
+"72",291767,"NM_007375.3(TARDBP):c.*2538del","TARDBP",11025191,NA,NA,"Uncertain significance",NA,NA,"criteria provided, single submitter ","N/A"
+"73",291768,"NM_007375.3(TARDBP):c.*2740G>A","TARDBP",11025394,NA,NA,"Likely benign",NA,"c.*2740G>A","criteria provided, single submitter ","N/A"
+"74",291769,"NM_007375.3(TARDBP):c.*2750G>A","TARDBP",11025404,NA,NA,"Uncertain significance",NA,"c.*2750G>A","criteria provided, single submitter ","N/A"
+"75",291770,"NM_007375.3(TARDBP):c.*2773A>G","TARDBP",11025427,NA,NA,"Uncertain significance",NA,"c.*2773A>G","criteria provided, single submitter ","N/A"
+"76",291772,"NM_006610.4(MASP2):c.*225T>C","TARDBP",11026660,NA,NA,"Benign",NA,"c.*225T>C","criteria provided, single submitter ","N/A"
+"77",368798,"NM_006610.4(MASP2):c.*184C>T","TARDBP",11026701,NA,NA,"Likely benign",NA,"c.*184C>T","criteria provided, single submitter ","N/A"
+"78",291779,"NM_006610.4(MASP2):c.1617T>C (p.Asn539=)","TARDBP",11027329,NA,NA,"Likely benign","p.Asn539Asn","c.1617T>C","criteria provided, multiple submitters, no conflicts ","N/A"
+"79",291781,"NM_006610.4(MASP2):c.1479C>T (p.Ser493=)","TARDBP",11027467,NA,NA,"Benign","p.Ser493Ser","c.1479C>T","criteria provided, multiple submitters, no conflicts ","N/A"

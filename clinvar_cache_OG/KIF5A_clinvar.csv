@@ -1,0 +1,5 @@
+VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Protein.Consequence,Nucleotide.Consequence,Review.Criteria,Pubmed_ID
+504476,NM_004984.4(KIF5A):c.2993-3C>T,KIF5A,57582599,rs1402429085,3.976522610507564e-6,Likely benign,NA,c.2993-3C>T,no assertion criteria provided ,rs1402429085:
+504479,NM_004984.4(KIF5A):c.3019A>G (p.Arg1007Gly),KIF5A,57582628,NA,NA,Likely benign,p.Arg1007Gly,c.3019A>G,no assertion criteria provided ,N/A
+504478,NM_004984.4(KIF5A):c.3020+1G>A,KIF5A,57582630,NA,NA,Likely benign,NA,c.3020+1G>A,no assertion criteria provided ,N/A
+504477,NM_004984.4(KIF5A):c.3020+2T>A,KIF5A,57582631,NA,NA,Likely benign,NA,c.3020+2T>A,no assertion criteria provided ,N/A

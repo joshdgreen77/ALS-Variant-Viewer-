@@ -1,0 +1,64 @@
+VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Protein.Consequence,Nucleotide.Consequence,Review.Criteria,Pubmed_ID
+355024,NM_014845.5(FIG4):c.-182G>A,FIG4,109691254,NA,NA,Likely benign,NA,c.-182G>A,"criteria provided, multiple submitters, no conflicts ",N/A
+355025,NM_014845.5(FIG4):c.-138T>C,FIG4,109691298,NA,NA,Uncertain significance,NA,c.-138T>C,"criteria provided, single submitter ",N/A
+355026,NM_014845.5(FIG4):c.-134C>G,FIG4,109691302,NA,NA,Uncertain significance,NA,c.-134C>G,"criteria provided, single submitter ",N/A
+355027,NM_014845.5(FIG4):c.-132A>G,FIG4,109691304,NA,NA,Uncertain significance,NA,c.-132A>G,"criteria provided, single submitter ",N/A
+355028,NM_014845.5(FIG4):c.-124A>G,FIG4,109691312,NA,NA,Uncertain significance,NA,c.-124A>G,"criteria provided, single submitter ",N/A
+355029,NM_014845.5(FIG4):c.-121G>A,FIG4,109691315,NA,NA,Likely benign,NA,c.-121G>A,"criteria provided, single submitter ",N/A
+355030,NM_014845.5(FIG4):c.-120C>T,FIG4,109691316,NA,NA,Likely benign,NA,c.-120C>T,"criteria provided, single submitter ",N/A
+355031,NM_014845.5(FIG4):c.-112G>A,FIG4,109691324,NA,NA,Uncertain significance,NA,c.-112G>A,"criteria provided, single submitter ",N/A
+355032,NM_014845.5(FIG4):c.-84A>G,FIG4,109691352,NA,NA,Uncertain significance,NA,c.-84A>G,"criteria provided, single submitter ",N/A
+137376,NM_014845.5(FIG4):c.27C>T (p.Ile9=),FIG4,109691462,rs141040807,4.928487644281476e-6,Likely benign,p.Ile9=),c.27C>T,"criteria provided, multiple submitters, no conflicts ",rs141040807:
+137376,NM_014845.5(FIG4):c.27C>T (p.Ile9=),FIG4,109691462,rs141040807,0.004614136930169028,Likely benign,p.Ile9=),c.27C>T,"criteria provided, multiple submitters, no conflicts ",rs141040807:
+220332,NM_014845.5(FIG4):c.66+10C>T,FIG4,109691511,rs200063827,0.005607512530486049,Likely benign,NA,c.66+10C>T,"criteria provided, multiple submitters, no conflicts ",rs200063827:
+137374,NM_014845.5(FIG4):c.67-7T>C,FIG4,109715071,rs56378532,0.056585605048466416,Likely benign,NA,c.67-7T>C,"criteria provided, multiple submitters, no conflicts ",rs56378532:25741868
+1721,NM_014845.5(FIG4):c.122T>C (p.Ile41Thr),FIG4,109715133,rs121908287,0.001006228697359004,Uncertain significance,p.Ile41Thr,c.122T>C,"criteria provided, conflicting interpretations ","rs121908287:17572665, 20301641, 21655088, 21705420, 28051077"
+1728,NM_014845.5(FIG4):c.157G>T (p.Asp53Tyr),FIG4,109715168,NA,NA,Pathogenic,p.Asp53Tyr,c.157G>T,no assertion criteria provided ,N/A
+355033,NM_014845.5(FIG4):c.173A>G (p.Tyr58Cys),FIG4,109716452,rs145337669,9.051053599208032e-4,Likely benign,p.Tyr58Cys,c.173A>G,"criteria provided, multiple submitters, no conflicts ",rs145337669:
+355034,NM_014845.5(FIG4):c.235G>A (p.Gly79Arg),FIG4,109716514,NA,NA,Uncertain significance,p.Gly79Arg,c.235G>A,"criteria provided, single submitter ",N/A
+355035,NM_014845.5(FIG4):c.243A>G (p.Lys81=),FIG4,109716522,rs200257799,4.2420514560841626e-5,Uncertain significance,p.Lys81=),c.243A>G,"criteria provided, conflicting interpretations ",rs200257799:
+355036,NM_014845.5(FIG4):c.262C>T (p.Arg88Ter),FIG4,109716541,rs753207473,3.976427736378747e-6,Uncertain significance,p.Arg88Ter,c.262C>T,"criteria provided, conflicting interpretations ",rs753207473:
+355036,NM_014845.5(FIG4):c.262C>T (p.Arg88Ter),FIG4,109716541,rs753207473,2.1211157068618092e-5,Uncertain significance,p.Arg88Ter,c.262C>T,"criteria provided, conflicting interpretations ",rs753207473:
+355037,NM_014845.5(FIG4):c.350C>T (p.Ala117Val),FIG4,109727169,rs551339249,8.1373298236676e-5,Uncertain significance,p.Ala117Val,c.350C>T,"criteria provided, multiple submitters, no conflicts ",rs551339249:
+1723,NM_014845.5(FIG4):c.547C>T (p.Arg183Ter),FIG4,109735199,rs121908288,2.789400278940028e-5,Pathogenic,p.Arg183Ter,c.547C>T,"criteria provided, single submitter ","rs121908288:17572665, 19118816"
+1723,NM_014845.5(FIG4):c.547C>T (p.Arg183Ter),FIG4,109735199,rs121908288,7.969715082685795e-6,Pathogenic,p.Arg183Ter,c.547C>T,"criteria provided, single submitter ","rs121908288:17572665, 19118816"
+420149,NM_014845.5(FIG4):c.737G>A (p.Trp246Ter),FIG4,109738415,rs776005417,3.539572419651706e-5,Likely pathogenic,p.Trp246Ter,c.737G>A,"criteria provided, multiple submitters, no conflicts ",rs776005417:
+254668,NM_014845.5(FIG4):c.759del (p.Phe254fs),FIG4,109738435,NA,NA,Pathogenic,p.Phe254fs),NA,"criteria provided, multiple submitters, no conflicts ",N/A
+260452,NM_014845.5(FIG4):c.808A>G (p.Thr270Ala),FIG4,109741476,rs61729092,0.001367388146941089,Likely benign,p.Thr270Ala,c.808A>G,"criteria provided, multiple submitters, no conflicts ",rs61729092:25741868
+407082,NM_014845.5(FIG4):c.834A>T (p.Lys278Asn),FIG4,109741502,rs138048706,2.6929536741100853e-4,Uncertain significance,p.Lys278Asn,c.834A>T,"criteria provided, conflicting interpretations ",rs138048706:
+254669,NM_014845.5(FIG4):c.919G>A (p.Asp307Asn),FIG4,109743152,rs573441014,1.1962104054355801e-5,Uncertain significance,p.Asp307Asn,c.919G>A,"criteria provided, single submitter ",rs573441014:28051077
+137375,NM_014845.5(FIG4):c.1090A>T (p.Met364Leu),FIG4,109743725,rs2295837,0.07572859551437355,Likely benign,p.Met364Leu,c.1090A>T,"criteria provided, multiple submitters, no conflicts ","rs2295837:21705420, 23844677, 25741868"
+802256,NM_014845.6(FIG4):c.1150del (p.Arg384fs),FIG4,109760259,rs752509784,3.979212593412016e-6,Pathogenic,p.Arg384fs),NA,"criteria provided, single submitter ",rs752509784:
+245747,NM_014845.5(FIG4):c.1207C>T (p.Gln403Ter),FIG4,109760319,NA,NA,Pathogenic,p.Gln403Ter,c.1207C>T,"criteria provided, single submitter ",N/A
+355038,NM_014845.5(FIG4):c.1242T>C (p.Ile414=),FIG4,109760354,rs61729087,0.002843139335044875,Likely benign,p.Ile414=),c.1242T>C,"criteria provided, multiple submitters, no conflicts ",rs61729087:
+355039,NM_014845.5(FIG4):c.1272-10C>G,FIG4,109762081,rs201293291,7.430209107313449e-5,Uncertain significance,NA,c.1272-10C>G,"criteria provided, conflicting interpretations ",rs201293291:
+355039,NM_014845.5(FIG4):c.1272-10C>G,FIG4,109762081,rs201293291,1.769097406503202e-5,Uncertain significance,NA,c.1272-10C>G,"criteria provided, conflicting interpretations ",rs201293291:
+260446,NM_014845.5(FIG4):c.1584-8T>A,FIG4,109766721,rs199522051,0.0011497424576894775,Uncertain significance,NA,c.1584-8T>A,"criteria provided, conflicting interpretations ",rs199522051:25741868
+260446,NM_014845.5(FIG4):c.1584-8T>A,FIG4,109766721,rs199522051,3.979782703864369e-6,Uncertain significance,NA,c.1584-8T>A,"criteria provided, conflicting interpretations ",rs199522051:25741868
+254670,NM_014845.5(FIG4):c.1619C>T (p.Thr540Ile),FIG4,109766764,NA,NA,Uncertain significance,p.Thr540Ile,c.1619C>T,"criteria provided, single submitter ",N/A
+355041,NM_014845.5(FIG4):c.1793T>A (p.Phe598Tyr),FIG4,109776964,rs751399063,1.5916723701593263e-5,Uncertain significance,p.Phe598Tyr,c.1793T>A,"criteria provided, single submitter ",rs751399063:
+355042,NM_014845.5(FIG4):c.1863C>A (p.Thr621=),FIG4,109777034,rs201744761,1.0969413030247272e-4,Uncertain significance,p.Thr621=),c.1863C>A,"criteria provided, conflicting interpretations ",rs201744761:
+254671,NM_014845.5(FIG4):c.1940A>G (p.Tyr647Cys),FIG4,109785020,rs150301327,8.496477502035614e-5,Uncertain significance,p.Tyr647Cys,c.1940A>G,"criteria provided, conflicting interpretations ",rs150301327:28051077
+260447,NM_014845.5(FIG4):c.1948+3A>G,FIG4,109785031,rs10499054,0.5241424343295976,Benign,NA,c.1948+3A>G,"criteria provided, multiple submitters, no conflicts ",rs10499054:25741868
+260447,NM_014845.5(FIG4):c.1948+3A>G,FIG4,109785031,rs10499054,1.1976717261643365e-5,Benign,NA,c.1948+3A>G,"criteria provided, multiple submitters, no conflicts ",rs10499054:25741868
+137377,NM_014845.5(FIG4):c.1961T>C (p.Val654Ala),FIG4,109786314,rs9885672,0.27602628653169325,Benign,p.Val654Ala,c.1961T>C,"criteria provided, multiple submitters, no conflicts ","rs9885672:21705420, 23844677, 25741868"
+245603,NM_014845.5(FIG4):c.2035C>T (p.Arg679Trp),FIG4,109786388,rs188910818,1.90966573776753e-4,Uncertain significance,p.Arg679Trp,c.2035C>T,"criteria provided, single submitter ",rs188910818:
+246456,NM_014845.5(FIG4):c.2080A>G (p.Met694Val),FIG4,109786433,rs143531641,5.304401946361888e-5,Uncertain significance,p.Met694Val,c.2080A>G,"criteria provided, multiple submitters, no conflicts ",rs143531641:
+355043,NM_014845.5(FIG4):c.2096G>A (p.Arg699His),FIG4,109786449,rs750091928,6.012676136042103e-5,Uncertain significance,p.Arg699His,c.2096G>A,"criteria provided, multiple submitters, no conflicts ",rs750091928:
+234661,NM_014845.5(FIG4):c.2200G>A (p.Glu734Lys),FIG4,109791395,rs372846619,6.403534751182653e-5,Uncertain significance,p.Glu734Lys,c.2200G>A,"criteria provided, multiple submitters, no conflicts ",rs372846619:
+355044,NM_014845.5(FIG4):c.2223G>T (p.Thr741=),FIG4,109791418,rs181012139,7.989964604456802e-6,Likely benign,p.Thr741=),c.2223G>T,"criteria provided, single submitter ",rs181012139:
+355044,NM_014845.5(FIG4):c.2223G>T (p.Thr741=),FIG4,109791418,rs181012139,8.788961064902482e-5,Likely benign,p.Thr741=),c.2223G>T,"criteria provided, single submitter ",rs181012139:
+476858,NM_014845.5(FIG4):c.2377-10T>A,FIG4,109792572,NA,NA,Uncertain significance,NA,c.2377-10T>A,"criteria provided, single submitter ",N/A
+355045,NM_014845.5(FIG4):c.2460A>C (p.Arg820Ser),FIG4,109796765,NA,NA,Uncertain significance,p.Arg820Ser,c.2460A>C,"criteria provided, multiple submitters, no conflicts ",N/A
+355046,NM_014845.5(FIG4):c.2547-11A>G,FIG4,109825077,rs745613994,3.995556940681962e-6,Uncertain significance,NA,c.2547-11A>G,"criteria provided, single submitter ",rs745613994:
+355047,NM_014845.5(FIG4):c.2547-5T>G,FIG4,109825083,rs200267243,7.093707881109456e-6,Uncertain significance,NA,c.2547-5T>G,"criteria provided, conflicting interpretations ",rs200267243:
+355047,NM_014845.5(FIG4):c.2547-5T>G,FIG4,109825083,rs200267243,3.440448322338086e-4,Uncertain significance,NA,c.2547-5T>G,"criteria provided, conflicting interpretations ",rs200267243:
+355048,NM_014845.5(FIG4):c.2547-4A>G,FIG4,109825084,rs886060985,1.418359242028821e-5,Uncertain significance,NA,c.2547-4A>G,"criteria provided, single submitter ",rs886060985:
+254672,NM_014845.5(FIG4):c.2558C>T (p.Ser853Leu),FIG4,109825099,rs774805375,1.1954953734329049e-5,Uncertain significance,p.Ser853Leu,c.2558C>T,"criteria provided, single submitter ",rs774805375:28051077
+260449,NM_014845.5(FIG4):c.2559G>A (p.Ser853=),FIG4,109825100,rs1127771,0.4290903292108154,Benign,p.Ser853=),c.2559G>A,"criteria provided, multiple submitters, no conflicts ",rs1127771:25741868
+355049,NM_014845.5(FIG4):c.2568G>T (p.Ser856=),FIG4,109825109,rs140055056,4.6044755502348285e-5,Uncertain significance,p.Ser856=),c.2568G>T,"criteria provided, conflicting interpretations ",rs140055056:
+355049,NM_014845.5(FIG4):c.2568G>T (p.Ser856=),FIG4,109825109,rs140055056,1.3105045796822203e-4,Uncertain significance,p.Ser856=),c.2568G>T,"criteria provided, conflicting interpretations ",rs140055056:
+355050,NM_014845.5(FIG4):c.*7C>T,FIG4,109825272,rs113946190,0.014005463123913584,Likely benign,NA,c.*7C>T,"criteria provided, single submitter ",rs113946190:
+260444,NM_014845.5(FIG4):c.*14C>T,FIG4,109825279,rs114136062,0.0014191442560136237,Likely benign,NA,c.*14C>T,"criteria provided, multiple submitters, no conflicts ",rs114136062:25741868
+355051,NM_014845.5(FIG4):c.*29G>A,FIG4,109825294,rs10659,0.047366998192968225,Likely benign,NA,c.*29G>A,"criteria provided, single submitter ",rs10659:
+355052,NM_014845.5(FIG4):c.*120C>T,FIG4,109825385,NA,NA,Benign,NA,c.*120C>T,"criteria provided, single submitter ",N/A

@@ -1,10 +1,10 @@
-VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Protein.Consequence,Nucleotide.Consequence,Review.Criteria,Pubmed_ID
-522275,NM_021076.4(NEFH):c.1200C>T (p.Ala400=),NEFH,29485839,rs165734,0.14577778092132718,Benign,p.Ala400=),c.1200C>T,"criteria provided, single submitter ",rs165734:
-66729,NM_021076.4(NEFH):c.1387G>A (p.Glu463Lys),NEFH,29489027,rs59371099,0.0703451105797122,Benign,p.Glu463Lys,c.1387G>A,"criteria provided, single submitter ","rs59371099:25537509, 27625572, 28430856"
-522276,NM_021076.4(NEFH):c.1740C>T (p.Ser580=),NEFH,29489380,rs114263951,0.007818198556749216,Likely benign,p.Ser580=),c.1740C>T,"criteria provided, multiple submitters, no conflicts ",rs114263951:
-66733,NM_021076.4(NEFH):c.1844C>T (p.Pro615Leu),NEFH,29489484,rs5763269,0.18247509719896698,Benign,p.Pro615Leu,c.1844C>T,"criteria provided, single submitter ",rs5763269:28430856
-522183,NM_021076.4(NEFH):c.2232T>C (p.Ala744=),NEFH,29489872,rs165923,0.803794480755265,Benign,p.Ala744=),c.2232T>C,"criteria provided, multiple submitters, no conflicts ",rs165923:
-522183,NM_021076.4(NEFH):c.2232T>C (p.Ala744=),NEFH,29489872,rs165923,4.08343269686229e-6,Benign,p.Ala744=),c.2232T>C,"criteria provided, multiple submitters, no conflicts ",rs165923:
-66741,NM_021076.4(NEFH):c.2414A>C (p.Glu805Ala),NEFH,29490054,rs165602,0.15234837474743895,Benign,p.Glu805Ala,c.2414A>C,"criteria provided, single submitter ","rs165602:18454203, 28100103, 28430856"
-66741,NM_021076.4(NEFH):c.2414A>C (p.Glu805Ala),NEFH,29490054,rs165602,1.1962104054355801e-5,Benign,p.Glu805Ala,c.2414A>C,"criteria provided, single submitter ","rs165602:18454203, 28100103, 28430856"
-66743,NM_021076.4(NEFH):c.2784A>G (p.Val928=),NEFH,29490424,rs165625,0.8167727410486211,Benign,p.Val928=),c.2784A>G,"criteria provided, single submitter ",rs165625:
+"","VariationID","Name","Gene","Position","rsID","Allele.Frequency","Clinical.Significance","Protein.Consequence","Nucleotide.Consequence","Review.Criteria","Pubmed_ID"
+"1",522275,"NM_021076.4(NEFH):c.1200C>T (p.Ala400=)","NEFH",29485839,"rs165734",0.145777780921327,"Benign","p.Ala400Ala","c.1200C>T","criteria provided, single submitter ","rs165734:"
+"2",66729,"NM_021076.4(NEFH):c.1387G>A (p.Glu463Lys)","NEFH",29489027,"rs59371099",0.0703451105797122,"Benign","p.Glu463Lys","c.1387G>A","criteria provided, single submitter ","rs59371099:25537509, 27625572, 28430856"
+"3",522276,"NM_021076.4(NEFH):c.1740C>T (p.Ser580=)","NEFH",29489380,"rs114263951",0.00781819855674922,"Likely benign","p.Ser580Ser","c.1740C>T","criteria provided, multiple submitters, no conflicts ","rs114263951:"
+"4",66733,"NM_021076.4(NEFH):c.1844C>T (p.Pro615Leu)","NEFH",29489484,"rs5763269",0.182475097198967,"Benign","p.Pro615Leu","c.1844C>T","criteria provided, single submitter ","rs5763269:28430856"
+"5",522183,"NM_021076.4(NEFH):c.2232T>C (p.Ala744=)","NEFH",29489872,"rs165923",0.803794480755265,"Benign","p.Ala744Ala","c.2232T>C","criteria provided, multiple submitters, no conflicts ","rs165923:"
+"6",522183,"NM_021076.4(NEFH):c.2232T>C (p.Ala744=)","NEFH",29489872,"rs165923",4.08343269686229e-06,"Benign","p.Ala744Ala","c.2232T>C","criteria provided, multiple submitters, no conflicts ","rs165923:"
+"7",66741,"NM_021076.4(NEFH):c.2414A>C (p.Glu805Ala)","NEFH",29490054,"rs165602",0.152348374747439,"Benign","p.Glu805Ala","c.2414A>C","criteria provided, single submitter ","rs165602:18454203, 28100103, 28430856"
+"8",66741,"NM_021076.4(NEFH):c.2414A>C (p.Glu805Ala)","NEFH",29490054,"rs165602",1.19621040543558e-05,"Benign","p.Glu805Ala","c.2414A>C","criteria provided, single submitter ","rs165602:18454203, 28100103, 28430856"
+"9",66743,"NM_021076.4(NEFH):c.2784A>G (p.Val928=)","NEFH",29490424,"rs165625",0.816772741048621,"Benign","p.Val928Val","c.2784A>G","criteria provided, single submitter ","rs165625:"
