@@ -33,7 +33,7 @@ review.criteria<- c()
     cv.url <- paste("https://www.ncbi.nlm.nih.gov/clinvar/variation/",clinvar_df$VariationID[i],"/",sep="")
     
     #loading bar
-    print(paste(i,"of",length(clinvar_df$VariationID),clinvar_df$Variation[i],cv.url,sep=" "))
+    print(paste(clinvar_df$Gene[i],i,"of",length(clinvar_df$VariationID),clinvar_df$Variation[i],cv.url,sep=" "))
     
     #1) webscrapes review criteria from cv website,
     review<- cv.url %>% read_html() %>% html_node(css = '.no-margin-top dd:nth-child(4)') %>% html_text()
@@ -98,7 +98,7 @@ citation_extractor <- function(gene){
 
 # applying functions to each gene---------
 format_by_gene<-function(gene){
-gene_filtered_clinvar <- processed_clinvar %>% filter(Gene == as.character(gene)) 
+gene_filtered_clinvar <- processed_clinvar %>% filter(Gene == as.character(gene))
 gene_gnomadjoin <- gnomad_join(gene_filtered_clinvar,as.character(gene))
 gene_cite <- citation_extractor(gene_gnomadjoin)
 gene_parsed <- clinvar_parse(gene_cite)

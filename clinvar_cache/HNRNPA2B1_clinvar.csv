@@ -1,14 +1,14 @@
-"","VariationID","Name","Gene","Position","rsID","Allele.Frequency","Clinical.Significance","Protein.Consequence","Nucleotide.Consequence","Review.Criteria","Pubmed_ID"
-"1",65454,"NM_031243.3(HNRNPA2B1):c.905A>T (p.Asp302Val)","HNRNPA2B1",26193346,NA,NA,"Pathogenic","p.Asp302Val","c.905A>T","no assertion criteria provided","N/A"
-"2",474504,"NM_031243.3(HNRNPA2B1):c.833A>G (p.Asn278Ser)","HNRNPA2B1",26193619,NA,NA,"Uncertain significance","p.Asn278Ser","c.833A>G","criteria provided, single submitter ","N/A"
-"3",541426,"NM_031243.3(HNRNPA2B1):c.705C>T (p.Gly235=)","HNRNPA2B1",26195899,NA,NA,"Uncertain significance","p.Gly235Gly","c.705C>T","criteria provided, single submitter ","N/A"
-"4",571200,"NM_031243.3(HNRNPA2B1):c.695-4A>G","HNRNPA2B1",26195913,NA,NA,"Uncertain significance",NA,"c.695-4A>G","criteria provided, single submitter ","N/A"
-"5",662036,"NM_031243.3(HNRNPA2B1):c.693T>C (p.Ser231=)","HNRNPA2B1",26196402,"rs370050080",5.30639101734129e-05,"Uncertain significance","p.Ser231Ser","c.693T>C","criteria provided, single submitter ","rs370050080:"
-"6",541428,"NM_031243.3(HNRNPA2B1):c.669A>G (p.Pro223=)","HNRNPA2B1",26196426,"rs752086550",3.97690215229944e-06,"Likely benign","p.Pro223Pro","c.669A>G","criteria provided, single submitter ","rs752086550:"
-"7",646482,"NM_031243.3(HNRNPA2B1):c.614-10T>C","HNRNPA2B1",26196491,"rs199915606",4.24295139699175e-05,"Uncertain significance",NA,"c.614-10T>C","criteria provided, single submitter ","rs199915606:"
-"8",261954,"NM_031243.3(HNRNPA2B1):c.555A>G (p.Arg185=)","HNRNPA2B1",26196615,"rs34317198",0.0159352123634049,"Benign","p.Arg185Arg","c.555A>G","criteria provided, multiple submitters, no conflicts ","rs34317198:25741868"
-"9",659107,"NM_031243.3(HNRNPA2B1):c.512-3C>T","HNRNPA2B1",26196661,"rs370807816",1.06959498003423e-05,"Uncertain significance",NA,"c.512-3C>T","criteria provided, single submitter ","rs370807816:"
-"10",261953,"NM_031243.3(HNRNPA2B1):c.153+4T>C","HNRNPA2B1",26197618,"rs41275982",3.99945607397394e-06,"Benign",NA,"c.153+4T>C","criteria provided, multiple submitters, no conflicts ","rs41275982:25741868"
-"11",261953,"NM_031243.3(HNRNPA2B1):c.153+4T>C","HNRNPA2B1",26197618,"rs41275982",0.028838227351545,"Benign",NA,"c.153+4T>C","criteria provided, multiple submitters, no conflicts ","rs41275982:25741868"
-"12",474501,"NM_031243.3(HNRNPA2B1):c.69C>G (p.Leu23=)","HNRNPA2B1",26197706,"rs774999756",3.98089171974522e-06,"Likely benign","p.Leu23Leu","c.69C>G","criteria provided, single submitter ","rs774999756:"
-"13",474501,"NM_031243.3(HNRNPA2B1):c.69C>G (p.Leu23=)","HNRNPA2B1",26197706,"rs774999756",7.96178343949045e-06,"Likely benign","p.Leu23Leu","c.69C>G","criteria provided, single submitter ","rs774999756:"
+VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Protein.Consequence,Nucleotide.Consequence,Review.Criteria,Pubmed_ID
+65454,NM_031243.3(HNRNPA2B1):c.905A>T (p.Asp302Val),HNRNPA2B1,26193346,NA,NA,Pathogenic,p.Asp302Val,c.905A>T,no assertion criteria provided ,N/A
+474504,NM_031243.3(HNRNPA2B1):c.833A>G (p.Asn278Ser),HNRNPA2B1,26193619,NA,NA,Uncertain significance,p.Asn278Ser,c.833A>G,"criteria provided, single submitter ",N/A
+541426,NM_031243.3(HNRNPA2B1):c.705C>T (p.Gly235=),HNRNPA2B1,26195899,NA,NA,Uncertain significance,p.Gly235Gly,c.705C>T,"criteria provided, single submitter ",N/A
+571200,NM_031243.3(HNRNPA2B1):c.695-4A>G,HNRNPA2B1,26195913,NA,NA,Uncertain significance,NA,c.695-4A>G,"criteria provided, single submitter ",N/A
+662036,NM_031243.3(HNRNPA2B1):c.693T>C (p.Ser231=),HNRNPA2B1,26196402,rs370050080,5.306391017341286e-5,Uncertain significance,p.Ser231Ser,c.693T>C,"criteria provided, single submitter ",rs370050080:
+541428,NM_031243.3(HNRNPA2B1):c.669A>G (p.Pro223=),HNRNPA2B1,26196426,rs752086550,3.976902152299445e-6,Likely benign,p.Pro223Pro,c.669A>G,"criteria provided, single submitter ",rs752086550:
+646482,NM_031243.3(HNRNPA2B1):c.614-10T>C,HNRNPA2B1,26196491,rs199915606,4.242951396991747e-5,Uncertain significance,NA,c.614-10T>C,"criteria provided, single submitter ",rs199915606:
+261954,NM_031243.3(HNRNPA2B1):c.555A>G (p.Arg185=),HNRNPA2B1,26196615,rs34317198,0.015935212363404887,Benign,p.Arg185Arg,c.555A>G,"criteria provided, multiple submitters, no conflicts ",rs34317198:25741868
+659107,NM_031243.3(HNRNPA2B1):c.512-3C>T,HNRNPA2B1,26196661,rs370807816,1.069594980034227e-5,Uncertain significance,NA,c.512-3C>T,"criteria provided, single submitter ",rs370807816:
+261953,NM_031243.3(HNRNPA2B1):c.153+4T>C,HNRNPA2B1,26197618,rs41275982,3.9994560739739394e-6,Benign,NA,c.153+4T>C,"criteria provided, multiple submitters, no conflicts ",rs41275982:25741868
+261953,NM_031243.3(HNRNPA2B1):c.153+4T>C,HNRNPA2B1,26197618,rs41275982,0.028838227351544957,Benign,NA,c.153+4T>C,"criteria provided, multiple submitters, no conflicts ",rs41275982:25741868
+474501,NM_031243.3(HNRNPA2B1):c.69C>G (p.Leu23=),HNRNPA2B1,26197706,rs774999756,3.9808917197452226e-6,Likely benign,p.Leu23Leu,c.69C>G,"criteria provided, single submitter ",rs774999756:
+474501,NM_031243.3(HNRNPA2B1):c.69C>G (p.Leu23=),HNRNPA2B1,26197706,rs774999756,7.961783439490445e-6,Likely benign,p.Leu23Leu,c.69C>G,"criteria provided, single submitter ",rs774999756:
