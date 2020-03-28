@@ -17,10 +17,10 @@ processed_clinvar <- fread(file ="../2_Gene_Formatting/clinvar_ALS.csv")
 
 # Helper functions---------
 # function for parsing and extracting information from the processed clinvar data----------
-clinvar.parse <- function(x){
+clinvar_parse <- function(clinvar_df){
 #extracting information from the Name column in dataframe
-  x$Protein.Consequence <-str_extract(string= x$Name, pattern = "p\\....\\d*...")
-  x$Nucleotide.Consequence <-str_extract(string= x$Name, pattern = "c.*>[A,T,G,C]")
+  clinvar_df$Protein.Consequence <-str_extract(string= clinvar_df$Name, pattern = "p\\....\\d*...")
+  clinvar_df$Nucleotide.Consequence <-str_extract(string= clinvar_df$Name, pattern = "c.*>[A,T,G,C]")
 
 # data extracted from the clinvar website
 review.criteria<- c()
@@ -29,11 +29,11 @@ review.criteria<- c()
   #1) webscrapes review criteria from cv website, 
   #2) performs text manipulation on the scrapped data
   #3) adds each scrapped element to an empty vector
-  for(i in 1:length(x$VariationID)) {
-    cv.url <- paste("https://www.ncbi.nlm.nih.gov/clinvar/variation/",x$VariationID[i],"/",sep="")
+  for(i in 1:length(clinvar_df$VariationID)) {
+    cv.url <- paste("https://www.ncbi.nlm.nih.gov/clinvar/variation/",clinvar_df$VariationID[i],"/",sep="")
     
     #loading bar
-    print(paste(i,"of",length(x$VariationID),x$Variation[i],cv.url,sep=" "))
+    print(paste(i,"of",length(clinvar_df$VariationID),clinvar_df$Variation[i],cv.url,sep=" "))
     
     #1) webscrapes review criteria from cv website,
     review<- cv.url %>% read_html() %>% html_node(css = '.no-margin-top dd:nth-child(4)') %>% html_text()
@@ -43,8 +43,8 @@ review.criteria<- c()
     review.criteria[i] <- review_f
   }
   # appends scrapped review criteria vector to the clinvar data frame
-  x$Review.Criteria <- review.criteria
-  x <- as.data.frame(x)
+  clinvar_df$Review.Criteria <- review.criteria
+  clinvar_df <- as.data.frame(clinvar_df)
 }
 
 # function for joining clinvar dataset with gnomad dataset--------------------------------
@@ -98,14 +98,21 @@ citation_extractor <- function(gene){
 
 # applying functions to each gene---------
 format_by_gene<-function(gene){
-gene_filtered_clinvar <- processed_clinvar %>% filter(Gene == as.character(gene))
+gene_filtered_clinvar <- processed_clinvar %>% filter(Gene == as.character(gene)) 
 gene_gnomadjoin <- gnomad_join(gene_filtered_clinvar,as.character(gene))
 gene_cite <- citation_extractor(gene_gnomadjoin)
-gene_parsed <- clinvar.parse(gene_cite)
+gene_parsed <- clinvar_parse(gene_cite)
 gene_name <- gene_parsed %>% 
   select(VariationID,Name,Gene,GRCh38Location,"rsID","Allele Frequency",Clinical.Significance,Protein.Consequence,Nucleotide.Consequence,Review.Criteria,"Pubmed_ID") %>%
   rename("Position"="GRCh38Location","Allele.Frequency"="Allele Frequency")
 
+# fix formatting in Protein.Consequence e.g., Before:'p.Ala430=)' After:'p.Ala430Ala')
+gene_name$Protein.Consequence <- gsub(pattern = "p\\.(\\w{3})(\\d*)=\\)",replacement = "p\\.\\1\\2\\1",x = gene_name$Protein.Consequence)
+
+# fix formatting in Protein.Consequence column (e.g., Before:'p.Ala430fs)', After:'p.Ala430fs')
+gene_name$Protein.Consequence <- gsub(pattern = "(.*)fs\\)",replacement = "\\1fs",x = gene_name$Protein.Consequence) 
+
+# write the csv file for each gene
 write_csv(x=gene_name,path = paste("../clinvar_cache/",gene,"_clinvar.csv",sep=""))
 }
 
