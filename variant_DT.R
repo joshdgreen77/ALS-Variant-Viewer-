@@ -14,7 +14,7 @@ format_variant_table <- function(variants_dataframe){
 # Format the data frame----------
   variants_dataframe <- as.data.frame(variants_dataframe) %>% 
   # select columns to display
-  select("VariationID","Position","rsID","Clinical.Significance","Protein.Consequence",
+  select("Clinical.Significance","VariationID","Position","rsID","Protein.Consequence",
          "Nucleotide.Consequence","Allele.Frequency","Review.Criteria") %>%
   # convert allele frequency to scientific notation
   mutate("Allele.Frequency"=formatC(variants_dataframe$"Allele.Frequency",format="e"))
@@ -40,15 +40,19 @@ variants_dataframe$VariationID <- VariationID_link
 # rename the columns and print out the data frame
 DT::datatable(data = variants_dataframe,escape = FALSE,
               #renames the columns
-              colnames = c("ClinVar ID","Position (GRCh38)","rsID","Clinical Significance","Protein Consequence","Nucleotide Consequence","Allele Frequency (gnomAD)","Review Criteria"),
+              colnames = c("Clinical Significance","Position (GRCh38)","rsID","ClinVar ID","Protein Consequence","Nucleotide Consequence","Allele Frequency (gnomAD)","Review Criteria"),
                #adds buttons to the table so it can be downloaded in various file formats
-                extensions = c('Buttons','RowGroup'),  options = list(pageLength = 1000,
+                extensions = c('Buttons','RowGroup'),  options = list(pageLength = 1000, 
                                                         autoWidth = TRUE,
-                                                        dom = 'Bfrtip',
+                                                        #add button for downloading
+                                                        dom = 'Bfrtip', 
+                                                        #the button to add for downloading
                                                         buttons = c('csv'),
                                                         searchHighlight = TRUE,
-                                                        order = list(list(4,'asc')),
-                                                        rowGroup = list(dataSrc = 4)
+                                                        #order rows by clinical significance
+                                                        order = list(list(1,'asc')),
+                                                        #group rows by clinical significance
+                                                        rowGroup = list(dataSrc = 1) 
                                                         ))
 
   
