@@ -1,6 +1,6 @@
 #---------
 ##RUN THIS TO UPDATE SHINY APP ON THE SERVER##
-# library(rsconnect)
+#library(rsconnect)
 # rsconnect::deployApp("/Users/greenjod/Documents/GitHub/ALS-Variant-Viewer-/")
 
 
@@ -52,7 +52,7 @@ ui <- dashboardPage(
                   column(width=6,
                          box(width=12,
                              plotlyOutput("plot")),
-                         box(width=4,
+                         box(width=3,
                              tableOutput("clinsig_count")))
                 ),
                 fluidRow(
@@ -78,7 +78,7 @@ ui <- dashboardPage(
                   tags$ul(
                     tags$li(" Karczewski, K. J., Francioli, L. C., Tiao, G., Cummings, B. B., Alföldi, J., Wang, Q., Collins, R. L., Laricchia, K. M., Ganna, A., Birnbaum, D. P., Gauthier, L. D., Brand, H., Solomonson, M., Watts, N. A., Rhodes, D., Singer-Berk, M., England, E. M., Seaby, E. G., Kosmicki, J. A., … MacArthur, D. G. (2019). Variation across 141,456 human exomes and genomes reveals the spectrum of loss-of-function intolerance across human protein-coding genes. In bioRxiv (p. 531210),",tags$a(href="https://doi.org/10.1101/531210", "https://doi.org/10.1101/531210")), 
                     br(),
-                    tags$li("Landrum MJ, Lee JM, Benson M, Brown GR, Chao C, Chitipiralla S, Gu B, Hart J, Hoffman D, Jang W, Karapetyan K, Katz K, Liu C, Maddipatla Z, Malheiro A, McDaniel K, Ovetsky M, Riley G, Zhou G, Holmes JB, Kattman BL, Maglott DR. ClinVar: improving access to variant interpretations and supporting evidence. Nucleic Acids Res . 2018 Jan 4. PubMed PMID:",tags$a(href="https://www.ncbi.nlm.nih.gov/pubmed/29165669","29165669")) 
+                    tags$li("Landrum MJ, Lee JM, Benson M, Brown GR, Chao C, Chitipiralla S, Gu B, Hart J, Hoffman D, Jang W, Karapetyan K, Katz K, Liu C, Maddipatla Z, Malheiro A, McDaniel K, Ovetsky M, Riley G, Zhou G, Holmes JB, Kattman BL, Maglott DR. ClinVar: improving access to variant interpretations and supporting evidence. Nucleic Acids Res . 2018 Jan 4. PubMed PMID:",tags$a(href="https://www.ncbi.nlm.nih.gov/pubmed/29165669","29165669"))
                     )
                   )
                 )
@@ -133,12 +133,13 @@ server <- function(input, output){
   #
   output$clinsig_count <- renderTable({
     data <- get(input$select)
-    tibble("Variant Clinical Significance"=c("Pathogenic","Likely pathogenic","Likely benign","Benign","Uncertain significance"),
+    tibble("Variant Clinical Significance"=c("Pathogenic","Likely pathogenic","Likely benign","Benign","Uncertain significance","Total Variants"),
                "Count"=c(nrow(subset(data,data$Clinical.Significance=="Pathogenic")),
                          nrow(subset(data,data$Clinical.Significance=="Likely pathogenic")),
                          nrow(subset(data,data$Clinical.Significance=="Likely benign")),
                          nrow(subset(data,data$Clinical.Significance=="Benign")),
-                         nrow(subset(data,data$Clinical.Significance=="Uncertain significance"))))
+                         nrow(subset(data,data$Clinical.Significance=="Uncertain significance")),
+                         nrow(data)))
     
   })
   
