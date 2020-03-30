@@ -1,7 +1,7 @@
 #---------
 ##RUN THIS TO UPDATE SHINY APP ON THE SERVER##
-library(rsconnect)
-rsconnect::deployApp("/Users/greenjod/Documents/GitHub/ALS-Variant-Viewer-/")
+# library(rsconnect)
+# rsconnect::deployApp("/Users/greenjod/Documents/GitHub/ALS-Variant-Viewer-/")
 
 
 #importing the required packages----------
@@ -51,7 +51,9 @@ ui <- dashboardPage(
                   )),
                   column(width=6,
                          box(width=12,
-                             plotlyOutput("plot")))
+                             plotlyOutput("plot")),
+                         box(width=12,
+                             tableOutput("clinsig_count")))
                 ),
                 fluidRow(
                   box(width=12,
@@ -97,12 +99,10 @@ server <- function(input, output){
   })
   
 # generates the gene information object
-  
   # number of exons
   output$exons <- renderText({
     info <- gene_info %>% filter(gene == input$select)
     paste0(info$exon)})
-  
   # cytogenetic locus
   output$locus <- renderText({
     info <- gene_info %>% filter(gene == input$select)
@@ -111,7 +111,6 @@ server <- function(input, output){
   output$protein <- renderText({
     info <- gene_info %>% filter(gene == input$select)
     paste0(info$protein)})
-  
   # protein function
   output$pfunction <- renderText({
     info <- gene_info %>% filter(gene == input$select)
@@ -119,68 +118,28 @@ server <- function(input, output){
   
   # generates the plotly object 
   output$plot <-renderPlotly({
-    data <- switch(input$select,
-                   "SOD1"=SOD1,
-                   "FUS"=FUS,
-                   "DCTN1"=DCTN1,
-                   "TARDBP"=TARDBP,
-                   "ALS2"=ALS2,
-                   "SETX"=SETX,
-                   "VAPB"=VAPB,
-                   "MATR3"=MATR3,
-                   "OPTN"=OPTN,
-                   "SQSTM1"=SQSTM1,
-                   "FIG4"=FIG4,
-                   "SLC52A3"=SLC52A3,
-                   "C9orf72"=C9orf72,
-                   "VCP"=VCP,
-                   "TBK1"=TBK1,
-                   "CHCHD10"=CHCHD10,
-                   "SIGMAR1"=SIGMAR1,
-                   "ANG"=ANG,
-                   "UBQLN2"=UBQLN2,
-                   "SPG11"=SPG11,
-                   "KIF5A"=KIF5A,
-                   "NEK1"=NEK1,
-                   "HNRNPA2B1"=HNRNPA2B1,
-                   "NEFH"=NEFH
-                   
-    )
-    # the imported variant_graph function comes from the thing sourced in line 10
+    #retrieve the variable assigned to the input$select
+    data <- get(input$select)
     variant_graph(data)
   })
   
-  
+  # generates the data table object
   output$dt <- DT::renderDataTable({
-    #switches the textual input$select data to the actual data frame variables
-    data <- switch(input$select,
-                   "SOD1"=SOD1,
-                   "FUS"=FUS,
-                   "DCTN1"=DCTN1,
-                   "TARDBP"=TARDBP,
-                   "ALS2"=ALS2,
-                   "SETX"=SETX,
-                   "VAPB"=VAPB,
-                   "MATR3"=MATR3,
-                   "OPTN"=OPTN,
-                   "SQSTM1"=SQSTM1,
-                   "FIG4"=FIG4,
-                   "SLC52A3"=SLC52A3,
-                   "C9orf72"=C9orf72,
-                   "VCP"=VCP,
-                   "TBK1"=TBK1,
-                   "CHCHD10"=CHCHD10,
-                   "SIGMAR1"=SIGMAR1,
-                   "ANG"=ANG,
-                   "UBQLN2"=UBQLN2,
-                   "SPG11"=SPG11,
-                   "KIF5A"=KIF5A,
-                   "NEK1"=NEK1,
-                   "HNRNPA2B1"=HNRNPA2B1,
-                   "NEFH"=NEFH
-                   
-    )
-    format_variant_table(variants_dataframe = data)
+    #retrieve the object assigned to the input$select
+    data <- get(input$select)
+    format_variant_table(data)
+  })
+  
+  #
+  output$clinsig_count <- renderTable({
+    data <- get(input$select)
+    tibble("Variant Clinical Significance"=c("Pathogenic","Likely pathogenic","Likely benign","Benign","Uncertain significance"),
+               "Count"=c(nrow(subset(data,data$Clinical.Significance=="Pathogenic")),
+                         nrow(subset(data,data$Clinical.Significance=="Likely pathogenic")),
+                         nrow(subset(data,data$Clinical.Significance=="Likely benign")),
+                         nrow(subset(data,data$Clinical.Significance=="Benign")),
+                         nrow(subset(data,data$Clinical.Significance=="Uncertain significance"))))
+    
   })
   
 }
