@@ -37,6 +37,7 @@ for(i in c(1:length(variants_dataframe$VariationID))){
 variants_dataframe$rsID <- rsID_link
 variants_dataframe$VariationID <- VariationID_link
 
+variants_dataframe<- variants_dataframe %>% arrange(factor(x = variants_dataframe$Clinical.Significance,levels =c("Pathogenic","Likely pathogenic","Likely benign","Benign","Uncertain significance")))
 
 # Make Data Table object----------
 # rename the columns and print out the data frame
@@ -51,8 +52,6 @@ DT::datatable(data = variants_dataframe,escape = FALSE,
                                                         #the button to add for downloading
                                                         buttons = c('csv'),
                                                         searchHighlight = TRUE,
-                                                        #order rows by clinical significance
-                                                        order = list(list(1,'asc')),
                                                         #group rows by clinical significance
                                                         rowGroup = list(dataSrc = 1) 
                                                         ))

@@ -52,7 +52,7 @@ ui <- dashboardPage(
                   column(width=6,
                          box(width=12,
                              plotlyOutput("plot")),
-                         box(width=12,
+                         box(width=4,
                              tableOutput("clinsig_count")))
                 ),
                 fluidRow(
