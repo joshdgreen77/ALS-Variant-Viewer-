@@ -5,6 +5,7 @@
 # description: format_variants_dataframe helper function
 # usage: 
 # ----------
+
 library(DT)
 library(tidyverse)
 
@@ -16,6 +17,7 @@ format_variant_table <- function(variants_dataframe){
   # select columns to display
   select("Clinical.Significance","VariationID","Position","rsID","Protein.Consequence",
          "Nucleotide.Consequence","Allele.Frequency","Review.Criteria") %>%
+    
   # convert allele frequency to scientific notation
   mutate("Allele.Frequency"=formatC(variants_dataframe$"Allele.Frequency",format="e"))
 
@@ -40,7 +42,7 @@ variants_dataframe$VariationID <- VariationID_link
 # rename the columns and print out the data frame
 DT::datatable(data = variants_dataframe,escape = FALSE,
               #renames the columns
-              colnames = c("Clinical Significance","Position (GRCh38)","rsID","ClinVar ID","Protein Consequence","Nucleotide Consequence","Allele Frequency (gnomAD)","Review Criteria"),
+              colnames = c("Clinical Significance","ClinVar ID","Position (GRCh38)","rsID","Protein Consequence","Nucleotide Consequence","Allele Frequency (gnomAD)","Review Criteria"),
                #adds buttons to the table so it can be downloaded in various file formats
                 extensions = c('Buttons','RowGroup'),  options = list(pageLength = 1000, 
                                                         autoWidth = TRUE,
