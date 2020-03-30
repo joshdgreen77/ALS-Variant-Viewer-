@@ -5,6 +5,6 @@ account: pdgenetics
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1988918
-bundleId: 2934058
+bundleId: 2941015
 url: https://pdgenetics.shinyapps.io/ALS-Variant-Viewer/
-when: 1585346331.92898
+when: 1585517335.26473
