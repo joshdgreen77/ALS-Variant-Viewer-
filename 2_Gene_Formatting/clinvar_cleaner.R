@@ -12,7 +12,6 @@ library("tidyverse")
 library("stringr")
 library("data.table")
 
-
 processed_clinvar <- fread(file ="../2_Gene_Formatting/clinvar_ALS.csv")
 
 # Helper functions---------
@@ -42,9 +41,18 @@ review.criteria<- c()
     #3) adds each scrapped element to an empty vector
     review.criteria[i] <- review_f
   }
-  # appends scrapped review criteria vector to the clinvar data frame
-  clinvar_df$Review.Criteria <- review.criteria
-  clinvar_df <- as.data.frame(clinvar_df)
+# change the Review.Criteria
+review.criteria_mod <- review.criteria %>% str_replace_all(c("practice guideline" = "****",
+                                                             "reviewed by expert panel" = "***",
+                                                             "criteria provided, multiple submitters, no conflicts" = "**",
+                                                             "criteria provided, conflicting interpretations" = "*",
+                                                             "criteria provided, single submitter" = "*",
+                                                             "no assertion for the individual variant" = "none",
+                                                             "no assertion criteria provided"="none",
+                                                             "no assertion provided" = "none"))
+# appends scrapped review criteria vector to the clinvar data frame
+clinvar_df$Review.Criteria <- review.criteria_mod
+clinvar_df <- as.data.frame(clinvar_df) 
 }
 
 # function for joining clinvar dataset with gnomad dataset--------------------------------
@@ -115,7 +123,7 @@ gene_name$Protein.Consequence <- gsub(pattern = "(.*)fs\\)",replacement = "\\1fs
 # write the csv file for each gene
 write_csv(x=gene_name,path = paste("../clinvar_cache/",gene,"_clinvar.csv",sep=""))
 }
-
+start_time <- Sys.time()
 format_by_gene("NEFH")
 format_by_gene("HNRNPA2B1")
 format_by_gene("NEK1")
@@ -139,3 +147,7 @@ format_by_gene("TARDBP")
 format_by_gene("DCTN1")
 format_by_gene("FUS")
 format_by_gene("SOD1")
+end_time <- Sys.time()
+
+
+print(end_time - start_time)
