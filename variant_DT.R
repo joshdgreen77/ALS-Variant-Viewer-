@@ -42,7 +42,7 @@ variants_dataframe$VariationID <- VariationID_link
 # rename the columns and print out the data frame
 DT::datatable(data = variants_dataframe,escape = FALSE,
               #renames the columns
-              colnames = c("Clinical Significance","ClinVar ID","Position (GRCh38)","rsID","Protein Consequence","Nucleotide Consequence","Allele Frequency (gnomAD)","Review Criteria"),
+              colnames = c("Clinical Significance","ClinVar ID","Position (GRCh38)","rsID","Protein Consequence","Nucleotide Consequence","Allele Frequency (gnomAD)","ClinVar Review Status"),
                #adds buttons to the table so it can be downloaded in various file formats
                 extensions = c('Buttons','RowGroup'),  options = list(pageLength = 1000, 
                                                         autoWidth = TRUE,
