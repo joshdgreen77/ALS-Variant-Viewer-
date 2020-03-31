@@ -1,0 +1,5 @@
+VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Protein.Consequence,Nucleotide.Consequence,Review.Criteria,Pubmed_ID
+37036,NM_005022.3(PFN1):c.353G>T (p.Gly118Val),PFN1,4945970,rs387907266,3.976427736378747e-6,Pathogenic,p.Gly118Val,c.353G>T,none ,rs387907266:22801503
+37037,NM_005022.3(PFN1):c.350A>G (p.Glu117Gly),PFN1,4945973,rs140547520,4.950109963157039e-4,Pathogenic,p.Glu117Gly,c.350A>G,none ,rs140547520:22801503
+37035,NM_005022.3(PFN1):c.341T>C (p.Met114Thr),PFN1,4945982,NA,NA,Pathogenic,p.Met114Thr,c.341T>C,none ,N/A
+37034,NM_005022.3(PFN1):c.211T>G (p.Cys71Gly),PFN1,4946742,NA,NA,Pathogenic,p.Cys71Gly,c.211T>G,none ,N/A

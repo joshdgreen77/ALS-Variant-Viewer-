@@ -44,11 +44,29 @@ appender<-function(x){
 
 # scraps the information from each gene from the NCBI  website
 
+#PFN1
+PFN1 <- generate_gene_info("PFN1","https://www.ncbi.nlm.nih.gov/gene/5216")
+
+#HNRNPA1
+HNRNPA1 <- generate_gene_info("HNRNPA1","https://www.ncbi.nlm.nih.gov/gene/3178")
+
+#CHRNA4
+CHRNA4 <- generate_gene_info("CHRNA4","https://www.ncbi.nlm.nih.gov/gene/1137")
+
+#ANXA11
+ANXA11 <- generate_gene_info("ANXA11","https://www.ncbi.nlm.nih.gov/gene/311")
+
+#CHMP2B
+CHMP2B <- generate_gene_info("CHMP2B","https://www.ncbi.nlm.nih.gov/gene/25978")
+
 #NEFH
 NEFH <- generate_gene_info("NEFH","https://www.ncbi.nlm.nih.gov/gene/4744")
 
 #HNRNPA2B1
 HNRNPA2B1 <- generate_gene_info("HNRNPA2B1","https://www.ncbi.nlm.nih.gov/gene/3181")
+
+#TUBA4A
+TUBA4A <- generate_gene_info("TUBA4A","https://www.ncbi.nlm.nih.gov/gene/7277")
 
 #NEK1 
 NEK1 <- generate_gene_info("NEK1","https://www.ncbi.nlm.nih.gov/gene/4750")
@@ -118,7 +136,7 @@ SOD1 <- generate_gene_info("SOD1","https://www.ncbi.nlm.nih.gov/gene/6647/")
 
 # for re scraping all genes-----------------
 # bind the initial genes together
-gene_info<-rbind(SOD1,FUS,DCTN1,TARDBP,ALS2,SETX,VAPB,MATR3,OPTN,SQSTM1,FIG4,SLC52A3,C9orf72,VCP,TBK1,CHCHD10,SIGMAR1,ANG,UBQLN2,SPG11,KIF5A,NEK1)
+gene_info<-rbind(SOD1,FUS,DCTN1,TARDBP,ALS2,SETX,VAPB,MATR3,OPTN,SQSTM1,FIG4,SLC52A3,C9orf72,VCP,TBK1,CHCHD10,SIGMAR1,ANG,UBQLN2,SPG11,KIF5A,NEK1,TUBA4A,CHMP2B,ANXA11,CHRNA4,HNRNPA1,PFN1)
 # write csv file to be sourced in the app.R
 write.csv(x = gene_info,file = "../gene_info.csv")
 

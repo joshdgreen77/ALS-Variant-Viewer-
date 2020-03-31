@@ -124,6 +124,12 @@ gene_name$Protein.Consequence <- gsub(pattern = "(.*)fs\\)",replacement = "\\1fs
 write_csv(x=gene_name,path = paste("../clinvar_cache/",gene,"_clinvar.csv",sep=""))
 }
 start_time <- Sys.time()
+format_by_gene("PFN1")
+format_by_gene("HNRNPA1")
+format_by_gene("CHRNA4")
+format_by_gene("ANXA11")
+format_by_gene("CHMP2B")
+format_by_gene("TUBA4A")
 format_by_gene("NEFH")
 format_by_gene("HNRNPA2B1")
 format_by_gene("NEK1")

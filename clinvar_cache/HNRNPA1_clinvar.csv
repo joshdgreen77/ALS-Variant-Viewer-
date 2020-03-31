@@ -1,0 +1,5 @@
+VariationID,Name,Gene,Position,rsID,Allele.Frequency,Clinical.Significance,Protein.Consequence,Nucleotide.Consequence,Review.Criteria,Pubmed_ID
+65452,NM_031157.4(HNRNPA1):c.940G>A (p.Asp314Asn),HNRNPA1,54283844,NA,NA,Pathogenic,p.Asp314Asn,c.940G>A,none ,N/A
+65451,NM_031157.4(HNRNPA1):c.941A>T (p.Asp314Val),HNRNPA1,54283845,NA,NA,Pathogenic,p.Asp314Val,c.941A>T,none ,N/A
+65453,NM_031157.4(HNRNPA1):c.956A>G (p.Asn319Ser),HNRNPA1,54283860,rs397518454,8.007943880329287e-6,Pathogenic,p.Asn319Ser,c.956A>G,none ,rs397518454:23455423
+637023,NM_031157.4(HNRNPA1):c.1018C>G (p.Pro340Ala),HNRNPA1,54283922,NA,NA,Likely pathogenic,p.Pro340Ala,c.1018C>G,* ,N/A

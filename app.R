@@ -1,6 +1,6 @@
 #---------
 ##RUN THIS TO UPDATE SHINY APP ON THE SERVER##
-#library(rsconnect)
+# library(rsconnect)
 # rsconnect::deployApp("/Users/greenjod/Documents/GitHub/ALS-Variant-Viewer-/")
 
 
@@ -52,7 +52,7 @@ ui <- dashboardPage(
                   column(width=6,
                          box(width=12,
                              plotlyOutput("plot")),
-                         box(width=3,
+                         box(width=6,
                              tableOutput("clinsig_count")))
                 ),
                 fluidRow(
