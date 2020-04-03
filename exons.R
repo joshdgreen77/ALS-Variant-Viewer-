@@ -29,30 +29,19 @@ for (i in c(1:length(files))) {
   
   # append data frame to empty data frame 
   exons_df<- rbind(exons_df,gene_exon)
-  }
+}
 
 
 
 
 
-# file <- as.data.frame(fread(file = "~/Desktop/exons/sod1_exons.txt"))
-# gene_name <- c("sod1")
-# exons <- file[1,] %>% select("exonStarts","exonEnds")
-# cbind(gene_name,exons)
-# 
-# 
-# sod1 <- fread(file= "~/Desktop/SOD1_clinvar.csv")
-# 
-# # select first row 
-# exons_formatted <- exons %>% select("exonStarts","exonEnds")
-# 
-# file <- as.data.frame(fread(x))
-# gene_name<- str_replace(string = files, pattern = '_exons.txt',replacement = '')
-# mod_file <- file[1] %>% select(gene_name,"exonStarts","exonEnds")
-# 
-# 
-# exons_start<-as.numeric(strsplit(x = exons_formatted$exonStarts, split = ",")[[1]])
-# exons_stop <- as.numeric(strsplit(x = exons_formatted$exonEnds, split = ",")[[1]])
+
+
+
+
+
+
+
 
 
 
@@ -108,3 +97,34 @@ annotate(geom="rect", xmin = exons_start, xmax = exons_stop, ymin = 0, ymax = 1,
 
 
 variant_graph(sod1)
+
+
+
+
+# file <- as.data.frame(fread(file = "~/Desktop/exons/sod1_exons.txt"))
+# gene_name <- c("sod1")
+# exons <- file[1,] %>% select("exonStarts","exonEnds")
+# cbind(gene_name,exons)
+# 
+# 
+# sod1 <- fread(file= "~/Desktop/SOD1_clinvar.csv")
+# 
+# # select first row 
+# exons_formatted <- exons %>% select("exonStarts","exonEnds")
+# 
+# file <- as.data.frame(fread(x))
+# gene_name<- str_replace(string = files, pattern = '_exons.txt',replacement = '')
+# mod_file <- file[1] %>% select(gene_name,"exonStarts","exonEnds")
+# 
+# 
+# exons_start<-as.numeric(strsplit(x = exons_formatted$exonStarts, split = ",")[[1]])
+# exons_stop <- as.numeric(strsplit(x = exons_formatted$exonEnds, split = ",")[[1]])
+
+
+
+
+
+
+
+
+
