@@ -1,0 +1,2 @@
+#name	chrom	strand	txStart	txEnd	cdsStart	cdsEnd	exonCount	exonStarts	exonEnds	proteinID	alignID
+ENST00000338222.6	chrX	+	56563638	56567868	56563873	56565748	1	56563638,	56567868,	Q9UHD9	uc004dus.4
