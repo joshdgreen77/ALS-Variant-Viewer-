@@ -31,15 +31,7 @@ for (i in c(1:length(files))) {
   exons_df<- rbind(exons_df,gene_exon)
 }
 
-
-
-
-
-
-
-
-
-
+write_csv(exons_df,path = "~/Documents/GitHub/ALS-Variant-Viewer-/exons.csv")
 
 
 
