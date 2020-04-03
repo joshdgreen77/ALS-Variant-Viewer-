@@ -4,7 +4,7 @@ library(data.table)
 library(stringr)
 library(ggplot2)
 library(plotly)
-setwd(dir = "~/Desktop/exons/")
+setwd(dir = "~/Documents/GitHub/ALS-Variant-Viewer-/exons/")
 
 # make vector with the names of all the files in the folder
 files <- as.vector(system("ls -1 *.txt",intern=TRUE))
