@@ -10,7 +10,7 @@ setwd(dir = "~/Documents/GitHub/ALS-Variant-Viewer-/exons/")
 files <- as.vector(system("ls -1 *.txt",intern=TRUE))
 
 # make an empty data frame that will be appended at the end of the for loop 
-exons_df <- tibble("gene_name"=c(),"start"=c(),"stop"=c())
+exons_df <- data.frame("gene_name"=c(),"start"=c(),"stop"=c())
 
 # for loop iterates through each element in the files vector
 for (i in c(1:length(files))) {
@@ -39,31 +39,25 @@ write_csv(exons_df,path = "~/Documents/GitHub/ALS-Variant-Viewer-/exons.csv")
 
 
 
+#Integrating exons into the ggplot 
 
 
 
+gene <- fread(file = "~/Documents/GitHub/ALS-Variant-Viewer-/clinvar_cache/SOD1_clinvar.csv")
+exons <- fread(file = "~/Documents/GitHub/ALS-Variant-Viewer-/exons.csv")
 
+#filter exons to only the relevant gene
+exons_formatted <- exons %>% filter(exons$gene_name == "SOD1")
 
+exons_start<-as.numeric(strsplit(x = exons_formatted$exonStarts, split = ",")[[1]])
+exons_stop <- as.numeric(strsplit(x = exons_formatted$exonEnds, split = ",")[[1]])
 ## WORKING FUNCTION##
 variant_graph <- function(x){
-  x$ClinVar.Stars <- sapply(as.character(x$Review.Criteria), function (x) {
-    switch(x,
-           "practice guideline" = "****",
-           "reviewed by expert panel" = "***",
-           "criteria provided, multiple submitters, no conflicts" = "**",
-           "criteria provided, conflicting interpretations" = "*",
-           "criteria provided, single submitter" = "*",
-           "no assertion for the individual variant" = "none",
-           "no assertion criteria provided" = "none",
-           "no assertion provided" = "none")
-  })
-  
-  
   #graphing----------
-  p<- ggplot(x, aes(x=Position, y= Clinical.Significance, text1 = Nucleotide.Consequence, text2= Protein.Consequence,text3= rsID, text4 =ClinVar.Stars))+
+  p<- ggplot(x, aes(x=Position, y= Clinical.Significance, text1 = Nucleotide.Consequence, text2= Protein.Consequence,text3= rsID))+
     
     #prevents overplotting
-    geom_jitter(position = position_jitter(width = 500,height = 0,seed = 1),mapping= aes(fill= Clinical.Significance),shape = 21,size = 4,color = "black", stroke = 1,show.legend = TRUE)+
+    geom_jitter(position = position_jitter(width = 0,height = 0,seed = 1),mapping= aes(fill= Clinical.Significance),shape = 21,size = 4,color = "black", stroke = 1,show.legend = TRUE)+
     theme(panel.background = element_blank(),
           axis.text.x = element_text(angle=70,vjust = 0.5, hjust = 0.7),
           axis.title.x.bottom = element_text(),
@@ -81,14 +75,12 @@ variant_graph <- function(x){
     scale_fill_manual(limits = c("Benign","Likely benign","Likely pathogenic","Pathogenic","Uncertain significance"),values = c("#ADDDA8","#FFFFC4","#FAAE6A","#D41B25","#3483B7"))+
     #ordering the y discrete values on the y axis
     scale_y_discrete(limits = c("0","Uncertain significance","Pathogenic","Likely pathogenic","Likely benign","Benign")) +
-annotate(geom="rect", xmin = exons_start, xmax = exons_stop, ymin = 0, ymax = 1, color = "pink",fill = "pink")
+annotate(geom="rect", xmin = exons_start, xmax = exons_stop, ymin = 0, ymax = 1, color = "black",fill = "orange")
   
   #convert ggplot to plotly object----------
   ggplotly(p,tooltip = c("x","fill","text1","text2","text3")) %>% layout(legend = list(orientation = "h",x=0,y=-1))
 }
-
-
-variant_graph(sod1)
+variant_graph(gene)
 
 
 
