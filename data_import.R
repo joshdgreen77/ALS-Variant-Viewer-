@@ -19,6 +19,9 @@ gene_names <- as.vector(gene_names)
 # read in the csv file containing the information relevant to the gene itself
 gene_info <- as.data.frame(fread("gene_info.csv"))
 
+# read in the exon information 
+exons <- as.data.frame(fread("exons.csv"))
+
 
 #import datasets from the clinvar_cache--> generated from the clinvar_cleaner.R script
 #reads each clinvar_csv file and reads it into a dataframe named the gene

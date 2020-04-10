@@ -120,7 +120,12 @@ server <- function(input, output){
   output$plot <-renderPlotly({
     #retrieve the variable assigned to the input$select
     data <- get(input$select)
-    variant_graph(data)
+    
+    # generate exon objects
+    exons_formatted <- exons %>% filter(exons$gene_name == input$select)
+    exons_start<-as.numeric(strsplit(x = exons_formatted$exonStarts, split = ",")[[1]])
+    exons_stop <- as.numeric(strsplit(x = exons_formatted$exonEnds, split = ",")[[1]])
+    variant_graph(data,exons_start,exons_stop)
   })
   
   # generates the data table object

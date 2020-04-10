@@ -5,25 +5,14 @@ library(data.table)
 library(plotly)
 
 # #data import----------
-variant_graph <- function(x){
- x$ClinVar.Stars <- sapply(as.character(x$Review.Criteria), function (x) {
-  switch(x,
-         "practice guideline" = "****",
-         "reviewed by expert panel" = "***",
-         "criteria provided, multiple submitters, no conflicts" = "**",
-         "criteria provided, conflicting interpretations" = "*",
-         "criteria provided, single submitter" = "*",
-         "no assertion for the individual variant" = "none",
-         "no assertion criteria provided" = "none",
-         "no assertion provided" = "none")
-})
+variant_graph <- function(x,exons_start,exons_stop){
 
 
 #graphing----------
-p<- ggplot(x, aes(x=Position, y= Clinical.Significance, text1 = Nucleotide.Consequence, text2= Protein.Consequence,text3= rsID, text4 =ClinVar.Stars))+
+p<- ggplot(x, aes(x=Position, y= Clinical.Significance, text1 = Nucleotide.Consequence, text2= Protein.Consequence,text3= rsID))+
   
   #prevents overplotting
-    geom_jitter(position = position_jitter(width = 2000,height = 0,seed = 1),mapping= aes(fill= Clinical.Significance),shape = 21,size = 5,color = "black", stroke = 1,show.legend = TRUE)+
+    geom_jitter(position = position_jitter(width = 0,height = 0,seed = 1),mapping= aes(fill= Clinical.Significance),shape = 21,size = 5,color = "black", stroke = 1,show.legend = TRUE)+
   theme(panel.background = element_blank(),
         axis.text.x = element_text(angle=70,vjust = 0.5, hjust = 0.7),
         axis.title.x.bottom = element_text(),
@@ -40,7 +29,8 @@ p<- ggplot(x, aes(x=Position, y= Clinical.Significance, text1 = Nucleotide.Conse
   #assign color to each value
   scale_fill_manual(limits = c("Benign","Likely benign","Likely pathogenic","Pathogenic","Uncertain significance"),values = c("#ADDDA8","#FFFFC4","#FAAE6A","#D41B25","#3483B7"))+
    #ordering the y discrete values on the y axis
-  scale_y_discrete(limits = c("Uncertain significance","Pathogenic","Likely pathogenic","Likely benign","Benign"))
+  scale_y_discrete(limits = c("Uncertain significance","Pathogenic","Likely pathogenic","Likely benign","Benign"))+
+  annotate(geom="rect", xmin = exons_start, xmax = exons_stop, ymin = 0, ymax = 0.5, color = "black",fill = "orange")
 
 #convert ggplot to plotly object----------
 ggplotly(p,tooltip = c("x","fill","text1","text2","text3")) %>% layout(legend = list(orientation = "h",x=0,y=-1))
