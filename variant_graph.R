@@ -5,11 +5,11 @@ library(data.table)
 library(plotly)
 
 # #data import----------
-variant_graph <- function(x,exons_start,exons_stop){
+variant_graph <- function(clinvar_data,exons_start,exons_stop){
 
 
 #graphing----------
-p<- ggplot(x, aes(x=Position, y= Clinical.Significance, text1 = Nucleotide.Consequence, text2= Protein.Consequence,text3= rsID))+
+p<- ggplot(clinvar_data, aes(x=Position, y= Clinical.Significance, text1 = Nucleotide.Consequence, text2= Protein.Consequence,text3= rsID))+
   
   #prevents overplotting
     geom_jitter(position = position_jitter(width = 0,height = 0,seed = 1),mapping= aes(fill= Clinical.Significance),shape = 21,size = 3,color = "black", stroke = 0.5,show.legend = TRUE)+
