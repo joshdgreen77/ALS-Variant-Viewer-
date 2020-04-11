@@ -5,6 +5,9 @@ account: pdgenetics
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1988918
-bundleId: 2950816
+bundleId: 2998714
 url: https://pdgenetics.shinyapps.io/ALS-Variant-Viewer/
-when: 1585686677.67688
+when: 1586568585.43784
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|README.md|1_RawClinvar_Processing/clinvar_ALS_raw.txt|1_RawClinvar_Processing/Processing_Raw_ClinVar_Data.R|2_Gene_Formatting|exons
