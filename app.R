@@ -55,11 +55,18 @@ ui <- dashboardPage(
                 )
         ),
         tabItem(tabName="About",
-                box(width=12,
                     h1("About"),
                     hr(),
                     h2("Authors"),
-                    p("Written and Developed by Joshua D Green"),
+                    p("Written and Developed by Joshua D Green under 
+                      the guidance and supervision of Bryan J Traynor"),
+                    hr(),
+                    h2("Purpose"),
+                    hr(),
+                    p("The purpose of this application is to combine the clinically relevant ALS-linked variants 
+                    from ClinVar and merge it with the extensive gnomAD sequencing cohort to get a more comprehensive picture of
+                    the data that is available on each relevant variant. This application will provide essential information
+                    that will aid in determining which variants confer risk for the disease."),
                     hr(),
                     h2("Data"),
                     hr(),
@@ -73,7 +80,6 @@ ui <- dashboardPage(
                     tags$li(" Karczewski, K. J., Francioli, L. C., Tiao, G., Cummings, B. B., Alföldi, J., Wang, Q., Collins, R. L., Laricchia, K. M., Ganna, A., Birnbaum, D. P., Gauthier, L. D., Brand, H., Solomonson, M., Watts, N. A., Rhodes, D., Singer-Berk, M., England, E. M., Seaby, E. G., Kosmicki, J. A., … MacArthur, D. G. (2019). Variation across 141,456 human exomes and genomes reveals the spectrum of loss-of-function intolerance across human protein-coding genes. In bioRxiv (p. 531210),",tags$a(href="https://doi.org/10.1101/531210", "https://doi.org/10.1101/531210")), 
                     br(),
                     tags$li("Landrum MJ, Lee JM, Benson M, Brown GR, Chao C, Chitipiralla S, Gu B, Hart J, Hoffman D, Jang W, Karapetyan K, Katz K, Liu C, Maddipatla Z, Malheiro A, McDaniel K, Ovetsky M, Riley G, Zhou G, Holmes JB, Kattman BL, Maglott DR. ClinVar: improving access to variant interpretations and supporting evidence. Nucleic Acids Res . 2018 Jan 4. PubMed PMID:",tags$a(href="https://www.ncbi.nlm.nih.gov/pubmed/29165669","29165669"))
-                    )
                   )
                 )
         )
