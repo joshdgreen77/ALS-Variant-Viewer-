@@ -12,7 +12,7 @@ variant_graph <- function(x,exons_start,exons_stop){
 p<- ggplot(x, aes(x=Position, y= Clinical.Significance, text1 = Nucleotide.Consequence, text2= Protein.Consequence,text3= rsID))+
   
   #prevents overplotting
-    geom_jitter(position = position_jitter(width = 0,height = 0,seed = 1),mapping= aes(fill= Clinical.Significance),shape = 21,size = 5,color = "black", stroke = 1,show.legend = TRUE)+
+    geom_jitter(position = position_jitter(width = 0,height = 0,seed = 1),mapping= aes(fill= Clinical.Significance),shape = 21,size = 3,color = "black", stroke = 0.5,show.legend = TRUE)+
   theme(panel.background = element_blank(),
         axis.text.x = element_text(angle=70,vjust = 0.5, hjust = 0.7),
         axis.title.x.bottom = element_text(),
