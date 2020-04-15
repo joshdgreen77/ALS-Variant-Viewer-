@@ -28,9 +28,14 @@ p<- ggplot(clinvar_data, aes(x=Position, y= Clinical.Significance, text1 = Nucle
   labs(x = "Position (GRCh38)")+
   #assign color to each value
   scale_fill_manual(limits = c("Benign","Likely benign","Likely pathogenic","Pathogenic","Uncertain significance"),values = c("#ADDDA8","#FFFFC4","#FAAE6A","#D41B25","#3483B7"))+
-   #ordering the y discrete values on the y axis
+  #ordering the y discrete values on the y axis
   scale_y_discrete(limits = c("Uncertain significance","Pathogenic","Likely pathogenic","Likely benign","Benign"))+
+  
   annotate(geom="rect", xmin = exons_start, xmax = exons_stop, ymin = 0, ymax = 0.5, color = "black",fill = "orange")
+
+  ##WORK IN PROGRESS##
+#this is for adding text to label the exons
+#annotate("text",x=min(clinvar_data$Position)-7000,y=0.25,label="exons")
 
 #convert ggplot to plotly object----------
 ggplotly(p,tooltip = c("x","fill","text1","text2","text3")) %>% layout(legend = list(orientation = "h",x=0,y=-1))
